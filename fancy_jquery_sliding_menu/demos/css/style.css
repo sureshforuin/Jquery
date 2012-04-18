@@ -1,0 +1,39 @@
+.menu, .menu_ver {
+	float : left;
+	width : 100%;
+	margin-bottom : 40px;
+}
+
+.menu .menu_button, .menu .menu_slider {
+	float : left;
+	height : 158px;
+}
+
+.menu .menu_button {
+	width : 33px;
+}
+
+.menu .menu_slider {
+	width : 0px;
+	overflow : hidden;
+}
+
+.menu img {
+	height : 158px;
+	margin : 0px;
+}
+
+/* Vertical menu properties */
+
+.menu_ver .menu_button {
+	width : 253px;
+	height : 38px;
+}
+
+.menu_ver .menu_slider {
+	height : 0px;
+	width : 253px;
+	overflow : hidden;
+}
+		
+
