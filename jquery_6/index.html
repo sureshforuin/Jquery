@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>jQuery: Day 6</title>
+    <script type="text/javascript" src="jquery-1.2.6.pack.js"></script>
+<style type="text/css">
+#box 
+{
+	width: 200px;
+	height: 200px;
+	background: red;
+}
+
+.border 
+{
+	border: 5px solid black;
+}
+
+.highlight 
+{
+	background: yellow;
+}
+</style>
+
+<script type="text/javascript">
+
+    $(function() {
+        $('a').click(function() {
+            //$('#box').toggle();
+            $('#box').toggleClass('border');
+        });
+
+        $('p').click(function() {
+            $(this).toggleClass('highlight');
+        });
+    });
+
+</script>
+</head>
+<body>
+<div id="box"></div>
+
+<a href="#">Click Me</a>
+
+<p>This is a paragraph block.</p>
+<p>This is a paragraph block.</p>
+<p>This is a paragraph block.</p>
+
+</body>
+</html>

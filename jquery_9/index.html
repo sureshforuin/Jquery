@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <title>Untitled Document</title>
+        <script type="text/javascript" src="jquery-1.2.6.pack.js">
+        </script>
+<script type="text/javascript">
+
+$(function() {
+	$('a').click(function() {
+		var os = $('p').css('font-size');
+		var num = parseFloat(os, 10);
+	    var uom = os.slice(-2);
+		
+		$('p').css('font-size', num / 1.4 + uom);
+		
+		if(this.id == 'larger') {
+			$('p').css('font-size', num * 1.4 + uom);
+		} 
+	})
+	
+
+})
+
+</script>
+
+    </head>
+    <body>
+        <a href="#" id="larger">Larger</a>
+        <br/>
+        <a href="#" id="smaller">Smaller</a>
+        <p>
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+        </p>
+    </body>
+</html>

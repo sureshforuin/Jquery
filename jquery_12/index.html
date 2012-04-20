@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js" type="text/javascript"></script> 
+<link rel="stylesheet" href="style.css" /> 
+
+<script type="text/javascript">
+$(function() {
+
+	$('a').hover(function(e) {
+		var html = '<div id="info">';
+		html +=    '<h4>Some Title Would Go Right Here</h4>';
+		html +=	   '<img src="image.jpg" alt="image" />';
+		html +=	   '<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>';
+		html +=		'</div>';
+						
+		$('body').append(html).children('#info').hide().fadeIn(400);
+		$('#info').css('top', e.pageY + -20).css('left', e.pageX + 40);
+			
+	}, function() {
+		$('#info').remove();
+	});
+	
+	$('a').mousemove(function(e) {
+		$('#info').css('top', e.pageY + -20).css('left', e.pageX + 40);
+	});
+});
+</script>
+</head>
+<body>
+
+<div id="container">
+<a href="#">Some Movie</a>
+</div>
+
+</body>
+</html>

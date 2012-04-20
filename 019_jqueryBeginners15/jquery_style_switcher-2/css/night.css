@@ -1,0 +1,13 @@
+#test {
+width: 2px;
+display: none;
+}
+
+body {
+background: black url(../img/moon.jpg) no-repeat center;
+}
+
+html {
+height: 100%;
+}
+
