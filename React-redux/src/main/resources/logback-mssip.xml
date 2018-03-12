@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<included>
+	<property name="LOG_PATH" value="/var/hostlinks/farm/tomcat/${env}-mssip/aip-advisory-portal-ui/${SERVER}/logs/msamg.aip-advisory-portal-ui" />
+    <include resource="logback-common.xml" />
+
+	<root>
+		<level value="info" />
+		<appender-ref ref="AsyncBufferedAppender" />
+	</root>
+</included>

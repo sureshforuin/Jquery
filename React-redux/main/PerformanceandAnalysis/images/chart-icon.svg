@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs></defs>
+    <g id="ACTION/GRAPH-TABLE-TOGGLE/GRAPH" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-43.000000, 0.000000)">
+        <g id="CHART/GRAPH" fill="#BCBCBC">
+            <path d="M43,8 L49,8 L49,14 L43,14 L43,8 Z M42,0 L66,0 L66,6 L42,6 L42,0 Z M51,8 L57,8 L57,14 L51,14 L51,8 Z M59,8 L65,8 L65,14 L59,14 L59,8 Z M43,16 L49,16 L49,22 L43,22 L43,16 Z M51,16 L57,16 L57,22 L51,22 L51,16 Z M59,16 L65,16 L65,22 L59,22 L59,16 Z" id="chart"></path>
+        </g>
+    </g>
+</svg>

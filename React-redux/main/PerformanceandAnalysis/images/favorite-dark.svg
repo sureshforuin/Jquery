@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="15px" viewBox="0 0 16 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>favorite-dark</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="MAIN-NAV/SANDBOX-SEE-ALL" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-138.000000, -308.000000)">
+        <g fill="#005C8F" id="SANDBOX">
+            <g>
+                <g id="EXPANDED-CONTENT" transform="translate(123.000000, 160.000000)">
+                    <g id="FUND-01-Copy" transform="translate(0.000000, 144.000000)">
+                        <g id="FAVORITE/DEFAULT-Copy" transform="translate(15.000000, 4.250000)">
+                            <polygon id="FAVORITE/DEFAULT" points="8 12 3.29771798 14.472136 4.19577393 9.23606798 0.39154787 5.52786405 5.64885899 4.76393202 8 0 10.351141 4.76393202 15.6084521 5.52786405 11.8042261 9.23606798 12.702282 14.472136"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

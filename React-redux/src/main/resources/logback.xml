@@ -1,0 +1,4 @@
+<configuration>
+	<!-- If CONFIG_MODE property is not defined, then this is not a webfarm environment and hence default to windev (local) -->
+	<include resource="logback-${CONFIG_MODE}.xml"/>
+</configuration>

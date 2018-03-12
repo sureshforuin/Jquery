@@ -1,0 +1,249 @@
+/* Auto generated 'build.gradle'
+ * Please module load ossjava gradle 2.x and run gradle tasks.
+ * Gradle User Guide: http://wiki.ms.com/MSDE/Gradle/GradleUserGuide
+ * Gradle FAQ: http://wiki.ms.com/MSDE/Gradle/GradleFAQ
+ * You can contact 'gradlehelp' if you have any questions or suggestions
+ *
+ * @author gainkap
+ */
+
+buildscript {
+    apply from: "${msde_gradle_path}/etc/buildinfra/buildscript.gradle", to: buildscript
+    apply from: "${aem_gradle_path}/etc/buildinfra/buildscript.gradle", to: buildscript
+}
+
+apply plugin: 'msde-properties'
+msde {
+    meta = project_meta
+    project = rootProject.name
+    release = project_release
+}
+
+apply plugin: 'msde-depcopy'
+
+apply plugin: 'msde-msjavaresolvers'
+repositories {
+    add(
+    	msjavaresolvers.newRepository(
+    		'imwebRepository',
+    		msjavaresolvers.MSJAVA_IVY_REP_DIST_IVY_PATTERNS,
+    		msjavaresolvers.AFS_REP_DIST_ARTIFACT_PATTERNS
+    	)
+    )
+
+    // ivy {
+    //     artifactPattern '//ms/dev/[organisation]/msdotcom_aem/prod/src/testlibs/[artifact]-[revision].[ext]'
+    // }
+}
+
+apply plugin: 'org.dm.bundle'
+bundle {
+    instruction 'Bundle-Activator', 'com.ms.msamg.aipadvisory.impl.Activator'
+    instruction 'Export-Package', 'com.ms.msamg.aipadvisory.*'
+    instruction 'Private-Package', 'com.ms.msamg.aipadvisory.impl.*'
+    instruction 'Sling-Model-Packages', 'com.ms.msamg.aipadvisory.models'
+}
+
+apply plugin: 'ms-aem'
+
+dependencies {
+
+	// === AEM Dependenices ===
+    runtime group: 'aem', name: 'libs', version: aem_version, configuration: 'runtime'
+    compile group: 'aem', name: 'libs', version: aem_version, configuration: 'compile'
+
+    testImplementation group: 'aem', name: 'libs', version: aem_version, configuration: 'testing'
+    testImplementation group: 'ossjava', name: 'junit', version: '4.12.0', configuration: 'runtime'
+    // testImplementation group: 'ossjava', name: 'mockito', version: '1.10.19', configuration: 'runtime'
+    // testImplementation group: 'ossjava', name: 'powermock', version: '1.6.3', configuration: 'runtime'
+    // testImplementation group: 'ossjava', name: 'powermock', version: '1.6.3', configuration: 'runtime-mockito'
+    // testImplementation group: 'msdotcom', name: 'io.wcm.testing.junit-commons', version: '1.0.2'
+}
+
+sourceSets {
+    main {
+        javadoc = false
+    }
+}
+
+/******************************************************************************
+ *    AIP Adivsory AEM build tasks
+ *****************************************************************************/
+ext {
+    stagingDir = "${msde.buildDir}/../staging"
+}
+
+sourceSets {
+    main {
+        contentPath = "${stagingDir}/content"
+    }
+}
+
+task cleanStage(type: Delete) {
+    group 'AEM'
+    description 'Clean staging folder'
+    delete stagingDir
+}
+
+// TODO gainkap: We don't want AEM to concatenate our js files into one clientlib js file, since this renders our source maps useless
+task copyClientlibs {
+    group 'AEM'
+    description 'Copy CSS and JS client libraries from docs folder to content folder'
+    dependsOn 'copyCss', 'copyJs'
+}
+
+task copyCss(type: Copy) {
+    group 'AEM'
+    description 'Copy CSS client libraries from docs folder to content folder'
+    dependsOn 'postProcessClientLibs'
+
+    into "${stagingDir}/content/jcr_root${client_library_path}"
+    from "${stagingDir}/docs"
+    include '*.css'
+    rename ~/(.*?)\..*\.css$/, '$1.css'
+}
+
+task postProcessClientLibs {
+    group 'AEM'
+    description 'Postprocess client libraries'
+
+    doLast {
+        def sb = new StringBuilder()
+
+        file "${stagingDir}/docs" list() each {
+            def matcher = it =~ /([^\.]+).*\.css$/
+            if (matcher) {
+                sb << "${matcher.group(1)}\n"
+            }
+        }
+        
+        file("${stagingDir}/content/jcr_root${client_library_path}/css.txt").text = sb
+    }
+}
+
+task copyCssOld {
+    group 'AEM'
+    description 'Copy CSS client libraries from docs folder to content folder'
+
+    def cssFiles = css_file_names.split ',' collectEntries {
+        [(it) : it]
+    }
+    
+    file "${stagingDir}/docs" list() each {
+        def matcher = it =~ /([^\.]+).*\.css$/
+        if (matcher && matcher.group(1) in cssFiles) {
+            cssFiles.put matcher.group(1), it
+        }
+    }
+
+    doLast {
+        def sb = new StringBuilder()
+
+        cssFiles.each { key, value ->
+            copy {
+                from "${stagingDir}/docs/${value}"
+                into "${stagingDir}/content/jcr_root${client_library_path}/${key}"
+            }
+
+            sb << "${key}/${value}\n"
+        }
+
+        file("${stagingDir}/content/jcr_root${client_library_path}/css.txt").text = sb
+    }
+}
+
+task copyDocsToContent {
+    group 'AEM'
+    description 'Copy all assets from docs folder to content folder'
+    dependsOn 'copyClientlibs', 'copyIndexHtml', 'copySourceMaps'
+}
+
+task copyIndexHtml(type: Copy) {
+    group 'AEM'
+    description 'Copy index page from docs folder to content folder'
+
+    from "${stagingDir}/docs"
+    into "${stagingDir}/content/jcr_root${page_component_path}"
+    include 'index.html'
+    filter {
+        // replace explicit css and js references from the html, since AEM will anyways load these via the clientlibs
+        it.replaceAll($/<link\s+href\s*=.*?css.*?/>|<script\s+.*src\s*=.*js.*?</script>/$, '')
+    }
+}
+
+task copyJs {
+    group 'AEM'
+    description 'Copy JS client libraries from docs folder to content folder'
+
+    def jsFiles = js_file_names.split ',' collectEntries {
+        [(it) : it]
+    }
+    
+    file "${stagingDir}/docs" list() each {
+        def matcher = it =~ /([^\.]+).*\.js$/
+        if (matcher && matcher.group(1) in jsFiles) {
+            jsFiles.put matcher.group(1), it
+        }
+    }
+
+    doLast {
+        def sb = new StringBuilder()
+
+        jsFiles.each { key, value ->
+            copy {
+                from "${stagingDir}/docs/${value}"
+                into "${stagingDir}/content/jcr_root${client_library_path}/${key}"
+            }
+
+            sb << "${key}/${value}\n"
+        }
+
+        file("${stagingDir}/content/jcr_root${client_library_path}/js.txt").text = sb
+    }
+}
+
+task copySourceMaps(type: Copy) {
+    group 'AEM'
+    description 'Copy sourcemaps for client libraries from docs folder to content folder'
+
+    from "${stagingDir}/docs"
+    into "${stagingDir}/content/jcr_root${client_library_path}/.."
+    include '*.map'
+}
+
+task createAIPPackage {
+    group 'AEM'
+    description 'Creates the AIP Advisory package ready for deployment in AEM'
+    dependsOn 'clean', 'cleanStage', 'copyDocsToContent', 'createAEMPackage', 'stage', 'train-build-release'
+
+    doLast {
+        println 'Create AIP Package'
+    }
+}
+
+task stage {
+    group 'AEM'
+    description 'Copy content and docs folders to staging folder'
+    dependsOn 'stageContent', 'stageDocs'
+}
+
+task stageContent(type: Copy) {
+    group 'AEM'
+    description 'Copy AEM content folder to staging folder'
+
+    from "${src_content_path}"
+    into "${stagingDir}/content"
+}
+
+task stageDocs(type: Copy) {
+    group 'AEM'
+    description 'Copy docs folder to staging folder so that its content is not lost during clean tasks and available during AEM build'
+
+    from "${msde.installDir}/common/docs"
+    into "${stagingDir}/docs"
+}
+
+clean.mustRunAfter stage
+createAEMPackage.mustRunAfter 'train-build-release'
+createAEMPackage.mustRunAfter copyDocsToContent
+stage.mustRunAfter cleanStage

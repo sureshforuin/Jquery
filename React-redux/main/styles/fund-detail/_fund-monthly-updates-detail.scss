@@ -1,0 +1,16 @@
+ul.details-listing{
+    list-style-type: disc;
+    list-style-position: outside;
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 10px;
+    li{
+        padding:0.5em;
+        line-height: 20px;
+    }
+}
+h5.sub-title{
+    font-weight: bold;
+}

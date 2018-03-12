@@ -1,0 +1,64 @@
+@import 'variables';
+@import 'common';
+.sub-allocation{
+    padding-left:2em !important;
+}
+.table-rating{
+    @extend .data-table-common;
+    thead{
+
+        tr{
+            border-bottom: 2px solid $dark-gray-border-color !important;
+        }
+    }
+    tbody{
+        tr{
+            &:last-child{
+                border-bottom: 1px solid $border-color !important;
+            }
+            td{
+                &:nth-child(1){
+                    @extend .text-left;
+                }
+                &:last-child{
+                    background-color: $bg-color;
+                }
+            }
+        }
+    }
+    tfoot{
+        td{
+            &:last-child{
+                background-color: #fff;
+            }
+        }
+        .footer-lable{
+            width: 20%;
+            float:left;
+        }
+    }
+}
+h5.sub-title{
+    font-weight: bold;
+}
+.table-benchmark{
+    @extend .data-table-common;
+    tr{
+        th{
+            &:first-child{
+                @extend .text-left;
+            }
+        }    
+        td{
+            @extend .text-center;
+            &:first-child{
+                @extend .text-left;
+            }
+        }
+    }
+}
+.progress{
+    box-shadow: none;
+    border-radius: 0;
+    background-color: transparent;
+}

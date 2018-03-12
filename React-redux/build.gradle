@@ -1,0 +1,55 @@
+/* 
+ * @author gainkap
+ */
+
+buildscript {
+    apply from: "${msde_gradle_path}/etc/buildinfra/buildscript.gradle", to: buildscript
+}
+
+// Apply msde/gradle plugins
+apply plugin: 'msde-single-project'
+apply plugin: 'msde-default-versions'
+msbundleSets {
+    ext.msjavaBundle = 'msjava:parts:2018.01.16'
+}
+
+// resolvers
+apply plugin: 'msde-depcopy'
+apply plugin: 'msde-msjavaresolvers'
+repositories {
+    add(msjavaresolvers.newRepository('repositoryAll', msjavaresolvers.MSJAVA_IVY_REP_DIST_IVY_PATTERNS + msjavaresolvers.RIA_REP_DIST_IVY_PATTERNS + msjavaresolvers.AFS_REP_DIST_IVY_PATTERNS, msjavaresolvers.AFS_REP_DIST_ARTIFACT_PATTERNS))
+    
+    ivy {
+    	artifactPattern '//ms/dist/msamg/PROJ/[organisation]/[revision]/lib/msamg.[organisation].[artifact].[ext]'
+    }
+}
+
+apply plugin: 'msde-train-metadata'
+// apply plugin: 'msde-eclipse'
+
+apply plugin: 'msde-war'
+
+war {
+    isManifestMode = false
+    isForWindows = false
+    from 'web'
+}
+
+configurations {
+    all*.exclude module: 'findbugs'
+}
+
+dependencies {
+	compile group: 'ossjava', name: 'jackson2', version: 'default', configuration: 'jaxrs-json'
+	compile group: 'aip-advisory-port-services', name: 'model', version: 'dev'
+	compile group: 'aip-advisory-port-services', name: 'util', version: 'dev'
+	compile bundle('msjava', 'cxfutils', 'autoconf')
+	compile bundle('msjava', 'logbackutils', 'runtime')
+	testCompile bundle('msjava', 'cxfutils', 'testing')
+}
+
+sourceSets {
+    main {
+        javadoc = false
+    }
+}

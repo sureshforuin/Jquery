@@ -1,0 +1,28 @@
+@import 'variables';
+@import 'common';
+.table-staff{
+    @extend .data-table-common;
+    tr{
+        th{
+            &:first-child{
+                @extend .text-left;
+            }
+        }
+        td{
+            &:first-child , &:last-child{
+                @extend .text-left;
+            }
+        }
+    }
+}
+.table-fund-aum{
+    @extend .data-table-common;
+}
+ul.details-listing{
+    list-style-type: disc;
+    list-style-position: outside;
+    li{
+        padding:0.5em;
+        line-height: 20px;
+    }
+}

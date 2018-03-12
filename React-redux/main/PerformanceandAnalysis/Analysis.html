@@ -1,0 +1,838 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Morgan Stanley | INVESTMENT MANAGEMENT</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+    <!--CDN link-->
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light white justify-content-between">
+        <div class="container">
+            <div>
+                <a class="navbar-brand" href="#">
+                    <img src="images/MSLogo.svg" />
+                </a>
+                <div class="navbar-text tagline left">
+                    INVESTMENT MANAGEMENT
+                </div>
+            </div>
+            <div class="navbar-text">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <div class="navbar-text tagline right">
+                        AIP Advisory Tool
+                    </div>
+                    <ul class="navbar-nav mr-auto">
+                        <!--.active class for active-->
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#">Funds</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Portfolio Modeling</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Insights</a>
+                        </li>
+                    </ul>
+
+                    <div class="sandboxnav">
+                        <div class="value">0</div>
+                        <div class="funds">funds</div>
+                        <img src="images/down-arrow.svg" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="banner">
+        <div class="container">
+            <div class="row d-flex flex-row align-items-center">
+                <div class="col">
+                    <h1>Alpha Portfolio Model</h1>
+                    <span class="bread-crumb">5 Funds</span>
+                    <span class="inception-date">Created: 01/01/2017</span>
+                    <span class="inception-date">Last Modified: 09/19/2017</span>
+                </div>
+                <div class="col-3">
+                    <ul class="utility-link">
+                        <li>
+                            <a href="#">Add</a>
+                            <span>
+                                <img src="images/add.svg" />
+                            </span>
+                        </li>
+                        <li>
+                            <a href="#">Adjust Allocations</a>
+                            <span>
+                                <img src="images/percentage.svg" />
+                            </span>
+                        </li>
+                        <!--<li><a href="#">Download Documents</a> <span><img src="images/download.svg" /></span>
+                        </li>-->
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="secondarynav">
+        <div class="container">
+            <div class="row">
+                <ul class="d-flex flex-row align-items-center">
+                    <li>
+                        <a href="overview.html">Overview</a>
+                    </li>
+                    <li>
+                        <a href="">Holdings</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Performance</a>
+                    </li>
+                    <li>
+                        <a href="analysis.html" class="active">Analysis</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="chartArea">
+        <div class="container">
+            <div class="content-area">
+                <ul class="tabs">
+                    <li class="tab-link current" data-tab="tab-3">Correlations Fund</li>
+                    <li class="tab-link" data-tab="tab-4">Correlations Alpha</li>
+                </ul>
+
+                <div id="tab-3" class="tab-content current">
+                    <div class="timeframe">
+                        <h3>timeframe</h3>
+                        <div class="d-flex flex-row time-nav">
+                            <div>
+                                <a href="#" data-year="1">1 Yr</a>
+                            </div>
+                            <div class="active">
+                                <a href="#" data-year="3">3 Yr</a>
+                            </div>
+                            <div>
+                                <a href="#" data-year="5">5 Yr</a>
+                            </div>
+                            <div>
+                                <a href="#" data-year="10">Other</a>
+                            </div>
+                            <div class="dateRange">
+                                <h3>COMMON DATE RANGE</h3>
+                                <input type="text" id="fromCF" class="datepicker" name="from" value="12/13/2013"> -
+                                <input type="text" id="toCF" class="datepicker" name="to" value="12/13/2016">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="highchart-section barTable">
+                        <div class="row">
+                            <div class="col-6">
+                                <h4>Broad Market</h4>
+                                <div id="tableBar1" style="height:300px;"></div>
+                            </div>
+                            <div class="col-6">
+                                <h4>Fund Strategies</h4>
+                                <div id="tableBar2" style="height:300px;"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <h4>Equities by Regions</h4>
+                                <div id="tableBar3" style="height:300px;"></div>
+                            </div>
+                            <div class="col">
+                                <h4>Equities by Style</h4>
+                                <div id="tableBar4" style="height:300px;"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <h4>Fixed Income</h4>
+                                <div id="tableBar5" style="height:300px;"></div>
+                            </div>
+                            <div class="col">
+                                <h4>Other</h4>
+                                <div id="tableBar6" style="height:300px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="tab-4" class="tab-content">
+                    <div class="timeframe">
+                        <h3>timeframe</h3>
+                        <div class="d-flex flex-row time-nav">
+                            <div>
+                                <a href="#" data-year="1">1 Yr</a>
+                            </div>
+                            <div class="active">
+                                <a href="#" data-year="3">3 Yr</a>
+                            </div>
+                            <div>
+                                <a href="#" data-year="5">5 Yr</a>
+                            </div>
+                            <div>
+                                <a href="#" data-year="10">Other</a>
+                            </div>
+                            <div class="dateRange">
+                                <h3>COMMON DATE RANGE</h3>
+                                <input type="text" id="fromCF" class="datepicker" name="from" value="12/13/2013"> -
+                                <input type="text" id="toCF" class="datepicker" name="to" value="12/13/2016">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="highchart-section barTable">
+                        <div class="row">
+                            <div class="col-6">
+                                <h4>Broad Market</h4>
+                                <div id="twoTableBar1" style="height:300px;"></div>
+                            </div>
+                            <div class="col-6">
+                                <h4>Fund Strategies</h4>
+                                <div id="twoTableBar2" style="height:300px;"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <h4>Equities by Regions</h4>
+                                <div id="twoTableBar3" style="height:300px;"></div>
+                            </div>
+                            <div class="col">
+                                <h4>Equities by Style</h4>
+                                <div id="twoTableBar4" style="height:300px;"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <h4>Fixed Income</h4>
+                                <div id="twoTableBar5" style="height:300px;"></div>
+                            </div>
+                            <div class="col">
+                                <h4>Other</h4>
+                                <div id="twoTableBar6" style="height:300px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--<div class="clear-fix"></div>-->
+
+        <div class="container">
+            <div class="content-area" id="regressionModelingWrap">
+                <h2>Regression Modeling</h2>
+                <h3 class="subheading">Actual vs. Predicted</h3>
+                <div class="timeframe">
+                    <h3>timeframe</h3>
+                    <div class="d-flex flex-row time-nav">
+                        <div>
+                            <a href="#" data-year="1">1 Yr</a>
+                        </div>
+                        <div class="active">
+                            <a href="#" data-year="3">3 Yr</a>
+                        </div>
+                        <div>
+                            <a href="#" data-year="5">5 Yr</a>
+                        </div>
+                        <div>
+                            <a href="#" data-year="2">Other</a>
+                        </div>
+                        <div class="dateRange">
+                            <h3>COMMON DATE RANGE</h3>
+                            <input type="text" id="fromRM" class="datepicker" name="from" value="12/13/2013"> -
+                            <input type="text" id="toRM" class="datepicker" name="to" value="12/13/2016">
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-row addUnit">
+                    <div class="unit d-none cloneUnit">
+                        <div class="blue box"></div>
+                        <h4></h4>
+                        <div class="number d-flex align-items-end"></div>
+                        <!-- <div class="close-icon"></div> -->
+                    </div>
+                </div>
+
+                <div id="regressionModeling" class="highchart-section"></div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="tab-content current" id="bench_table">
+                <table class="table table-striped table-bordered benchmark-table" style="margin-bottom:0">
+                    <thead>
+                        <tr>
+                            <th scope="col" width="60%">BENCHMARK/FUND</th>
+                            <th scope="col" class="text-center" width="20%">COEFFICIENT</th>
+                            <th scope="col" class="text-center" width="20%">COEFFICIENT INTERVAL</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="cloneUnit d-none">
+                            <td scope="row"></td>
+                            <td class="text-center"></td>
+                            <td class="text-center"></td>
+                        </tr>
+                        <tr>
+                            <td scope="row">
+                                <span>
+                                    <a href="#">
+                                        <img class="table_close" src="images/close-button.svg" />
+                                        <img>
+                                    </a>
+                                </span> Alpha</td>
+                            <td class="text-center">0.967</td>
+                            <td class="text-center">99.99%</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">
+                                <span>
+                                    <a href="#">
+                                        <img class="table_close" src="images/close-button.svg" />
+                                        <img>
+                                    </a>
+                                </span> S&P 500 TR USD</td>
+                            <td class="text-center">-0.459</td>
+                            <td class="text-center">199.856%</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">
+                                <span>
+                                    <a href="#">
+                                        <img class="table_close" src="images/close-button.svg" />
+                                        <img>
+                                    </a>
+                                </span>MSCI World Gross (LCL)</td>
+                            <td class="text-center">0.854</td>
+                            <td class="text-center">89.914%</td>
+                        </tr>
+                        <tr class="addnewBenchmark">
+                            <td scope="row" colspan="5">
+                                <div class="buttonHolder">
+                                    <span class="addButton-1" data-toggle="modal" data-target=".reg_model">
+                                    Add Benchmark/Fund
+                                    </span>
+                                </div>
+                             
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+                <!-- <table class="table table-unstribed">
+                    <tbody>
+                        <tr>
+                            <td scope="row" width="60%"></td>
+                            <td class="text-center" width="20%">1.24%</td>
+                            <td class="text-center" width="20%">1.24%</td>
+                        </tr>
+                    </tbody>
+                </table> -->
+                <div class="modal fade reg_model" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <header>
+                                <h3 class="title">Select benchmarks & funds</h3>
+                                <h3 class="rowSelected"></h3>
+                                <button type="button" class="btn btn-link seeall">See all</button>
+                                <span class="modal-buttonUnit">
+                                    <button type="button" class="btn btn-light applyButton" data-dismiss="modal" aria-label="Close">Apply</button>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <!--<span aria-hidden="true">&times;</span>-->
+                                        <span aria-hidden="true">
+                                            <img src="images/thin-close.svg" width="22" height="22" />
+                                        </span>
+                                    </button>
+                                </span>
+                            </header>
+                            <div class="sandbox">
+                                <div class="content-area1">
+                                    <div class="d-flex p-2 flex-row-reverse border-bottom-1">
+                                        <a href="#" class="clearALL">Clear all</a>
+                                    </div>
+                                    <!--<div class="d-flex p-2 flex-row border-bottom-1">
+                                    <img src="images/thin-close.svg" width="22" height="22" />
+                                    <div>Sachem Head Offshore Ltd.</div>
+                                    <img src="images/thin-close.svg" width="22" height="22" class="float-right" />
+                                </div>-->
+                                    <div class="d-flex sandbox-list cloneUnit">
+                                        <div class="p-1 ">
+                                            <img src="images/favorite.svg" />
+                                        </div>
+                                        <div class="p-2 seriesName"></div>
+                                        <div class="ml-auto p-1 ">
+                                            <img src="images/clear-dark.svg" class="remove-icon" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="secondarynav">
+                                <ul class="d-flex flex-row align-items-center">
+                                    <li class="wp active" class="active">Benchmarks</a>
+                                    </li>
+                                    <li class="wp">
+                                        <a href="">Funds</a>
+                                    </li>
+                                    <li class="wp">
+                                        <a href="#">Portfolio</a>
+                                    </li>
+                                </ul>
+                                <!--<div class="align-items-center">
+                                    <div class="d-inline bg-success">d-inline</div>
+                                    <div class="d-inline bg-success">d-inline</div>
+                                    <div class="d-inline bg-success">d-inline</div>
+                                </div>-->
+
+                            </div>
+                            <div>
+
+                            </div>
+                            <div class="row1">
+                                <div class="col1">
+                                    <div class="w-90 filter-container" style="background-color: #eee;">
+                                        <div class="float-left">
+                                            <div class="dropdown trans-dropdown">
+                                                <button class="btn  dropdown-toggle " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    Choose a filter set
+                                                </button>
+                                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                    <a class="dropdown-item" href="#">Action</a>
+                                                    <a class="dropdown-item" href="#">Another action</a>
+                                                    <a class="dropdown-item" href="#">Something else here</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="float-right ">
+                                            <button type="button" class="btn btn-outline-primary blue filter-benchmark float-right mr-2">Filter</button>
+                                        </div>
+                                    </div>
+                                    <!--<div class="content-area1 filter-container">
+                                        
+                                    </div>-->
+                                </div>
+
+
+                            </div>
+                            <div class="content-area1">
+                                <ul class="tabs">
+                                    <li class="tab-link current" data-tab="tab-1">All Benchmarks</li>
+                                    <li class="tab-link" data-tab="tab-2">Holdings</li>
+                                    <li class="tab-link" data-tab="tab-3">Favorites</li>
+
+                                </ul>
+
+                                <div id="tab-1" class="tab-content current">
+                                    <div class="row">
+                                        <div class="col">
+                                            <table id="reg_benchmarkTable" class="table table-striped table-bordered popuptable">
+                                                <thead>
+                                                    <tr>
+
+                                                        <th scope="col"> Benchmarks</th>
+                                                        <th scope="col" style="width:140px">Inception date</th>
+                                                        <th scope="col">Geographic focus</th>
+                                                        <th scope="col" class="text-center">Performance</th>
+                                                        <th scope="col" class="text-center">Volatility</th>
+                                                        <th scope="col">
+                                                            <span class="addButton"></span>
+                                                        </th>
+                                                    </tr>
+                                                </thead>
+                                            </table>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div id="tab-2" class="tab-content">
+                                    <div class="row">
+                                        <div class="col">
+
+                                            <table id="reg_holdingBenchmarks" class="table table-striped table-bordered popuptable">
+                                                <thead>
+                                                    <tr>
+
+                                                        <th scope="col">
+                                                            <span>
+
+                                                            </span>Benchmarks</th>
+                                                        <th scope="col" style="width:140px">Inception date</th>
+                                                        <th scope="col">Geographic focus</th>
+                                                        <th scope="col">Performance</th>
+                                                        <th scope="col">Volatility</th>
+
+                                                        <th scope="col">
+                                                            <span class="addButton"></span>
+                                                        </th>
+                                                    </tr>
+                                                </thead>
+                                            </table>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div id="tab-3" class="tab-content">
+                                    <div class="row">
+                                        <div class="col">
+
+                                            <table id="reg_favouriteBenchmarks" class="table table-striped table-bordered popuptable">
+                                                <thead>
+                                                    <tr>
+                                                        <th scope="col"> Benchmarks</th>
+                                                        <th scope="col" style="width:140px">Inception date</th>
+                                                        <th scope="col">Geographic focus</th>
+                                                        <th scope="col" class="text-center">Performance</th>
+                                                        <th scope="col" class="text-center">Volatility</th>
+                                                        <th scope="col">
+                                                            <span class="addButton"></span>
+                                                        </th>
+                                                    </tr>
+                                                </thead>
+                                            </table>
+                                            <tbody>
+
+
+                                            </tbody>
+                                            </table>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="content-area">
+                <h3 class="subheading">Regressions</h3>
+                <div class="timeframe" id="regressionTimeFrame">
+                    <h3>timeframe</h3>
+                    <div class="d-flex flex-row time-nav">
+                        <div>
+                            <a href="#" data-year="1">1 Yr</a>
+                        </div>
+                        <div>
+                            <a href="#" data-year="3">3 Yr</a>
+                        </div>
+                        <div>
+                            <a href="#" data-year="5">5 Yr</a>
+                        </div>
+                        <div>
+                            <a href="#" data-year="10">10 Yr</a>
+                        </div>
+                        <div class="active">
+                            <a href="#" data-year="15">Since Inception</a>
+                        </div>
+                        <div>
+                            <a href="#" data-year="20">Other</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6" id="rollingFitSec">
+                        <h3 class="subheading">Rolling Fit</h3>
+                        <div class="d-flex flex-row addUnit">
+                            <div class="unit d-none cloneUnit">
+                                <div class="blue box"></div>
+                                <h4></h4>
+                                <div class="number d-flex align-items-end"></div>
+                                <!-- <div class="close-icon"></div> -->
+                            </div>
+                        </div>
+                        <div id="rollingFit" class="highchart-section small"></div>
+                    </div>
+                    <div class="col-6" id="rollingAlphaSec">
+                        <h3 class="subheading">Rolling Alpha</h3>
+                        <div class="d-flex flex-row addUnit">
+                            <div class="unit d-none cloneUnit">
+                                <div class="blue box"></div>
+                                <h4></h4>
+                                <div class="number d-flex align-items-end"></div>
+                                <!-- <div class="close-icon"></div> -->
+                            </div>
+                        </div>
+                        <div id="rollingAlpha" class="highchart-section small"></div>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-6" id="regScatterWrap">
+                        <div class="addUnit">
+                            <h5 class="d-block">S&P 500 TR USD</h5>
+                            <h6>y=0.90+-0.03x, R^2=0.00</h6>
+                        </div>
+                        <div id="regressionScatter" class="highchart-section small"></div>
+                    </div>
+                    <div class="col-6" id="rollingAlphaWaveSec">
+
+                        <div class="d-flex flex-row addUnit">
+                            <div class="unit d-none cloneUnit">
+                                <div class="blue box"></div>
+                                <h4></h4>
+                                <div class="number d-flex align-items-end"></div>
+                                <!-- <div class="close-icon"></div> -->
+                            </div>
+                        </div>
+                        <div id="rollingAlphaWave" class="highchart-section small"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="content-area">
+                <h3 class="subheading">Up/Down Beta - Regression-Based Analysis </h3>
+                <div class="timeframe" id="upDownBetaRegression">
+                    <h3>timeframe</h3>
+                    <div class="d-flex flex-row time-nav">
+                        <div>
+                            <a href="#" data-year="1">1 Yr</a>
+                        </div>
+                        <div>
+                            <a href="#" data-year="3">3 Yr</a>
+                        </div>
+                        <div>
+                            <a href="#" data-year="5">5 Yr</a>
+                        </div>
+                        <div>
+                            <a href="#" data-year="10">10 Yr</a>
+                        </div>
+                        <div class="active">
+                            <a href="#" data-year="15">Since Inception</a>
+                        </div>
+                        <div>
+                            <a href="#" data-year="18">Other</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <h3 class="subheading18 ">Monthly Returns</h3>
+                        <div class="d-flex flex-row addUnit">
+                        </div>
+                        <div id="updownBeta-Monthly" class="highchart-section small"></div>
+                        <div class="row">
+                            <div class="col-6 up-down">
+                                <div class="uppercase">Up Beta</div>
+                                <div class="big">0.03%</div>
+                                <div>R2</div>
+                                <div>Annualized Alpha</div>
+                                <div>Market Timing Skill</div>
+                                <div>Significance</div>
+                            </div>
+
+                            <div class="col-6 up-down">
+                                <div class="uppercase">Up Down</div>
+                                <div class="big">0.03%</div>
+                                <div class="weight-normal">12.56%</div>
+                                <div class="weight-normal">22.86%</div>
+                                <div class="weight-normal">No</div>
+                                <div class="weight-normal">0.42%</div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-4">
+                        <h3 class="subheading18 ">Quarterly Returns</h3>
+                        <div class="d-flex flex-row addUnit">
+                        </div>
+
+                        <div id="updownBeta-Quarterly" class="highchart-section small"></div>
+                        <div class="row">
+                            <div class="col-6 up-down">
+                                <div class="uppercase">Up Beta</div>
+                                <div class="big">0.03%</div>
+                                <div>R2</div>
+                                <div>Annualized Alpha</div>
+                                <div>Market Timing Skill</div>
+                                <div>Significance</div>
+                            </div>
+
+                            <div class="col-6 up-down">
+                                <div class="uppercase">Up Down</div>
+                                <div class="big">0.03%</div>
+                                <div class="weight-normal">12.56%</div>
+                                <div class="weight-normal">22.86%</div>
+                                <div class="weight-normal">No</div>
+                                <div class="weight-normal">0.42%</div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-4">
+                        <h3 class="subheading18 ">Semi-Annual Returns</h3>
+                        <div class="d-flex flex-row addUnit">
+                        </div>
+                        <div id="updownBeta-Semi" class="highchart-section small"></div>
+                        <div class="row">
+                            <div class="col-6 up-down">
+                                <div class="uppercase">Up Beta</div>
+                                <div class="big">0.03%</div>
+                                <div>R2</div>
+                                <div>Annualized Alpha</div>
+                                <div>Market Timing Skill</div>
+                                <div>Significance</div>
+                            </div>
+
+                            <div class="col-6 up-down">
+                                <div class="uppercase">Up Down</div>
+                                <div class="big">0.03%</div>
+                                <div class="weight-normal">12.56%</div>
+                                <div class="weight-normal">22.86%</div>
+                                <div class="weight-normal">No</div>
+                                <div class="weight-normal">0.42%</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container" id="upDownCapture">
+            <div class="content-area">
+
+                <h3 class="subheading">Up/Down Capture - Performance-Based Analysis </h3>
+                <div class="timeframe">
+                    <h3>timeframe</h3>
+                    <div class="d-flex flex-row time-nav">
+                        <div>
+                            <a href="#" data-year="1">1 Yr</a>
+                        </div>
+                        <div class="active">
+                            <a href="#" data-year="3">3 Yr</a>
+                        </div>
+                        <div>
+                            <a href="#" data-year="5">5 Yr</a>
+                        </div>
+                        <div>
+                            <a href="#" data-year="10">10 Yr</a>
+                        </div>
+                        <div>
+                            <a href="#" data-year="15">Since Inception</a>
+                        </div>
+                        <div>
+                            <a href="#" data-year="20">Other</a>
+                        </div>
+                        <!--<div>
+                            <h3>COMMON DATE RANGE</h3>
+                            <a href="#">01/01/2005 – 01/01/2017</a></div>-->
+                    </div>
+                </div>
+
+                <div class="d-flex flex-row addUnit">
+                    <div class="unit d-none cloneUnit">
+                        <div class="blue box"></div>
+                        <h4></h4>
+                        <div class="number d-flex align-items-end"></div>
+                        <!-- <div class="close-icon"></div> -->
+                    </div>
+                </div>
+
+                <div class="row groupnunit">
+                    <div class="col-4">
+                        <h3 class="subheading18 ">Monthly Returns</h3>
+                        <div id="upDown-monthly" class="highchart-section small"></div>
+                    </div>
+                    <div class="col-4">
+                        <h3 class="subheading18 ">Quarterly Returns</h3>
+                        <div id="upDown-quarterly" class="highchart-section small"></div>
+                    </div>
+                    <div class="col-4">
+                        <h3 class="subheading18 ">Semi-Annual Returns</h3>
+                        <div id="upDown-semi" class="highchart-section small"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+    <script src="http://code.highcharts.com/stock/highstock.js"></script>
+    <script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/annotations.js"></script>
+
+
+    <!--Data-->
+    <script src="js/data/regression-data.js"></script>
+    <script src="js/data/regressionScatter-data.js"></script>
+    <script src="js/data/upDownBetaMonthly-data.js"></script>
+    <script src="js/data/upDownBetaQuarterly-data.js"></script>
+    <script src="js/data/upDownBetaSemi-data.js"></script>
+    <script src="js/data/rollingFit-data.js"></script>
+    <script src="js/data/rollingAlpha-data.js"></script>
+    <script src="js/data/rollingSpline-data.js"></script>
+    <script src="js/data/rollingAlphaWave-data.js"></script>
+    <script src="js/data/rollingSpline1-data.js"></script>
+
+
+    <!--Data-->
+
+    <script src="js/bartable1.js"></script>
+    <script src="js/bartable2.js"></script>
+    <script src="js/bartable3.js"></script>
+    <script src="js/bartable4.js"></script>
+    <script src="js/bartable5.js"></script>
+    <script src="js/bartable6.js"></script>
+
+    <script src="js/twoTableBar1.js"></script>
+    <script src="js/twoTableBar2.js"></script>
+    <script src="js/twoTableBar3.js"></script>
+    <script src="js/twoTableBar4.js"></script>
+    <script src="js/twoTableBar5.js"></script>
+    <script src="js/twoTableBar6.js"></script>
+
+    <script src="js/core-alpha.js"></script>
+    <script src="js/core-fund.js"></script>
+    <script src="js/regression.js"></script>
+    <script src="js/regression-scatter.js"></script>
+    <script src="js/upDownCaptureMonthly.js"></script>
+    <script src="js/upDownCaptureQuarterly.js"></script>
+    <script src="js/upDownCaptureSemi.js"></script>
+    <script src="js/upDownBetaMonthly.js"></script>
+    <script src="js/upDownBetaQuarterly.js"></script>
+    <script src="js/upDownBetaSemi.js"></script>
+    <script src="js/rolling-fit.js"></script>
+    <script src="js/rolling-alpha.js"></script>
+    <script src="js/rolling-alpha-wave.js"></script>
+
+    <script src="js/script.js"></script>
+
+
+
+</body>
+
+</html>

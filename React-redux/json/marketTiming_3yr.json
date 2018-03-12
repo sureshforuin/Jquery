@@ -1,0 +1,16 @@
+
+
+
+
+
+
+
+
+
+
+
+{
+		"Up Down Beta": [{"fundId":1,"fundName":"Citadel Kensington Global Strategies Fund Ltd.","name":"Monthly","upBeta":-0.06,"downBeta":0.15,"annualAlpha":12.78,"rSquare":1.76,"evidence":23.36,"likelihood":"No","period":"1","scatterPlot":{"title":"Monthly","type":"scatter","lineWidth":0,"series":[[-3.0,2.64],[5.75,2.24],[-1.58,1.73],[0.96,0.3],[1.29,0.66],[-1.94,1.11],[2.1,2.48],[-6.03,0.71],[-2.47,-0.91],[8.44,0.12],[0.3,0.38],[-1.58,1.37],[-4.96,-1.84],[-0.13,-4.59],[6.78,-0.88],[0.39,1.69],[1.8,1.53],[0.26,-0.51],[3.69,2.67],[0.14,2.42],[0.02,1.98],[-1.82,1.85],[3.7,-1.28],[1.98,1.84],[1.9,1.82],[3.97,-0.04],[0.12,0.73],[1.03,0.83],[1.41,1.74],[0.62,-0.94],[2.06,2.29],[0.31,2.06],[2.06,0.04],[2.33,1.95],[3.07,0.09],[1.11,1.29]]},"line":{"type":"line","lineWidth":1,"series":[[-6.03,0.68048245],[8.44,0.9727304]]}},{"fundId":1,"fundName":"Citadel Kensington Global Strategies Fund Ltd.","name":"Quarterly","upBeta":0.29,"downBeta":-0.13,"annualAlpha":5.97,"rSquare":3.29,"evidence":65.08,"likelihood":"0.42","period":"3","scatterPlot":{"title":"Quarterly","type":"scatter","lineWidth":0,"series":[[0.956775,6.75458],[0.278494,2.08266],[-6.42643,2.26842],[7.04683,1.87731],[1.35178,-7.1697],[2.46273,2.7193],[3.85593,7.23668],[3.82855,2.39637],[6.07256,2.52226],[3.08974,1.62015],[4.48534,4.43893],[6.64226,3.35809]]},"line":{"type":"line","lineWidth":1,"series":[[-6.42643,1.3741677],[7.04683,3.0303261]]}}],
+			"Up Down Capture": [{"fundId":1,"fundName":"Citadel Kensington Global Strategies Fund Ltd.","name":"Monthly","upCapture":0.41,"downCapture":-0.09,"upUp":0.81,"downDown":0.33},{"fundId":1,"fundName":"Citadel Kensington Global Strategies Fund Ltd.","name":"Quarterly","upCapture":0.64,"downCapture":-0.35,"upUp":0.91,"downDown":0.0},{"fundId":1,"fundName":"Citadel Kensington Global Strategies Fund Ltd.","name":"SemiAnnual","upCapture":0.88,"downCapture":0.0,"upUp":0.83,"downDown":0.0}]
+	
+}

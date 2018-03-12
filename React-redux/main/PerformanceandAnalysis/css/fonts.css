@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'karlabold';
+    src: url('fonts/karla-bold-webfont.woff2') format('woff2'), url('fonts/karla-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'karlaregular';
+    src: url('fonts/karla-regular-webfont.woff2') format('woff2'), url('fonts/karla-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pf_dintext_proextrathin';
+    src: url('fonts/pfdintextpro-extrathin-webfont.woff2') format('woff2'), url('fonts/pfdintextpro-extrathin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pf_dintext_promedium';
+    src: url('fonts/pfdintextpro-medium-webfont.woff2') format('woff2'), url('fonts/pfdintextpro-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pf_dintext_proregular';
+    src: url('fonts/pfdintextpro-regular-webfont.woff2') format('woff2'), url('fonts/pfdintextpro-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gloriola_stdlight';
+    src: url('fonts/gloriola_std_light-webfont.woff2') format('woff2'), url('fonts/gloriola_std_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

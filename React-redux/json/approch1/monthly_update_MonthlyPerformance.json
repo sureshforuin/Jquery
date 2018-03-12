@@ -1,0 +1,40 @@
+{
+    "MonthlyPerformance": [
+        
+        {
+            "timeFrame": "09/30/2017",
+            "title": "Monthly Performance",
+            "description": "September attribution by strategy included:\n\n-Global Equities (+6 bps)\n-Global Fixed Income (+5 bps)\n-Quant (+1 bps)\n-Commodities (+1 bps)\n-Aptigon (0 bps)\n-Credit (0 bps)\n-Surveyor (-5 bps)\n\n\nGE gains resulted from tech, industrials, healthcare, and CME. Fixed Income gains were diversified across front end, rates, and inflation. Surveyor losses were led by CME, tech, and industrials."
+        },
+        {
+            "timeFrame": "08/31/2017",
+            "title": "Monthly Performance",
+            "description": "August attribution by strategy included:\n\n-Global Equities (+99 bps)\n-Surveyor (+72 bps)\n-Aptigon (+12 bps)\n-Quant (+11 bps)\n-Commodities (+10 bps)\n-Global Fixed Income (+8 bps)\n-Credit (-6 bps)\n\n\nGE gains resulted from tech, industrials, healthcare, consumer and energy & utilities. Surveyor gains were led by consumer, industrials and tech. Fixed Income gains were diversified across FX, inflation, vol and rates."
+        },
+        {
+            "timeFrame": "07/31/2017",
+            "title": "Monthly Performance",
+            "description": "July attribution by strategy included:\n\n-Surveyor (+104 bps)\n-Global Equities (+55 bps)\n-Global Fixed Income (+21 bps)\n-Quant (+20 bps)\n-Credit (+13 bps)\n-Commodities (+12 bps)\n-Aptigon (+4 bps)\n\n\nSurveyor gains were led by CME and tech (~30% each) and healthcare (~20%), while consumer and financial sectors both were down in the month. The replication book represented ~42% of gains for Surveyor. GE gains resulted from tech (~33%), industrials (~30%) and energy and utilities (~20%), while financials were down in the month. The replication book represented ~40% of gains for GE. Fixed Income gains were diversified across vol, rates, and bond positioning."
+        },
+        {
+            "timeFrame": "06/30/2017",
+            "title": "Monthly Performance",
+            "description": "June attribution by strategy included:\n\n-Global Fixed Income (+42 bps)\n-Commodities (+23 bps)\n-Credit (+2 bps)\n-Quant (-3 bps)\n-Aptigon (-20 bps)\n-Global Equities (-67 bps)\n-Surveyor (-68 bps)\n\nFixed Income gains resulted primarily from rates, vol, and bond positioning. GE losses resulted from energy and utilities, technology, healthcare and industrials, while Surveyor losses were led by CME, consumer, healthcare and financials."
+        },
+        {
+            "timeFrame": "05/31/2017",
+            "title": "Monthly Performance",
+            "description": "May attribution by strategy included:\n\n\n-Global Equities (+84bps)\n-Global Fixed Income (+50bps)\n-Commodities (+39bps)\n-Surveyor (+18bps)\n-Credit (+3bps)\n-Aptigon (-8bps)\n-Quant (-12bps)\n\n\nGE gains resulted from industrial, healthcare, CME, technology and financials sectors, while energy and consumer partly offset. Fixed Income gains resulted primarily from rates, vol, and bond positioning."
+        },
+        {
+            "timeFrame": "04/30/2017",
+            "title": "Monthly Performance",
+            "description": "April attribution by strategy included:\n\n-Surveyor (+53bps)\n-Global Equities (+30bps)\n-Quant (+6bps)\n-Aptigon (+6bps)\n-Credit (+1bps)\n-Global Fixed Income (-7bps)\n-Commodities (-7bps)\n\nSurveyor's return stemmed from technology, CME, event driven, healthcare and industrial sectors. GE gains resulted from technology, financials, CME, consumer and healthcare sectors. Fixed Income losses resulted primarily from rates, front-end, and inflation positioning. Crude and refined products and EU natural gas drove commodity losses."
+        },
+        {
+            "timeFrame": "03/31/2017",
+            "title": "Monthly Performance",
+            "description": "March attribution by strategy included:\n-Global Fixed Income (+64bps)\n-Commodities (+12bps)\n-Surveyor (+11bps)\n-Global Equities (+5bps)\n-Quant (flat)\n-Aptigon (-3bps)\n-Credit (-15bps)\n\nFixed Income gains resulted primarily from long US swap spread positioning in interest rates along with micro RV trading and long US inflation positioning. US natural gas trading drove commodity profits. Surveyor's return stemmed from consumer, technology and financial teams. In addition, the small profit in GE resulted from technology, financials, and healthcare sectors. Credit represented the only notable negative performing strategy, with losses occurring in both fundamental and liquid stressed sub-strategies."
+        }
+    ]
+}

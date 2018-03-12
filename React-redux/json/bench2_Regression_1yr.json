@@ -1,0 +1,15 @@
+
+
+
+
+
+
+
+
+
+
+
+{
+		"regression model": {"title":"Citadel Kensington Global Strategies Fund Ltd.","rsquared":0.141166,"adjRsquared":0.055283,"coeffs":[{"name":"Citadel Kensington Global Strategies Fund Ltd.","sortIndex":0,"coefficient":0.46195,"coeffInterval":0.620672},{"name":"MSCI AC World Index Free EX USA - Gross","sortIndex":2,"coefficient":0.363256,"coeffInterval":0.771257}],"scatterplot":{"title":"MSCI AC World ex US Gross (LCL)","type":"bar","lineWidth":0,"series":[[0.376177,1.82],[0.69059,-0.04],[0.835769,0.73],[0.583404,0.83],[0.742572,1.74],[-0.0639403,-0.94],[0.604062,2.29],[0.194331,2.06],[0.813501,0.04],[1.15983,1.95],[-0.184243,0.09],[0.564551,1.29]]},"line":{"type":"line","lineWidth":1,"series":[[-0.184243,0.27770713],[1.15983,1.6217793]]},"correlation":0.0}
+	
+}

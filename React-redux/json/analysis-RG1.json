@@ -1,0 +1,165 @@
+{
+  "regressionModelling": [
+    {
+      "metaData": {
+        "perfType": "regressionModelling"
+      },
+      "title":"Actual vs. Predicted",
+      "fundRunnerId": 1522293025,
+      "entityType": "fund",
+      "links": [
+        {
+          "link": "fundRegression_1yr.json",
+          "timeFrame": "1"
+        },
+        {
+          "link": "fundRegression_3yr.json",
+          "timeFrame": "3"
+        },
+        {
+          "link": "fundRegression_5yr.json",
+          "timeFrame": "5"
+        },
+        {
+          "link": "fundRegression_10yr.json",
+          "timeFrame": "10"
+        },
+        {
+          "link": "fundRegression_inc.json",
+          "timeFrame": "inc"
+        }
+      ]
+    }
+  ],
+  "MarketTiming": [
+    {
+      "fundRunnerId": 1522293025,
+      "entityType": "fund",
+      "links": [
+        {
+          "link": "marketTiming_1yr.json",
+          "timeFrame": "1"
+        },
+        {
+          "link": "marketTiming_3yr.json",
+          "timeFrame": "3"
+        },
+        {
+          "link": "marketTiming_5yr.json",
+          "timeFrame": "5"
+        },
+        {
+          "link": "marketTiming_10yr.json",
+          "timeFrame": "10"
+        },
+        {
+          "link": "marketTiming_inc.json",
+          "timeFrame": "inc"
+        }
+      ],
+      "source": "LIMA"
+    }
+  ],
+  "CorrelationsFundCharts": [
+    {
+      "fundRunnerId": 1522293025,
+      "entityType": "fund",
+      "links": [
+        {
+          "link": "corrFund_1yr.json",
+          "timeFrame": "1"
+        },
+        {
+          "link": "corrFund_3yr.json",
+          "timeFrame": "3"
+        },
+        {
+          "link": "corrFund_5yr.json",
+          "timeFrame": "5"
+        },
+        {
+          "link": "corrFund_10yr.json",
+          "timeFrame": "10"
+        },
+        {
+          "link": "corrFund_inc.json",
+          "timeFrame": "inc"
+        }
+      ],
+      "source": "LIMA"
+    }
+  ],
+  "calendarControl": [],
+  "blocks": [
+    {
+      "data": [
+        {
+          "component": "tabs",
+          "id": "AnalysisCorrelationsTabGroup",
+          "source": "LIMA",
+          "title": ""
+        }
+      ],
+      "title": ""
+    },
+    {
+      "data": [
+        {
+          "component": "regModelChart",
+          "id": "regressionModelling",
+          "source": "LIMA",
+          "title": ""
+        }
+      ],
+      "title": "Regression Modelling"
+    },
+    {
+      "data": [
+        {
+          "component": "groupBarchart",
+          "id": "MarketTiming",
+          "source": "LIMA",
+          "title": ""
+        }
+      ]
+    }
+  ],
+  "CorrelationsAlphaTab": [
+    {
+      "data": [
+        {
+          "component": "groupChart",
+          "id": "CorrelationsAlphaCharts",
+          "source": "LIMA"
+        }
+      ]
+    }
+  ],
+  "CorrelationsFundTab": [
+    {
+      "data": [
+        {
+          "component": "groupChart",
+          "id": "CorrelationsFundCharts",
+          "source": "LIMA"
+        }
+      ]
+    }
+  ],
+  "AnalysisCorrelationsTabGroup": [
+    {
+      "data": [
+        {
+          "component": "tab",
+          "id": "CorrelationsFundTab",
+          "title": "Correlations Fund"
+        },
+        {
+          "component": "tab",
+          "id": "CorrelationsAlphaTab",
+          "title": "Correlations Alpha"
+        }
+      ]
+    }
+  ]
+}

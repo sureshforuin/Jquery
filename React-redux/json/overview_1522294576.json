@@ -1,0 +1,33 @@
+
+
+
+
+
+
+
+
+
+
+
+{
+		"title": "HFRI FOF: Diversified Index",
+		"index": "3",
+			"series": [
+		        [
+		            "1 Year",
+		             "6.663704" 		        ],
+		        [
+		            "2 Year",
+		             "3.502601" 		        ],
+		        [
+		            "3 Year",
+		             "2.261743" 		        ],
+		        [
+		            "5 Year",
+		             "3.816106" 		        ],
+		        [
+		            "Annualized Return",
+		             "4.119631" 		        ]
+			]
+	
+}

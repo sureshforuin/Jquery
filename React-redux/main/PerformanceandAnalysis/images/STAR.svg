@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48 (47235) - http://www.bohemiancoding.com/sketch -->
+    <title>STAR</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="MASTHEAD/FUND" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1293.000000, -124.000000)">
+        <g id="FUND-MASTHEAD/FUND" stroke="#FFFFFF">
+            <g id="HEADER">
+                <g id="Actions" transform="translate(1074.000000, 79.000000)">
+                    <g id="ACTION/FAVORITE/LARGE" transform="translate(219.000000, 45.000000)">
+                        <polygon id="Star" points="12 18 4.94657697 21.7082039 6.2936609 13.854102 0.587321804 8.29179607 8.47328849 7.14589803 12 0 15.5267115 7.14589803 23.4126782 8.29179607 17.7063391 13.854102 19.053423 21.7082039"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

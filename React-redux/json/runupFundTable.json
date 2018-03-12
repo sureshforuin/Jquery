@@ -1,0 +1,70 @@
+{
+
+
+		"title": "Runups",
+		"headers": [		
+		         "DateRange"
+		         ,
+		         "Citadel Kensington Global Strategies Fund Ltd."
+		         ,
+		         "S&P 500 Total Return"
+		         ,
+		         "MSCI AC World ex US Gross (LCL)"
+		         ,
+		         "HFRI FOF: Diversified Index"
+		         
+			],
+		"rows":[		
+			{
+				"metadata": "row level meta if any...",
+				data:[
+						"Sep 1998 - Apr 2001",
+						"154.68",
+						"31.61",
+						"35.15",
+						"34.91"
+				]				
+			} , 
+			{
+				"metadata": "row level meta if any...",
+				data:[
+						"Jul 2006 - Jul 2007",
+						"42.76",
+						"14.54",
+						"23.64",
+						"16.85"
+				]				
+			} , 
+			{
+				"metadata": "row level meta if any...",
+				data:[
+						"Jan 2009 - Dec 2009",
+						"62.46",
+						"11.45",
+						"32.39",
+						"26.45"
+				]				
+			} , 
+			{
+				"metadata": "row level meta if any...",
+				data:[
+						"Jul 2010 - Oct 2011",
+						"34.93",
+						"2.49",
+						"4.06",
+						"24.87"
+				]				
+			} , 
+			{
+				"metadata": "row level meta if any...",
+				data:[
+						"Jun 2012 - Oct 2013",
+						"34.86",
+						"9.57",
+						"37.89",
+						"38.23"
+				]				
+			}  
+		]
+
+}

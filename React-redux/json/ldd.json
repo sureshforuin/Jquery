@@ -1,0 +1,269 @@
+{
+	"UBTI": [],
+	"FundStructure": {
+		"data": [{
+			"component": "paragraph",
+			"width": "50%",
+			"id": "Domicile",
+			"source": "Odessa"
+		},
+		{
+			"component": "paragraph",
+			"width": "50%",
+			"id": "40ActExemption",
+			"source": "Odessa"
+		},
+		{
+			"component": "paragraph",
+			"width": "50%",
+			"id": "DisputeResolution",
+			"source": "Odessa"
+		},
+		{
+			"component": "paragraph",
+			"width": "50%",
+			"id": "FundStructureSub",
+			"source": "Odessa"
+		}]
+	},
+	"Comments": [{
+		"description": "All issues captured above and discussed with the Investment Committee previously.",
+		"title": "Comments",
+		"timeFrame": "12/31/2017"
+	}],
+	"timeFrames": ["01/24/2018",
+	"12/31/2017",
+	"10/05/2017",
+	"09/25/2017"],
+	"calendarControl": [],
+	"blocks": [{
+		"data": [{
+			"component": "column",
+			"width": "50%",
+			"id": "FundStructure",
+			"source": "Odessa",
+			"align": "left"
+		},
+		{
+			
+		},
+		{
+			
+		},
+		{
+			
+		}],
+		"width": "50%",
+		"title": "Fund Structure"
+	},
+	{
+		"data": [{
+			"component": "column",
+			"halfContainer": true,
+			"id": "Subscription",
+			"source": "Odessa",
+			"align": "right"
+		},
+		{
+			
+		},
+		{
+			
+		}],
+		"width": "50%",
+		"title": "Subscription"
+	},
+	{
+		"data": [{
+			"component": "paragraph",
+			"id": "USTaxStatus",
+			"source": "Odessa"
+		},
+		{
+			"component": "paragraph",
+			"id": "UBTI",
+			"source": "Odessa"
+		},
+		{
+			"component": "paragraph",
+			"id": "ECI",
+			"source": "Odessa"
+		}],
+		"title": "Tax"
+	},
+	{
+		"data": [{
+			"component": "rowTables",
+			"id": "Terms",
+			"source": "Odessa"
+		}],
+		"title": "Terms"
+	},
+	{
+		"data": [{
+			"component": "paragraph",
+			"id": "ErisaIssues",
+			"source": "Odessa"
+		},
+		{
+			"component": "paragraph",
+			"id": "CommentsErisa",
+			"source": "Odessa"
+		},
+		{
+			"component": "paragraph",
+			"id": "PlanAssetFund",
+			"source": "Odessa"
+		}],
+		"title": "Erisa"
+	},
+	{
+		"data": [{
+			"component": "paragraph",
+			"id": "KeyManProvision",
+			"source": "Odessa"
+		},
+		{
+			"component": "paragraph",
+			"id": "KeyManComments",
+			"source": "Odessa"
+		},
+		{
+			"component": "paragraph",
+			"id": "Summary/Conclusion",
+			"source": "Odessa"
+		},
+		{
+			"component": "paragraph",
+			"id": "Comments",
+			"source": "Odessa"
+		}],
+		"title": "Other Terms/Policies"
+	}],
+	"PlanAssetFund": [],
+	"Terms": [{
+		"headers": ["A-1 SHARE CLASS",
+		"STANDARD",
+		"NEGOTIATED",
+		"COMMENTS"],
+		"title": "Terms",
+		"rows": [{
+			"data": ["ManagementFee",
+			"3",
+			"",
+			"No stated management fee. Full expense pass-through structure, including expenses typically paid by a manager via the management fee (varies year-over-year).",
+			"Quarterly"],
+			"timeFrame": "12/31/2017 10:53AM"
+		},
+		{
+			"data": ["Performance Fee",
+			"20",
+			"",
+			"20% stated performance fee plus expense pass-through structure, including expenses typically paid by a manager via the performance fee (varies year-over-year)."],
+			"timeFrame": "12/31/2017 10:53AM"
+		},
+		{
+			"data": ["High WaterMark",
+			"Standard",
+			"",
+			""],
+			"timeFrame": "12/31/2017 10:53AM"
+		},
+		{
+			"data": ["Claw Black",
+			"",
+			"",
+			""],
+			"timeFrame": "12/31/2017 10:53AM"
+		},
+		{
+			"data": ["Crystallization",
+			"Annually",
+			"",
+			""],
+			"timeFrame": "12/31/2017 10:53AM"
+		},
+		{
+			"data": ["Firm AUM Free Break",
+			"",
+			"",
+			""],
+			"timeFrame": "12/31/2017 10:53AM"
+		},
+		{
+			"data": ["ManagementFee",
+			"3",
+			"",
+			"No stated management fee. Full expense pass-through structure, including expenses typically paid by a manager via the management fee (varies year-over-year).",
+			"Committed"],
+			"timeFrame": "12/31/2017 10:53AM"
+		}]
+	}],
+	"PledgingFundInterest": [{
+		"description": "May be pledged or transferred with fund manager consent.",
+		"title": "PledgingFundInterest",
+		"timeFrame": "12/31/2017"
+	}],
+	"ECI": [],
+	"DisputeResolution": [{
+		"description": "Non-US",
+		"title": "DisputeResolution",
+		"timeFrame": "12/31/2017"
+	}],
+	"KeyManProvision": [],
+	"ErisaIssues": [{
+		"description": "The fund manager intends to maintain ERISA levels below the 25% limit and may force compulsory redemptions to stay below the limit.",
+		"title": "Erisa Issues",
+		"timeFrame": "12/31/2017"
+	}],
+	"AllocationCommitteeConsiderations": [{
+		"description": "Committed Capital and Quarterly Capital - see Redemptions section for liquidity differences.",
+		"title": "AllocationCommitteeConsiderations",
+		"timeFrame": "12/31/2017"
+	}],
+	"FundStructureSub": [{
+		"description": "Stand-alone",
+		"title": "FundStructureSub",
+		"timeFrame": "12/31/2017"
+	}],
+	"SubscriptionPolicy": [{
+		"description": "Committed Capital and Quarterly Capital - see Redemptions section for liquidity differences.",
+		"title": "SubscriptionPolicy",
+		"timeFrame": "12/31/2017"
+	}],
+	"KeyManComments": [],
+	"40ActExemption": [{
+		"description": "3(c)7",
+		"title": "40ActExemption",
+		"timeFrame": "12/31/2017"
+	}],
+	"USTaxStatus": [{
+		"description": "Corporation",
+		"title": "US Tax Status",
+		"timeFrame": "12/31/2017"
+	}],
+	"Subscription": {
+		"data": [{
+			"component": "paragraph",
+			"id": "SubscriptionPolicy"
+		},
+		{
+			"component": "paragraph",
+			"id": "AllocationCommitteeConsiderations"
+		},
+		{
+			"component": "paragraph",
+			"id": "PledgingFundInterest"
+		}]
+	},
+	"Domicile": [{
+		"description": "Cayman Corp",
+		"title": "Domicile",
+		"timeFrame": "01/24/2018"
+	}],
+	"CommentsErisa": [{
+		"description": "Citadel will notify an investor if an ERISA account is 22.5% of a class.",
+		"title": "Comments",
+		"timeFrame": "12/31/2017"
+	}]
+}

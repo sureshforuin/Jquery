@@ -1,0 +1,10 @@
+{
+    "aumChart": {
+        "title": "AUM Area Chart",
+        "links": [
+            "areafund.json",
+            "areamgr.json",
+            "areastrategy.json"
+        ]
+    }
+}

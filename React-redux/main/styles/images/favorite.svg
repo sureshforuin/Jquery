@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="15px" viewBox="0 0 16 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>FAVORITE</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="MAIN-NAV/SANDBOX-SEE-ALL" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-138.000000, -237.000000)">
+        <g id="SANDBOX" stroke="#BEBEBE">
+            <g>
+                <g id="EXPANDED-CONTENT" transform="translate(123.000000, 160.000000)">
+                    <g id="FUND-01" transform="translate(0.000000, 49.000000)">
+                        <g id="FAVORITE/DEFAULT-Copy" transform="translate(15.000000, 28.250000)">
+                            <path d="M12.0382165,13.5581282 L11.2669858,9.06150803 L14.5339716,5.87698395 L10.0191083,5.22093591 L8,1.12977573 L5.98089175,5.22093591 L1.46602844,5.87698395 L4.73301422,9.06150803 L3.96178349,13.5581282 L8,11.4351121 L12.0382165,13.5581282 Z" id="FAVORITE/DEFAULT"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

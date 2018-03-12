@@ -1,0 +1,44 @@
+{
+  "type": "column",
+  "series": [
+    {
+      "name": "Up Capture",
+      "data": [
+        0.5
+      ],
+      "color": "#0F8EC7"
+    },
+    {
+      "name": "Down Capture",
+      "data": [
+        -0.45
+      ],
+      "color": "#005C8F"
+    },
+    {
+      "name": "Up Up",
+      "data": [
+        0.4
+      ],
+      "color": "#E3D7AB"
+    },
+    {
+      "name": "Down Down",
+      "data": [
+        0.6
+      ],
+      "color": "#C9B160"
+    }
+  ],
+  "yaxis": {
+    "title": "",
+    "tickInterval": 0.5
+  },
+  "xaxis": {
+    "categories": [
+      ""
+    ],
+    "enabled": false,
+    "title": ""
+  }
+}

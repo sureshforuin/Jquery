@@ -1,0 +1,155 @@
+@import 'variables';
+@import 'mixins';
+@import 'custom';
+@import 'common';
+@import 'mega-menu/mega-menu';
+@import 'fund-detail/fund-banner';
+@import 'fund-detail/fund-legal-due-diligence-details';
+// @import 'fund-detail/fund-legal-due-diligence';
+// @import 'fund-detail/fund-monthly-updates';
+@import 'fund-detail/fund-navigation';
+@import 'fund-detail/investment-due-deligance';
+// @import 'fund-detail/operational-due-deligance';
+@import 'rapchart';
+@import 'fund-index';
+
+[data-perftype=barInvert] .highchart-section{
+    height: 300px;
+}
+
+[data-perftype=barInvert] span.cat .cat + .number{
+    display: none
+}
+
+.filter-unit .rangeSlider{
+  position: relative;
+  bottom: 40px;
+  margin:0 16px 0 24px ;
+}
+
+.filter-unit  .ui-slider.ui-corner-all.ui-slider-horizontal.ui-widget.ui-widget-content {
+
+  background-color: #DDDDDD;
+  height: 1px;
+  border: none;
+}
+
+.filter-unit .ui-slider-range.ui-corner-all.ui-widget-header {
+  background-color: #0F8EC7;
+}
+.filter-unit .ui-slider-handle.ui-corner-all.ui-state-default {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  border: none;
+  background: #005C8F;
+  outline: none;
+}
+
+
+.rangeSlider  .ui-widget-header{
+  background: #005C8F
+}
+
+.filter-unit h5{
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+.filter-unit{
+    padding:65px 0 65px; 
+}
+.filter-unit h5{
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.filter-unit .custom-select{
+    width:100%;
+    margin-bottom:50px;
+    border-radius: 0;
+    border-color:#DDDDDD;
+    padding:10px;
+}
+
+.filter-unit  .input-group.custom {
+    border-color: #DDDDDD!important;
+    border-radius: 0;
+}
+.filter-unit  .input-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+.more-filters, .less-filters{
+    color:#005C8F !important;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    backface-visibility: hidden;
+    background: transparent;
+}
+hr {
+    border:none;
+       width: 100%;
+      height: 50px;
+      margin-top: 0;
+      border-bottom: 1px solid #DDDDDD;
+      box-shadow: 0 20px 20px -20px #dddddd !important;
+    margin: -40px auto 10px; 
+  }
+  .input-group.custom{
+      border-color: #DDDDDD!important;
+      border-radius: 0;
+  }
+  .filter-close{
+      float: right;
+      border: none;
+      backface-visibility: hidden;
+      cursor: pointer;
+      margin: -10px 25px 0 0;
+      background: transparent;
+
+  }
+ 
+
+  /*test*/
+
+  .showmore, .showless{
+      text-align: center;
+      color:#005C8F !important;
+
+  }
+  .filter-showmore .rangeSlider{
+    position: relative;
+    bottom: 40px;
+	margin:0 18px 0 24px ;
+}
+
+.filter-showmore  .ui-slider.ui-corner-all.ui-slider-horizontal.ui-widget.ui-widget-content {
+
+    background-color: #DDDDDD;
+    height: 1px;
+    border: none;
+}
+
+.filter-showmore .ui-slider-range.ui-corner-all.ui-widget-header {
+    background-color: #0F8EC7;
+}
+.filter-showmore .ui-slider-handle.ui-corner-all.ui-state-default {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    border: none;
+    background-color: #005C8F;
+}
+.modal-backdrop{
+   display: none;
+   opacity: 0.5;
+ }

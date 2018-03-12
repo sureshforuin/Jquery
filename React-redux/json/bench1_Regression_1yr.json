@@ -1,0 +1,15 @@
+
+
+
+
+
+
+
+
+
+
+
+{
+		"regression model": {"title":"Citadel Kensington Global Strategies Fund Ltd.","rsquared":0.023031,"adjRsquared":-0.074666,"coeffs":[{"name":"Citadel Kensington Global Strategies Fund Ltd.","sortIndex":0,"coefficient":1.217802,"coeffInterval":0.943676},{"name":"S&P 500 Total Return","sortIndex":1,"coefficient":-0.13775,"coeffInterval":0.36223698}],"scatterplot":{"title":"S&P 500 Total Return","type":"bar","lineWidth":0,"series":[[-0.261725,1.82],[-0.546868,-0.04],[-0.01653,0.73],[-0.141883,0.83],[-0.194227,1.74],[-0.085405,-0.94],[-0.283765,2.29],[-0.0427025,2.06],[-0.283765,0.04],[-0.320958,1.95],[-0.422893,0.09],[-0.152903,1.29]]},"line":{"type":"line","lineWidth":1,"series":[[-0.546868,0.6709334],[-0.01653,1.2012725]]},"correlation":0.0}
+	
+}

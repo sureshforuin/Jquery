@@ -1,0 +1,62 @@
+{
+  "name": "aip-advisory-portal-ui",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node clean && webpack --progress",
+    "generate-train-metadata": "generate-train-metadata -a \"../install/common/docs/*.html\"",
+    "start": "webpack-dev-server --progress"
+  },
+  "private": true,
+  "dependencies": {
+    "@types/datatables.net": "^1.10.8",
+    "bootstrap": "^3.3.7",
+    "datatables.net": "^1.10.16",
+    "es6-promise": "^4.0.5",
+    "font-awesome": "^4.7.0",
+    "highcharts": "^6.0.2",
+    "isomorphic-fetch": "^2.2.1",
+    "jquery": "^3.2.1",
+    "jqueryui": "^1.11.1",
+    "moment": "^2.19.3",
+    "object.assign": "^4.0.4",
+    "object.values": "^1.0.4",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.0",
+    "react-router-hash-link": "^1.2.0",
+    "redux": "^3.7.2",
+    "redux-logger": "^2.6.1",
+    "redux-thunk": "^2.2.0",
+    "toastr": "^2.1.2"
+  },
+  "afsDependencies": {},
+  "devDependencies": {
+    "@types/jquery": "^3.2.1",
+    "@types/react": "^16.0.0",
+    "@types/react-dom": "^16.0.0",
+    "@types/react-redux": "^5.0.6",
+    "@types/react-router-dom": "^4.2.0",
+    "awesome-typescript-loader": "^3.3.0",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "file-loader": "^0.10.1",
+    "html-webpack-plugin": "^2.29.0",
+    "ncp": "^2.0.0",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "source-map-loader": "^0.2.3",
+    "style-loader": "^0.13.2",
+    "typescript": "^2.6.1",
+    "url-loader": "^0.5.9",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "afsDevDependencies": {
+    "@morgan-stanley/generate-train-metadata": {
+      "meta": "msjs",
+      "project": "generate-train-metadata",
+      "release": "2018.01.23-1"
+    }
+  }
+}

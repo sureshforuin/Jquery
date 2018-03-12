@@ -1,0 +1,70 @@
+{
+
+
+		"title": "Drawdowns",
+		"headers": [		
+		         "DateRange"
+		         ,
+		         "Citadel Kensington Global Strategies Fund Ltd."
+		         ,
+		         "S&P 500 Total Return"
+		         ,
+		         "MSCI AC World ex US Gross (LCL)"
+		         ,
+		         "HFRI FOF: Diversified Index"
+		         
+			],
+		"rows":[		
+			{
+				"metadata": "row level meta if any...",
+				data:[
+						"Mar 2005 - Apr 2005",
+						"-3.41",
+						"-2.02",
+						"-3.52",
+						"-3.63"
+				]				
+			} , 
+			{
+				"metadata": "row level meta if any...",
+				data:[
+						"May 2006 - Jun 2006",
+						"-2.73",
+						"-2.59",
+						"-5.04",
+						"-2.75"
+				]				
+			} , 
+			{
+				"metadata": "row level meta if any...",
+				data:[
+						"Jan 2008 - Dec 2008",
+						"-54.94",
+						"-20.84",
+						"-40.58",
+						"-37.0"
+				]				
+			} , 
+			{
+				"metadata": "row level meta if any...",
+				data:[
+						"Jan 2010 - Jun 2010",
+						"-3.39",
+						"-0.93",
+						"-6.08",
+						"-6.65"
+				]				
+			} , 
+			{
+				"metadata": "row level meta if any...",
+				data:[
+						"Jan 2016 - Mar 2016",
+						"-7.17",
+						"-2.84",
+						"-3.94",
+						"1.35"
+				]				
+			}  
+		]
+
+}

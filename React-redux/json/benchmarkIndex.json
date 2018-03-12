@@ -1,0 +1,865 @@
+{
+
+	"BenchmarkList" : [{
+
+		"Rows":[
+			{
+				"BenchmarkId" : "4",
+				"BenchmarkName" : "Russell 1000 Value (TR)",
+				"BenchmarkFundId" : "1522294133"
+			},
+			
+			{
+				"BenchmarkId" : "5",
+				"BenchmarkName" : "Russell 1000 Growth (TR)",
+				"BenchmarkFundId" : "1522294134"
+			},
+			
+			{
+				"BenchmarkId" : "6",
+				"BenchmarkName" : "Russell 2000 Value (TR)",
+				"BenchmarkFundId" : "1522294136"
+			},
+			
+			{
+				"BenchmarkId" : "7",
+				"BenchmarkName" : "Russell 2000 Growth (TR)",
+				"BenchmarkFundId" : "1522294137"
+			},
+			
+			{
+				"BenchmarkId" : "14",
+				"BenchmarkName" : "HFRI ED: Distressed/Restructuring Index",
+				"BenchmarkFundId" : "1522294183"
+			},
+			
+			{
+				"BenchmarkId" : "15",
+				"BenchmarkName" : "HFRI Equity Hedge (Total) Index",
+				"BenchmarkFundId" : "1522294189"
+			},
+			
+			{
+				"BenchmarkId" : "16",
+				"BenchmarkName" : "HFRI EH: Equity Market Neutral Index",
+				"BenchmarkFundId" : "1522294190"
+			},
+			
+			{
+				"BenchmarkId" : "18",
+				"BenchmarkName" : "HFRI EH: Quantitative Directional Index",
+				"BenchmarkFundId" : "1522294192"
+			},
+			
+			{
+				"BenchmarkId" : "19",
+				"BenchmarkName" : "HFRI Event-Driven (Total) Index",
+				"BenchmarkFundId" : "1522294193"
+			},
+			
+			{
+				"BenchmarkId" : "20",
+				"BenchmarkName" : "HFRI RV: Multi-Strategy Index",
+				"BenchmarkFundId" : "1522294194"
+			},
+			
+			{
+				"BenchmarkId" : "24",
+				"BenchmarkName" : "HFRI RV: Fixed Income-Corporate Index",
+				"BenchmarkFundId" : "1522294198"
+			},
+			
+			{
+				"BenchmarkId" : "25",
+				"BenchmarkName" : "HFRI RV: Fixed Income-Asset Backed Index",
+				"BenchmarkFundId" : "1522294199"
+			},
+			
+			{
+				"BenchmarkId" : "26",
+				"BenchmarkName" : "HFRI Fund of Funds Composite Index",
+				"BenchmarkFundId" : "1522294200"
+			},
+			
+			{
+				"BenchmarkId" : "28",
+				"BenchmarkName" : "HFRI Macro (Total) Index",
+				"BenchmarkFundId" : "1522294202"
+			},
+			
+			{
+				"BenchmarkId" : "29",
+				"BenchmarkName" : "HFRI Macro: Systematic Diversified Index",
+				"BenchmarkFundId" : "1522294203"
+			},
+			
+			{
+				"BenchmarkId" : "30",
+				"BenchmarkName" : "HFRI ED: Merger Arbitrage Index",
+				"BenchmarkFundId" : "1522294204"
+			},
+			
+			{
+				"BenchmarkId" : "47",
+				"BenchmarkName" : "Citigroup 3 Month T-Bill",
+				"BenchmarkFundId" : "1522294266"
+			},
+			
+			{
+				"BenchmarkId" : "54",
+				"BenchmarkName" : "MSCI AC Asia ex Japan Gross (USD)",
+				"BenchmarkFundId" : "1522294823"
+			},
+			
+			{
+				"BenchmarkId" : "74",
+				"BenchmarkName" : "Barclays US MBS",
+				"BenchmarkFundId" : "1522295479"
+			},
+			
+			{
+				"BenchmarkId" : "75",
+				"BenchmarkName" : "Barclays CMBS",
+				"BenchmarkFundId" : "1522295480"
+			},
+			
+			{
+				"BenchmarkId" : "122",
+				"BenchmarkName" : "MSCI Europe Gross (LCL)",
+				"BenchmarkFundId" : "1522296795"
+			},
+			
+			{
+				"BenchmarkId" : "124",
+				"BenchmarkName" : "MSCI UK Gross (LCL)",
+				"BenchmarkFundId" : "1522296798"
+			},
+			
+			{
+				"BenchmarkId" : "132",
+				"BenchmarkName" : "Russell 1000 (TR)",
+				"BenchmarkFundId" : "1522296808"
+			},
+			
+			{
+				"BenchmarkId" : "133",
+				"BenchmarkName" : "Russell 2000 (TR)",
+				"BenchmarkFundId" : "1522296809"
+			},
+			
+			{
+				"BenchmarkId" : "134",
+				"BenchmarkName" : "Russell 3000 (TR)",
+				"BenchmarkFundId" : "1522296810"
+			},
+			
+			{
+				"BenchmarkId" : "139",
+				"BenchmarkName" : "S&P 500 Total Return",
+				"BenchmarkFundId" : "1522296815"
+			},
+			
+			{
+				"BenchmarkId" : "177",
+				"BenchmarkName" : "DXY",
+				"BenchmarkFundId" : "1522296867"
+			},
+			
+			{
+				"BenchmarkId" : "193",
+				"BenchmarkName" : "MSCI World Gross (LCL)",
+				"BenchmarkFundId" : "1522297003"
+			},
+			
+			{
+				"BenchmarkId" : "208",
+				"BenchmarkName" : "Russell MidCap (TR)",
+				"BenchmarkFundId" : "1522297024"
+			},
+			
+			{
+				"BenchmarkId" : "209",
+				"BenchmarkName" : "Russell MicroCap (TR)",
+				"BenchmarkFundId" : "1522297025"
+			},
+			
+			{
+				"BenchmarkId" : "267",
+				"BenchmarkName" : "MSCI EM Gross (LCL)",
+				"BenchmarkFundId" : "1522298350"
+			},
+			
+			{
+				"BenchmarkId" : "295",
+				"BenchmarkName" : "MSCI World Financials Gross (LCL)",
+				"BenchmarkFundId" : "1522298668"
+			},
+			
+			{
+				"BenchmarkId" : "296",
+				"BenchmarkName" : "MSCI Europe Small Cap Gross (LCL)",
+				"BenchmarkFundId" : "1522298670"
+			},
+			
+			{
+				"BenchmarkId" : "303",
+				"BenchmarkName" : "MSCI EM Latin America Gross (LCL)",
+				"BenchmarkFundId" : "1522299031"
+			},
+			
+			{
+				"BenchmarkId" : "307",
+				"BenchmarkName" : "MSCI AC World ex US Gross (LCL)",
+				"BenchmarkFundId" : "1522299044"
+			},
+			
+			{
+				"BenchmarkId" : "340",
+				"BenchmarkName" : "MSCI AC World Gross (LCL)",
+				"BenchmarkFundId" : "1522299707"
+			},
+			
+			{
+				"BenchmarkId" : "352",
+				"BenchmarkName" : "Barclays US Treasury",
+				"BenchmarkFundId" : "1522299975"
+			},
+			
+			{
+				"BenchmarkId" : "568",
+				"BenchmarkName" : "HFRI Emerging Markets (Total) Index",
+				"BenchmarkFundId" : "1522300895"
+			},
+			
+			{
+				"BenchmarkId" : "569",
+				"BenchmarkName" : "HFRI Emerging Markets: Asia ex-Japan Index",
+				"BenchmarkFundId" : "1522300896"
+			},
+			
+			{
+				"BenchmarkId" : "572",
+				"BenchmarkName" : "HFRI Emerging Markets: Latin America Index",
+				"BenchmarkFundId" : "1522300899"
+			},
+			
+			{
+				"BenchmarkId" : "579",
+				"BenchmarkName" : "HFRI EH: Sector - Technology/Healthcare Index",
+				"BenchmarkFundId" : "1522300906"
+			},
+			
+			{
+				"BenchmarkId" : "581",
+				"BenchmarkName" : "Dow Jones Wilshire REIT Index",
+				"BenchmarkFundId" : "1522300918"
+			},
+			
+			{
+				"BenchmarkId" : "702",
+				"BenchmarkName" : "S&P North American Technology Sector Index (TR)",
+				"BenchmarkFundId" : "1522302638"
+			},
+			
+			{
+				"BenchmarkId" : "703",
+				"BenchmarkName" : "GS PST: Hedge Fund VIP List",
+				"BenchmarkFundId" : "1522302674"
+			},
+			
+			{
+				"BenchmarkId" : "708",
+				"BenchmarkName" : "Barclays Muni Bond Index",
+				"BenchmarkFundId" : "1522302755"
+			},
+			
+			{
+				"BenchmarkId" : "710",
+				"BenchmarkName" : "Barclays ABS",
+				"BenchmarkFundId" : "1522302792"
+			},
+			
+			{
+				"BenchmarkId" : "718",
+				"BenchmarkName" : "S&P Merger Arbitrage Index",
+				"BenchmarkFundId" : "1522302908"
+			},
+			
+			{
+				"BenchmarkId" : "732",
+				"BenchmarkName" : "ML US HY Total Return Index (LCL)",
+				"BenchmarkFundId" : "1522303025"
+			},
+			
+			{
+				"BenchmarkId" : "733",
+				"BenchmarkName" : "ML Europe HY Total Return Index (LCL)",
+				"BenchmarkFundId" : "1522303026"
+			},
+			
+			{
+				"BenchmarkId" : "738",
+				"BenchmarkName" : "SG Short-Term Traders Index",
+				"BenchmarkFundId" : "1522303140"
+			},
+			
+			{
+				"BenchmarkId" : "779",
+				"BenchmarkName" : "ML Global HY Index",
+				"BenchmarkFundId" : "1522303432"
+			},
+			
+			{
+				"BenchmarkId" : "943",
+				"BenchmarkName" : "MSCI EAFE Free Gross (LCL)",
+				"BenchmarkFundId" : "1522304926"
+			},
+			
+			{
+				"BenchmarkId" : "945",
+				"BenchmarkName" : "MSCI Japan Gross (LCL)",
+				"BenchmarkFundId" : "1522304928"
+			},
+			
+			{
+				"BenchmarkId" : "949",
+				"BenchmarkName" : "MSCI AC Asia Pacific Gross (LCL)",
+				"BenchmarkFundId" : "1522304932"
+			},
+			
+			{
+				"BenchmarkId" : "968",
+				"BenchmarkName" : "Barclays US High Yield Default Excluded",
+				"BenchmarkFundId" : "1522304951"
+			},
+			
+			{
+				"BenchmarkId" : "986",
+				"BenchmarkName" : "Russell 3000 Growth (TR)",
+				"BenchmarkFundId" : "1522304971"
+			},
+			
+			{
+				"BenchmarkId" : "987",
+				"BenchmarkName" : "Russell 3000 Value (TR)",
+				"BenchmarkFundId" : "1522304972"
+			},
+			
+			{
+				"BenchmarkId" : "988",
+				"BenchmarkName" : "Russell Midcap Growth (TR)",
+				"BenchmarkFundId" : "1522304973"
+			},
+			
+			{
+				"BenchmarkId" : "989",
+				"BenchmarkName" : "Russell Midcap Value (TR)",
+				"BenchmarkFundId" : "1522304974"
+			},
+			
+			{
+				"BenchmarkId" : "999",
+				"BenchmarkName" : "S&P 500 Energy TR",
+				"BenchmarkFundId" : "1522304985"
+			},
+			
+			{
+				"BenchmarkId" : "1000",
+				"BenchmarkName" : "S&P 500 Financial TR",
+				"BenchmarkFundId" : "1522304986"
+			},
+			
+			{
+				"BenchmarkId" : "1018",
+				"BenchmarkName" : "S&P GSCI Total Return Index",
+				"BenchmarkFundId" : "1522305112"
+			},
+			
+			{
+				"BenchmarkId" : "1048",
+				"BenchmarkName" : "ML Global EM Sovereign & Corp TR (LCL)",
+				"BenchmarkFundId" : "1522305593"
+			},
+			
+			{
+				"BenchmarkId" : "1049",
+				"BenchmarkName" : "S&P 500 VIX Short-Term Futures Index TR",
+				"BenchmarkFundId" : "1522305607"
+			},
+			
+			{
+				"BenchmarkId" : "1054",
+				"BenchmarkName" : "MSCI EM Latin America Gross (USD)",
+				"BenchmarkFundId" : "1522305710"
+			},
+			
+			{
+				"BenchmarkId" : "1055",
+				"BenchmarkName" : "MSCI EM Europe & Middle East Gross (USD)",
+				"BenchmarkFundId" : "1522305711"
+			},
+			
+			{
+				"BenchmarkId" : "1099",
+				"BenchmarkName" : "MSCI AC Asia Gross (LCL)",
+				"BenchmarkFundId" : "1522306087"
+			},
+			
+			{
+				"BenchmarkId" : "1109",
+				"BenchmarkName" : "MSCI World ex USA Gross (LCL)",
+				"BenchmarkFundId" : "1522306098"
+			},
+			
+			{
+				"BenchmarkId" : "1110",
+				"BenchmarkName" : "MSCI World Growth Gross (LCL)",
+				"BenchmarkFundId" : "1522306099"
+			},
+			
+			{
+				"BenchmarkId" : "1127",
+				"BenchmarkName" : "S&P 500 Cons Staples TR",
+				"BenchmarkFundId" : "1522306223"
+			},
+			
+			{
+				"BenchmarkId" : "1143",
+				"BenchmarkName" : "S&P Leveraged Loan 100 TR",
+				"BenchmarkFundId" : "1522306742"
+			},
+			
+			{
+				"BenchmarkId" : "1231",
+				"BenchmarkName" : "S&P GSCI Agricultural Index Total Return",
+				"BenchmarkFundId" : "1522308381"
+			},
+			
+			{
+				"BenchmarkId" : "1232",
+				"BenchmarkName" : "S&P GSCI Energy Index Total Return",
+				"BenchmarkFundId" : "1522308382"
+			},
+			
+			{
+				"BenchmarkId" : "1331",
+				"BenchmarkName" : "Swiss Re BB Rated CAT Bond TR Index",
+				"BenchmarkFundId" : "1522309005"
+			},
+			
+			{
+				"BenchmarkId" : "1363",
+				"BenchmarkName" : "MSCI EM Industrials Gross (LCL)",
+				"BenchmarkFundId" : "1522309644"
+			},
+			
+			{
+				"BenchmarkId" : "1369",
+				"BenchmarkName" : "MSCI EU Financials Gross (LCL)",
+				"BenchmarkFundId" : "1522309650"
+			},
+			
+			{
+				"BenchmarkId" : "1379",
+				"BenchmarkName" : "MSCI World Information Technology Gross (LCL)",
+				"BenchmarkFundId" : "1522309661"
+			},
+			
+			{
+				"BenchmarkId" : "1433",
+				"BenchmarkName" : "ML US HY Distressed Index",
+				"BenchmarkFundId" : "1522310193"
+			},
+			
+			{
+				"BenchmarkId" : "1477",
+				"BenchmarkName" : "Barclays Global Aggregate Hedged (USD)",
+				"BenchmarkFundId" : "1522311011"
+			},
+			
+			{
+				"BenchmarkId" : "1671",
+				"BenchmarkName" : "SNL Small Cap U.S. Bank",
+				"BenchmarkFundId" : "1522312802"
+			},
+			
+			{
+				"BenchmarkId" : "1673",
+				"BenchmarkName" : "SNL U.S. Bank",
+				"BenchmarkFundId" : "1522312804"
+			},
+			
+			{
+				"BenchmarkId" : "2306",
+				"BenchmarkName" : "HFRI ED: Activist Index",
+				"BenchmarkFundId" : "1522315611"
+			},
+			
+			{
+				"BenchmarkId" : "2308",
+				"BenchmarkName" : "HFRI Macro: Discretionary Thematic Index",
+				"BenchmarkFundId" : "1522315613"
+			},
+			
+			{
+				"BenchmarkId" : "2313",
+				"BenchmarkName" : "HFRI Macro: Commodity Index",
+				"BenchmarkFundId" : "1522315744"
+			},
+			
+			{
+				"BenchmarkId" : "2322",
+				"BenchmarkName" : "HFRI ED: Special Situations Index",
+				"BenchmarkFundId" : "1522315903"
+			},
+			
+			{
+				"BenchmarkId" : "2360",
+				"BenchmarkName" : "HFRI ED: Credit Arbitrage Index",
+				"BenchmarkFundId" : "1522316070"
+			},
+			
+			{
+				"BenchmarkId" : "2361",
+				"BenchmarkName" : "HFRI ED: Multi-Strategy Index",
+				"BenchmarkFundId" : "1522316071"
+			},
+			
+			{
+				"BenchmarkId" : "2363",
+				"BenchmarkName" : "HFRI Macro: Multi-Strategy Index",
+				"BenchmarkFundId" : "1522316073"
+			},
+			
+			{
+				"BenchmarkId" : "2617",
+				"BenchmarkName" : "SG Trend Index",
+				"BenchmarkFundId" : "1522318316"
+			},
+			
+			{
+				"BenchmarkId" : "2631",
+				"BenchmarkName" : "HFRI Asset Weighted Composite Index",
+				"BenchmarkFundId" : "1522318711"
+			},
+			
+			{
+				"BenchmarkId" : "2632",
+				"BenchmarkName" : "HFRI Credit Index",
+				"BenchmarkFundId" : "1522318712"
+			},
+			
+			{
+				"BenchmarkId" : "2633",
+				"BenchmarkName" : "HFRI Equity Hedge (Total) Index - Asset Weighted",
+				"BenchmarkFundId" : "1522318713"
+			},
+			
+			{
+				"BenchmarkId" : "2635",
+				"BenchmarkName" : "HFRI Macro (Total) Index - Asset Weighted",
+				"BenchmarkFundId" : "1522318715"
+			},
+			
+			{
+				"BenchmarkId" : "2636",
+				"BenchmarkName" : "HFRI Relative Value (Total) Index - Asset Weighted",
+				"BenchmarkFundId" : "1522318716"
+			},
+			
+			{
+				"BenchmarkId" : "2997",
+				"BenchmarkName" : "RP MS CUBE Equity Global Momentum",
+				"BenchmarkFundId" : "1522320572"
+			},
+			
+			{
+				"BenchmarkId" : "2998",
+				"BenchmarkName" : "RP MS CUBE Equity US Momentum",
+				"BenchmarkFundId" : "1522320573"
+			},
+			
+			{
+				"BenchmarkId" : "2999",
+				"BenchmarkName" : "RP MS CUBE Equity Europe Momentum",
+				"BenchmarkFundId" : "1522320574"
+			},
+			
+			{
+				"BenchmarkId" : "3000",
+				"BenchmarkName" : "RP MS CUBE Equity Japan Momentum",
+				"BenchmarkFundId" : "1522320575"
+			},
+			
+			{
+				"BenchmarkId" : "3001",
+				"BenchmarkName" : "RP MS CUBE Equity Asia ex Japan Momentum",
+				"BenchmarkFundId" : "1522320576"
+			},
+			
+			{
+				"BenchmarkId" : "3008",
+				"BenchmarkName" : "RP MS CUBE Equity Global Value",
+				"BenchmarkFundId" : "1522320583"
+			},
+			
+			{
+				"BenchmarkId" : "3009",
+				"BenchmarkName" : "RP MS CUBE Equity US Value",
+				"BenchmarkFundId" : "1522320584"
+			},
+			
+			{
+				"BenchmarkId" : "3010",
+				"BenchmarkName" : "RP MS CUBE Equity Europe Value",
+				"BenchmarkFundId" : "1522320585"
+			},
+			
+			{
+				"BenchmarkId" : "3011",
+				"BenchmarkName" : "RP MS CUBE Equity Japan Value",
+				"BenchmarkFundId" : "1522320586"
+			},
+			
+			{
+				"BenchmarkId" : "3012",
+				"BenchmarkName" : "RP MS CUBE Equity Asia ex Japan Value",
+				"BenchmarkFundId" : "1522320587"
+			},
+			
+			{
+				"BenchmarkId" : "3016",
+				"BenchmarkName" : "RP MS CUBE Equity Global Low Vol",
+				"BenchmarkFundId" : "1522320591"
+			},
+			
+			{
+				"BenchmarkId" : "3017",
+				"BenchmarkName" : "RP MS CUBE Equity US Low Vol",
+				"BenchmarkFundId" : "1522320592"
+			},
+			
+			{
+				"BenchmarkId" : "3018",
+				"BenchmarkName" : "RP MS CUBE Equity Europe Low Vol",
+				"BenchmarkFundId" : "1522320593"
+			},
+			
+			{
+				"BenchmarkId" : "3019",
+				"BenchmarkName" : "RP MS CUBE Equity Japan Low Vol",
+				"BenchmarkFundId" : "1522320594"
+			},
+			
+			{
+				"BenchmarkId" : "3020",
+				"BenchmarkName" : "RP MS CUBE Equity Asia ex Japan Low Vol",
+				"BenchmarkFundId" : "1522320595"
+			},
+			
+			{
+				"BenchmarkId" : "3024",
+				"BenchmarkName" : "RP MS CUBE Equity Global Size",
+				"BenchmarkFundId" : "1522320599"
+			},
+			
+			{
+				"BenchmarkId" : "3026",
+				"BenchmarkName" : "RP MS CUBE Equity Europe Size",
+				"BenchmarkFundId" : "1522320601"
+			},
+			
+			{
+				"BenchmarkId" : "3028",
+				"BenchmarkName" : "RP MS CUBE Equity Asia ex Japan Size",
+				"BenchmarkFundId" : "1522320603"
+			},
+			
+			{
+				"BenchmarkId" : "3032",
+				"BenchmarkName" : "RP MS CUBE Equity Global Quality",
+				"BenchmarkFundId" : "1522320607"
+			},
+			
+			{
+				"BenchmarkId" : "3033",
+				"BenchmarkName" : "RP MS CUBE Equity US Quality",
+				"BenchmarkFundId" : "1522320608"
+			},
+			
+			{
+				"BenchmarkId" : "3034",
+				"BenchmarkName" : "RP MS CUBE Equity Europe Quality",
+				"BenchmarkFundId" : "1522320609"
+			},
+			
+			{
+				"BenchmarkId" : "3035",
+				"BenchmarkName" : "RP MS CUBE Equity Japan Quality",
+				"BenchmarkFundId" : "1522320610"
+			},
+			
+			{
+				"BenchmarkId" : "3047",
+				"BenchmarkName" : "RP MS CUBE Equity Macro Momentum",
+				"BenchmarkFundId" : "1522320622"
+			},
+			
+			{
+				"BenchmarkId" : "3048",
+				"BenchmarkName" : "RP MS CUBE Equity Macro Carry",
+				"BenchmarkFundId" : "1522320623"
+			},
+			
+			{
+				"BenchmarkId" : "3049",
+				"BenchmarkName" : "RP MS CUBE Equity Macro Trend",
+				"BenchmarkFundId" : "1522320624"
+			},
+			
+			{
+				"BenchmarkId" : "3050",
+				"BenchmarkName" : "RP MS CUBE Equity Macro Volatility",
+				"BenchmarkFundId" : "1522320625"
+			},
+			
+			{
+				"BenchmarkId" : "3051",
+				"BenchmarkName" : "RP MS CUBE Equity Macro Index Skew (US)",
+				"BenchmarkFundId" : "1522320626"
+			},
+			
+			{
+				"BenchmarkId" : "3053",
+				"BenchmarkName" : "RP MS CUBE Equity Macro Dividend Month Premium (Europe)",
+				"BenchmarkFundId" : "1522320628"
+			},
+			
+			{
+				"BenchmarkId" : "3054",
+				"BenchmarkName" : "RP MS CUBE Rates Carry",
+				"BenchmarkFundId" : "1522320629"
+			},
+			
+			{
+				"BenchmarkId" : "3055",
+				"BenchmarkName" : "RP MS CUBE FX Carry",
+				"BenchmarkFundId" : "1522320630"
+			},
+			
+			{
+				"BenchmarkId" : "3056",
+				"BenchmarkName" : "RP MS CUBE Commodity Carry",
+				"BenchmarkFundId" : "1522320631"
+			},
+			
+			{
+				"BenchmarkId" : "3057",
+				"BenchmarkName" : "RP MS CUBE Rates Curve Carry",
+				"BenchmarkFundId" : "1522320632"
+			},
+			
+			{
+				"BenchmarkId" : "3059",
+				"BenchmarkName" : "RP MS CUBE Rates Trend",
+				"BenchmarkFundId" : "1522320634"
+			},
+			
+			{
+				"BenchmarkId" : "3060",
+				"BenchmarkName" : "RP MS CUBE FX Trend",
+				"BenchmarkFundId" : "1522320635"
+			},
+			
+			{
+				"BenchmarkId" : "3061",
+				"BenchmarkName" : "RP MS CUBE Commodity Trend",
+				"BenchmarkFundId" : "1522320636"
+			},
+			
+			{
+				"BenchmarkId" : "3062",
+				"BenchmarkName" : "RP MS CUBE Rates Volatility",
+				"BenchmarkFundId" : "1522320637"
+			},
+			
+			{
+				"BenchmarkId" : "3063",
+				"BenchmarkName" : "RP MS CUBE FX Volatility",
+				"BenchmarkFundId" : "1522320638"
+			},
+			
+			{
+				"BenchmarkId" : "3064",
+				"BenchmarkName" : "RP MS CUBE Commodity Volatility",
+				"BenchmarkFundId" : "1522320639"
+			},
+			
+			{
+				"BenchmarkId" : "3071",
+				"BenchmarkName" : "S&P Municipal Bond High Yield",
+				"BenchmarkFundId" : "1522320676"
+			},
+			
+			{
+				"BenchmarkId" : "3072",
+				"BenchmarkName" : "S&P Municipal Bond Puerto Rico",
+				"BenchmarkFundId" : "1522320677"
+			},
+			
+			{
+				"BenchmarkId" : "3095",
+				"BenchmarkName" : "RP MS CUBE Multi-Asset Risk Premia Index",
+				"BenchmarkFundId" : "1522320879"
+			},
+			
+			{
+				"BenchmarkId" : "3096",
+				"BenchmarkName" : "RP MS CUBE Rates Momentum",
+				"BenchmarkFundId" : "1522321017"
+			},
+			
+			{
+				"BenchmarkId" : "3097",
+				"BenchmarkName" : "RP MS CUBE FX Momentum",
+				"BenchmarkFundId" : "1522321018"
+			},
+			
+			{
+				"BenchmarkId" : "3098",
+				"BenchmarkName" : "RP MS CUBE Commodity Momentum",
+				"BenchmarkFundId" : "1522321019"
+			},
+			
+			{
+				"BenchmarkId" : "3099",
+				"BenchmarkName" : "RP MS CUBE FX Value",
+				"BenchmarkFundId" : "1522321020"
+			},
+			
+			{
+				"BenchmarkId" : "3100",
+				"BenchmarkName" : "RP MS CUBE Rates Value",
+				"BenchmarkFundId" : "1522321021"
+			},
+			
+			{
+				"BenchmarkId" : "3101",
+				"BenchmarkName" : "RP MS CUBE Commodity Value",
+				"BenchmarkFundId" : "1522321022"
+			},
+			
+			{
+				"BenchmarkId" : "3837",
+				"BenchmarkName" : "Case-Shiller US 10-City Home Price Index",
+				"BenchmarkFundId" : "1522322512"
+			}
+			
+	]
+
+
+
+	}]
+
+
+}

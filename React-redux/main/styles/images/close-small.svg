@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="11px" viewBox="0 0 11 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48 (47235) - http://www.bohemiancoding.com/sketch -->
+    <title>close-small</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="CHART-KEY/WITH-DATA" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-384.000000, -12.000000)">
+        <g id="FILTERS-:-WITH-DATA">
+            <g id="FILTER" transform="translate(226.000000, 0.000000)">
+                <rect id="Rectangle-11" stroke="#DDDDDD" x="0.5" y="0.5" width="179" height="72" rx="4"></rect>
+                <path d="M166.75,17.5 L170,17.5 L169.5,17 L169.5,18 L170,17.5 L166.75,17.5 Z M163.5,23.75 L163.5,24 L164,23.5 L163,23.5 L163.5,24 L163.5,23.75 Z M160.25,17.5 L157,17.5 L157.5,18 L157.5,17 L157,17.5 L160.25,17.5 Z M163.5,14.25 L163.5,11 L163,11.5 L164,11.5 L163.5,11 L163.5,14.25 Z" id="Combined-Shape" stroke="#005C8F" transform="translate(163.500000, 17.500000) rotate(-315.000000) translate(-163.500000, -17.500000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

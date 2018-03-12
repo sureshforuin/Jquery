@@ -1,0 +1,146 @@
+[
+    {
+        "timeFrames": [
+            "last_month",
+            "last_qtr",
+            "last_yr"
+        ],
+        "blocks": [
+            {
+                "title": "Ratings",
+                "data": [
+                    {
+                        "id": "ratingsTable",
+                        "component": "RatingTable"
+                    }
+                ]
+            },
+            {
+                "title": "Execution Summary",
+                "data": [
+                    {
+                        "id": "execution_summary",
+                        "component": "Paragraph"
+                    }
+                ]
+            },
+            {
+                "title": "Firm History",
+                "data": [
+                    {
+                        "id": "firm_founded_date",
+                        "component": "Paragraph"
+                    },
+                    {
+                        "id": "firm_history_comment",
+                        "component": "Paragraph"
+                    },
+                    {
+                        "id": "firm_history_team_experience",
+                        "component": "Paragraph"
+                    },
+                    {
+                        "id": "firm_history_team_experience_2",
+                        "component": "Paragraph"
+                    },
+                    {
+                        "id": "firm_history_team_experience_3",
+                        "component": "Paragraph"
+                    },
+                    {
+                        "id": "firm_history_team_experience_4",
+                        "component": "Paragraph"
+                    }
+                ]
+            },
+            {
+                "title": "Strength and Concern",
+                "data": [
+                    {
+                        "id": "strength",
+                        "component": "Paragraph"
+                    },
+                    {
+                        "id": "concerns",
+                        "component": "Paragraph"
+                    }
+                ]
+            },
+            {
+                "title": "Return & Risk Expectations",
+                "data": [
+                    {
+                        "id": "comments",
+                        "component": "Paragraph"
+                    },
+                    {
+                        "id": "hedge_fund_benchmark",
+                        "component": "data_table"
+                    },
+                    {
+                        "id": "market_benchmark",
+                        "component": "data_table"
+                    }
+                ]
+            },
+            {
+                "title": "Investment Strategy",
+                "data": [
+                    {
+                        "id": "stretegy_description",
+                        "component": "Paragraph"
+                    },
+                    {
+                        "id": "strategy_allocation",
+                        "component": "area_chart"
+                    }
+                ]
+            }
+        ],
+        "ratingsTable": {
+            "last_mth": {
+                "data": {
+                    "title": "Ratings",
+                    "headers": [
+                        "",
+                        "Weight",
+                        "Score",
+                        "plot-"
+                    ],
+                    "rows": [
+                        {
+                            "data": [
+                                "Investment Strategy",
+                                "40%",
+                                "3.88",
+                                "Plot-70%"
+                            ]
+                        },
+                        {
+                            "data": [
+                                "Performance & Alpha Generation",
+                                "20%",
+                                "4.00",
+                                "Plot-80%"
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "firm_founded_date":{
+            "last_mth":{
+                "timeFrame": "Last_Mth",
+                "title": "",
+                "sub_title":"Founded Date",
+                "description": "<div>07/01/2008</div>"
+            },
+            "last_qtr":{
+                "timeFrame": "Last_Qtr",
+                "title": "",
+                "sub_title":"Founded Date",
+                "description": "<div>07/01/2008</div>"
+            }
+        }
+    }
+]

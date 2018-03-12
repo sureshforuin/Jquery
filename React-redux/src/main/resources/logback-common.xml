@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<included>
+	<conversionRule conversionWord="clr" converterClass="org.springframework.boot.logging.logback.ColorConverter" />
+	<conversionRule conversionWord="wex" converterClass="org.springframework.boot.logging.logback.WhitespaceThrowableProxyConverter" />
+	<timestamp key="date" datePattern="yyyy-MM-dd" />
+
+	<!-- Here we have a stdout appender -->
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<layout class="ch.qos.logback.classic.PatternLayout">
+			<pattern>%clr(%d{yyyy-MM-dd HH:mm:ss.SSS}){faint} %clr(%5p) %clr(%property{PID}){magenta} %clr(---){faint} %clr([%15.15t]){faint} %clr(%-40.40logger{39}){cyan} %clr(:){faint} %m%n%wex</pattern>
+		</layout>
+		<target>System.out</target>
+	</appender>
+
+	<!-- expecting LOG_PATH to be defined elsewhere (in logback-${CONFIG_MODE}.xml file) -->
+	<appender name="RollingFile" class="msjava.logbackutils.rolling.RollingCountingFileAppender">
+		<File>${LOG_PATH}/aipAdvisoryPortalUi.log</File>
+
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<FileNamePattern>${LOG_PATH}/aipAdvisoryPortalUi_%d{yyyy-MM-dd}.%i.log.gz</FileNamePattern>
+			<MaxHistory>20</MaxHistory>
+			<TimeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<MaxFileSize>50000000</MaxFileSize>
+			</TimeBasedFileNamingAndTriggeringPolicy>
+		</rollingPolicy>
+
+		<encoder>
+			<Pattern>%date [%thread] %-5level %logger{20} - %msg%n</Pattern>
+		</encoder>
+	</appender>
+
+	<!-- async buffer logs to both RollingFile and STDOUT appenders -->
+	<appender name="AsyncBufferedAppender" class="msjava.logbackutils.async.AsyncAppender">
+		<dispatcher class="msjava.logbackutils.async.AsyncDispatcherQueueImpl">
+			<BufferSize>500</BufferSize>
+			<Blocking>true</Blocking>
+		</dispatcher>
+		<callerDataInfo>false</callerDataInfo>
+		<appender-ref ref="STDOUT" />
+		<appender-ref ref="RollingFile" />
+	</appender>
+
+    <logger name="org.apache.cxf.interceptor.LoggingOutInterceptor">
+        <level value="warn"/>
+    </logger>
+
+    <logger name="org.apache.cxf.interceptor.LoggingInInterceptor">
+        <level value="warn"/>
+    </logger>
+
+<!--     <logger name="org.springframework.jdbc.core"> -->
+<!--         <level value="trace"/> -->
+<!--     </logger> -->
+
+<!--     <logger name="com.msdw.appmw.e3.client.common.E3ServiceClient.Audit" level="error"/> -->
+    <logger name="msjava.cxfutils.transport.msnet.internal"  level="error" />
+    <logger name="msjava.cxfutils.auth"  level="warn" />
+    <logger name="msjava.msnet.internal.MSNetAuditLogger" level="error" />
+
+    <!-- root needs to be defined outside. unless overrides are possible (TBC)
+    <root>
+        <level value="info" />
+        <appender-ref ref="AsyncBufferedAppender" />
+    </root>
+     -->
+</included>

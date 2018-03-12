@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<included>
+    <property name="LOG_PATH" value="C:\\MSDE\\${USERNAME}\\aip-advisory-portal-ui\\logs" />
+    <include resource="logback-common.xml" />
+    
+    <logger name="org.apache.cxf.interceptor.LoggingOutInterceptor">
+        <level value="info"/>
+    </logger>
+
+    <logger name="org.apache.cxf.interceptor.LoggingInInterceptor">
+        <level value="info"/>
+    </logger>
+
+	<root>
+		<level value="info" />
+		<appender-ref ref="AsyncBufferedAppender" />
+	</root>
+</included>

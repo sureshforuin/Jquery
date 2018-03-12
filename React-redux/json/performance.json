@@ -1,0 +1,149 @@
+{
+    "calendarControl": false,
+    "blocks": [
+        {
+            "title": "Runups and DrawDown",
+            "data": [
+                {
+                    "id": "Runups_and_DrawDown",
+                    "component": "tabs"
+                }
+            ]
+        },
+        {
+            "title": "Rolling Annualized Performance",
+            "data": [
+                {
+                    "id": "rolling",
+                    "component": "lineChart",
+                    "source": "FundRunner"
+                }
+            ]
+        },
+        {
+            "title": "Cumulative Performance",
+            "data": [
+                {
+                    "id": "cumulative",
+                    "component": "lineChart",
+                    "source": "FundRunner"
+                }
+            ]
+        },
+        {
+            "title": "Historical Return",
+            "data": [
+                {
+                    "id": "historic",
+                    "component": "columnChart"
+                }
+            ]
+        }
+    ],
+    "Runups_and_DrawDown": {
+        "data": [
+            {
+                "id": "Runups and DrawDown Market",
+                "component": "tab"
+            },
+            {
+                "id": "Runups and DrawDown Fund",
+                "component": "tab"
+            }
+        ]
+    },
+    "Runups and DrawDown Market": {
+        "data": [
+            {
+                "id": "runup",
+                "component": "dataTable"
+            },
+            {
+                "id": "drawdown",
+                "component": "dataTable"
+            }
+        ]
+    },
+    "Runups and DrawDown Fund": {
+        "data": [
+            {
+                "id": "runup",
+                "component": "dataTable"
+            },
+            {
+                "id": "drawdown",
+                "component": "dataTable"
+            }
+        ]
+    },
+    "cumulative": [
+        {
+            "title": "Cumulative Performance",
+            "metaData": {
+                "chartType": "lineChart",
+                "navigator": true,
+                "graphPositionIndicator": true,
+                "addBenchmarkFund": true,
+                "timeFrame": {
+                    "active": 3
+                },
+                "perfType": "cumulative"
+            },
+            "links": [
+            ]
+        }
+    ],
+    "rolling": [
+        {
+            "title": "Rolling Annualized Volatility",
+            "metaData": {
+                "chartType": "columnChart",
+                "navigator": true,
+                "graphPositionIndicator": true,
+                "addBenchmarkFund": true,
+                "timeFrame": {
+                    "active": 10
+                },
+                "perfType": "rolling"
+            },
+            "links": [
+            ]
+        }
+    ],
+    "historic": [
+        {
+            "title": "Historic Return",
+            "metaData": {
+                "requiredhistoricDataTable": true,
+                "navigator": true,
+                "graphPositionIndicator": true,
+                "addBenchmarkFund": true,
+                "timeFrame": {
+                    "active": 3
+                }
+            },
+            "links": [
+                "benchmarkReturn.json"
+            ],
+            "additionalLinks": [
+                "runupdrwadownband.json"
+            ]
+        }
+    ],
+    "rollingV": [
+        {
+            "title": "Rolling Annualized Volatility",
+            "metaData": {
+                "navigator": true,
+                "graphPositionIndicator": true,
+                "addBenchmarkFund": true,
+                "timeFrame": {
+                    "active": 10
+                }
+            },
+            "links": [
+                "Strat_Fixed_Income_Arbitrage.json"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+
+
+
+
+
+
+
+
+
+
+
+{
+		"KeyStatistics" : [{
+		"headers": [
+						
+						 	"Annualized Return",
+						 	"Annualized Standard Deviation",
+						 	"Sharpe Ratio",
+						 	"Sortino Ratio",
+						 	"Downside Deviation",
+						 	"Percent Positive Months",
+						 	"Max Drawdown",
+						 	"Beta"
+					],
+					
+			"rows" :[
+						{
+						
+							"data" : [
+									"15.280461",
+									"10.602171",
+									"1.255402",
+									"1.667684",
+									"7.981122",
+									"82.916664",
+									"-54.944782",
+									"0.2227"
+							]
+						
+						
+						}
+				],
+				"title" : "Key Statistics Since Inception"
+			}]	    	
+	
+
+}

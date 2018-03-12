@@ -1,0 +1,525 @@
+{
+    "FundOverview": [
+        {
+            "data": [
+                {
+                    "component": "paragraph",
+                    "id": "fundOverviewContent",
+                    "source": "Odessa"
+                }
+            ]
+        }
+    ],
+    "fundOverviewContent": [
+        {
+            "description": "Advisory Solutions that offer recommendations, advice, and account administration oversight for clients who wish to retain ownership of hedge fund positions. Provide customized investment recommendations designed to address clients specific requirements, such as risk exposures, retain targets, strategy constraints, liquidity preferences, and integration with existing investments",
+            "title": "Managed by Citadel Advisors LLC(AUM $26.8B) Formed 01/01/1995"
+        }
+    ],
+    "FundHighlights": [
+        {
+            "data": [
+                {
+                    "component": "paragraph",
+                    "width": "50%",
+                    "id": "fh01",
+                    "source": "Odessa"
+                },
+                {
+                    "component": "paragraph",
+                    "width": "50%",
+                    "id": "fh02",
+                    "source": "Odessa"
+                },
+                {
+                    "component": "paragraph",
+                    "width": "50%",
+                    "id": "fh03",
+                    "source": "Odessa"
+                },
+                {
+                    "component": "paragraph",
+                    "width": "50%",
+                    "id": "fh04",
+                    "source": "Odessa"
+                },
+                {
+                    "component": "paragraph",
+                    "width": "50%",
+                    "id": "fh04",
+                    "source": "Odessa"
+                }
+            ]
+        }
+    ],
+    "fh01": [
+        {
+            "description": "Growth / Multi-Strategy",
+            "title": "STRATEGY/SUBSTRATEGY"
+        }
+    ],
+    "fh02": [
+        {
+            "description": "$18.1B(as of jan 2017)",
+            "title": "AUM"
+        }
+    ],
+    "fh03": [
+        {
+            "description": "LLC",
+            "title": "STRUCTURE"
+        }
+    ],
+    "fh04": [
+        {
+            "description": "Bermuda Corp",
+            "title": "DOMICILE"
+        }
+    ],
+    "fh05": [
+        {
+            "description": "US, Europe",
+            "title": "GEOGRAPHIC FOCUS"
+        }
+    ],
+    "KeyPersonnel": [
+        {
+            "data": [
+                {
+                    "component": "paragraph",
+                    "width": "50%",
+                    "id": "kp01",
+                    "source": "Odessa"
+                },
+                {
+                    "component": "paragraph",
+                    "width": "50%",
+                    "id": "kp02",
+                    "source": "Odessa"
+                },
+                {
+                    "component": "paragraph",
+                    "width": "50%",
+                    "id": "kp03",
+                    "source": "Odessa"
+                }
+            ]
+        }
+    ],
+    "kp01": [
+        {
+            "description": "Fund Manager since 2004",
+            "title": "Lloyd Pratt"
+        }
+    ],
+    "kp02": [
+        {
+            "description": "Fund Manager since 2009",
+            "title": "Sally Carter"
+        }
+    ],
+    "kp03": [
+        {
+            "description": "Fund Manager since 2012",
+            "title": "Sean Cunningham"
+        }
+    ],
+    "ServiceProviders": [
+        {
+            "data": [
+                {
+                    "component": "paragraph",
+                    "width": "50%",
+                    "id": "sp01",
+                    "source": "Odessa"
+                },
+                {
+                    "component": "paragraph",
+                    "width": "50%",
+                    "id": "sp02",
+                    "source": "Odessa"
+                },
+                {
+                    "component": "paragraph",
+                    "width": "50%",
+                    "id": "sp03",
+                    "source": "Odessa"
+                },
+                {
+                    "component": "paragraph",
+                    "width": "50%",
+                    "id": "sp04",
+                    "source": "Odessa"
+                }
+            ]
+        }
+    ],
+    "sp01": [
+        {
+            "description": "Northern trust Hedge Fund Service",
+            "title": "ADMINISTRATOR"
+        }
+    ],
+    "sp02": [
+        {
+            "description": "Pricewater Coopers",
+            "title": "AUDITOR"
+        }
+    ],
+    "sp03": [
+        {
+            "description": "Bermuda Corp",
+            "title": "PRIME BROKERS"
+        }
+    ],
+    "sp04": [
+        {
+            "description": "Legal Firm Name",
+            "title": "LEGAL COUNSEL"
+        }
+    ],
+    "OverviewPerformance": [
+        {
+            "metaData": {
+                "navigator": false,
+                "addBenchmarkFund": true,
+                "isTimeframeBased":false,
+                "perfType": "OverviewPerformance"
+            },
+            "links": [
+              "overviewFundPerf.json",
+				"overview_1522294576.json",
+				"overview_1522294576.json",
+				"overview_1522296815.json",
+				"overview_1522299044.json"
+            ],
+            "title": "Overview Performance"
+        }
+    ],
+    "KeyStatistics": [
+        {
+            "headers": [
+                "ANNUALIZED RETURN",
+                "ANNUALIZED STANDARD DEVIATION",
+                "ANNUALIZED SHARP RATIO",
+                "ANNUALIZED SORTINO RATIO",
+                "ANNUALIZED DOWNSIDE DEVIATION",
+                "PERCENT POSITIVE MONTHS",
+                "MAX DRAWDOWN",
+                "BETA VS. SPTR"
+            ],
+            "rows": [
+                {
+                    "data": [
+                        "15.38%",
+                        "10.74%",
+                        "1.25%",
+                        "1.65%",
+                        "8.10%",
+                        "82.83%",
+                        "-54.94%",
+                        "0.22%"
+                    ]
+                }
+            ],
+            "title": "Key Statistics Since Inception"
+        }
+    ],
+    "BenchmarkFund": [
+        {
+            "headers": [
+                "BENCHMARK/FUND",
+                "1 YR",
+                "2 YRS",
+                "3 YRS",
+                "5 YRS",
+                "SINCE INCEPTION BENCHMARK/FUND (01/01/1998)"
+            ],
+            "rows": [
+                {
+                    "data": [
+                        "Citadel Kensington Global StrategiesFund LTD.",
+                        "14.90%",
+                        "7.71%",
+                        "11.73%",
+                        "15.03%",
+                        "15.38%"
+                    ]
+                },
+                {
+                    "data": [
+                        "S&P 500 TR USD",
+                        "14.90%",
+                        "7.71%",
+                        "11.73%",
+                        "15.03%",
+                        "15.38%"
+                    ]
+                },
+                {
+                    "data": [
+                        "MSCI World Gross (LCL)",
+                        "14.90%",
+                        "7.71%",
+                        "11.73%",
+                        "15.03%",
+                        "15.38%"
+                    ]
+                }
+            ]
+        }
+    ],
+    "shareClass": [
+        {
+            "headers": [
+                "SHARE CLASS",
+                "LIQUIDITY",
+                "MANAGEMENT FEES",
+                "INCENTIVE FEES",
+                "MINIMUM INITIAL INVESTMENT"
+            ],
+            "rows": [
+                {
+                    "data": [
+                        "A Details",
+                        "1) Quarterly class - 45 day notice with 5% fund level, 10% investor level gates with 4-7% penalty if gates exceeded. 2) Committed class - 90 day notice with 18 months locking-up. No gate.",
+                        "0.24%",
+                        "0.02%",
+                        "$1,000,000"
+                    ]
+                },
+                {
+                    "data": [
+                        "A Details",
+                        "1) Quarterly class - 45 day notice with 5% fund level, 10% investor level gates with 4-7% penalty if gates exceeded. 2) Committed class - 90 day notice with 18 months locking-up. No gate.",
+                        "0.24%",
+                        "0.02%",
+                        "$1,000,000"
+                    ]
+                },
+                {
+                    "data": [
+                        "A Details",
+                        "1) Quarterly class - 45 day notice with 5% fund level, 10% investor level gates with 4-7% penalty if gates exceeded. 2) Committed class - 90 day notice with 18 months locking-up. No gate.",
+                        "0.24%",
+                        "0.02%",
+                        "$1,000,000"
+                    ]
+                }
+            ]
+        }
+    ],
+    "MostPositive": [
+        {
+            "title": "Most Positively Similar",
+            "headers": [
+                "FUND",
+                "STRATEGY",
+                "FUND AUM",
+                "INCEPTION DATE",
+                "GEOGRAPHIC FOCUS",
+                "PERFORMANCE",
+                "VOLATILITY",
+                "CORRELATION"
+            ],
+            "rows": [
+                {
+                    "data": [
+                        "Citadel Kensington Global StrategiesFund LTD.",
+                        "Multi-Strategy",
+                        "$540M",
+                        "01/04/1998",
+                        "US",
+                        "9.88%",
+                        "10.74%",
+                        "0.99%"
+                    ]
+                },
+                {
+                    "data": [
+                        "S&P 500 TR USD",
+                        "Multi-Strategy",
+                        "$290M",
+                        "01/04/1998",
+                        "US",
+                        "5.17%",
+                        "7.34%",
+                        "0.98%"
+                    ]
+                },
+                {
+                    "data": [
+                        "Sachem Head Offshore Ltd.",
+                        "Event Driven equity",
+                        "$425M",
+                        "01/04/1998",
+                        "US,Europe",
+                        "10.74%",
+                        "12.64%",
+                        "0.97%"
+                    ]
+                }
+            ]
+        }
+    ],
+    "MostDisimilar": [
+        {
+            "title": "Most Dissimilar",
+            "headers": [
+                "FUND",
+                "STRATEGY",
+                "FUND AUM",
+                "INCEPTION DATE",
+                "GEOGRAPHIC FOCUS",
+                "PERFORMANCE",
+                "VOLATILITY",
+                "CORRELATION"
+            ],
+            "rows": [
+                {
+                    "data": [
+                        "Citadel Kensington Global StrategiesFund LTD.",
+                        "Multi-Strategy",
+                        "$540M",
+                        "01/04/1998",
+                        "US",
+                        "9.88%",
+                        "10.74%",
+                        "0.99%"
+                    ]
+                },
+                {
+                    "data": [
+                        "S&P 500 TR USD",
+                        "Multi-Strategy",
+                        "$290M",
+                        "01/04/1998",
+                        "US",
+                        "5.17%",
+                        "7.34%",
+                        "0.98%"
+                    ]
+                },
+                {
+                    "data": [
+                        "Sachem Head Offshore Ltd.",
+                        "Event Driven equity",
+                        "$425M",
+                        "01/04/1998",
+                        "US,Europe",
+                        "10.74%",
+                        "12.64%",
+                        "0.97%"
+                    ]
+                }
+            ]
+        }
+    ],
+    "calendarControl": false,
+    "blocks": [
+        {
+            "data": [
+                {
+                    "component": "column",
+                    "width": "50%",
+                    "id": "FundOverview",
+                    "source": "Odessa",
+                    "align": "left"
+                },
+                {},
+                {},
+                {}
+            ],
+            "width": "50%",
+            "title": "Fund Overview"
+        },
+        {
+            "data": [
+                {
+                    "component": "column",
+                    "width": "50%",
+                    "id": "FundHighlights",
+                    "source": "Odessa",
+                    "align": "right"
+                },
+                {},
+                {},
+                {}
+            ],
+            "width": "50%",
+            "title": "Fund Highlights"
+        },
+        {
+            "data": [
+                {
+                    "component": "column",
+                    "width": "50%",
+                    "id": "KeyPersonnel",
+                    "source": "Odessa",
+                    "align": "left"
+                },
+                {},
+                {},
+                {}
+            ],
+            "width": "50%",
+            "title": "Key Personnel"
+        },
+        {
+            "data": [
+                {
+                    "component": "column",
+                    "width": "50%",
+                    "id": "ServiceProviders",
+                    "source": "Odessa",
+                    "align": "left"
+                },
+                {},
+                {},
+                {}
+            ],
+            "width": "50%",
+            "title": "Service Providers"
+        },
+        {
+            "data": [
+                {
+                    "component": "columnTables",
+                    "id": "shareClass",
+                    "source": "Odessa"
+                }
+            ],
+            "title": "Share Class"
+        },
+        {
+            "data": [
+                {
+                    "component": "columnTables",
+                    "id": "KeyStatistics",
+                    "source": "Odessa"
+                },
+                {
+                    "component": "columnChart",
+                    "id": "OverviewPerformance",
+                    "source": "Odessa"
+                }
+            ],
+            "title": "Performance Overview(as of Jan 2017)"
+        },
+        {
+            "data": [
+                {
+                    "component": "columnTables",
+                    "id": "MostPositive",
+                    "source": "Odessa"
+                },
+                {
+                    "component": "columnTables",
+                    "id": "MostDisimilar",
+                    "source": "Odessa"
+                }
+            ],
+            "title": "Correlated Funds"
+        }
+    ]
+}

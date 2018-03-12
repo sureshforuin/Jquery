@@ -1,0 +1,803 @@
+{
+	    "timeFrames": [
+	            "08/31/2017",
+	            "08/29/2017",
+	            "08/28/2017"
+	    ],
+
+	    "blocks": [
+	        {
+	            "title": "Strength & Concerns",
+	            "data": [
+	                {
+	                    "id": "Strength",
+	                    "component": "columnTables"
+	                },
+	                {
+	                    "id": "Concerns",
+	                    "component": "columnTables"
+	                }
+	            ]
+	        },
+	        {
+	            "title": "Investment Strategy",
+	            "data": [
+	                {
+	                    "id": "StrategyDescription",
+	                    "component": "paragraph"
+	                },
+	                {
+	                    "id": "InvestmentProcess",
+	                    "component": "paragraph"
+	                },
+	                {
+	                    "id": "TradeExample",
+	                    "component": " "
+	                },
+	                {
+	                    "id": "SourceOfAlpha",
+	                    "component": "paragraph"
+	                }
+	            ]
+	        },
+	        {
+	            "title": "Transparency",
+	            "data": [
+	                {
+	                    "id": "TransparencyCommentary",
+	                    "component": "paragraph"
+	                },
+	                {
+	                    "id": "ThirdPartyTransparency",
+	                    "component": "paragraph"
+	                },
+	                {
+	                    "id": "ThirdPartyTransComments",
+	                    "component": "paragraph"
+	                },
+	                {
+	                    "id": "Opera",
+	                    "component": "paragraph"
+	                },
+	                {
+	                    "id": "OperaComments",
+	                    "component": "paragraph"
+	                },
+	                {
+	                    "id": "Opera",
+	                    "component": "paragraph"
+	                }
+	            ]
+	        },
+	        {
+	            "title": "Return & Risk Expectations",
+	            "data": [
+	                {
+	                    "id": "ReturnRiskComments",
+	                    "component": "paragraph"
+	                },
+	                {
+	                    "id": "BestPerformingEnv",
+	                    "component": "paragraph"
+	                },
+	                {
+	                    "id": "WorstPerformingEnv",
+	                    "component": "paragraph"
+	                },
+	                {
+	                    "id": "HedgeFundBenchmark",
+	                    "component": "paragraph"
+	                },
+	                {
+	                    "id": "MarketBenchmark",
+	                    "component": "fundDrivenComp"
+	                },
+	                {
+	                    "id": "Peers",
+	                    "component": "fundDrivenComp"
+	                }
+	            ]
+	        },
+	        {
+	            "title": "Firm History",
+	            "data": [
+	                {
+	                    "id": "FirmHistoryComments",
+	                    "component": "paragraph"
+	                },
+	                {
+	                    "id": "FoundedDate",
+	                    "component": "paragraph"
+	                }
+	            ]
+	        },
+	        {
+	            "title": "Executive Summary",
+	            "data": [
+	                {
+	                    "id": "IDDExecSummary",
+	                    "component": "paragraph"
+	                }
+	            ]
+	        },
+	        {
+	            "title": "Portfolio Construction",
+	            "data": [
+	                {
+	                    "id": "DecMakingTeamStructure",
+	                    "component": "paragraph"
+	                },
+	                {
+	                    "id": "AllocationProcess",
+	                    "component": "paragraph"
+	                },
+	                {
+	                    "id": "PositionSizing",
+	                    "component": "paragraph"
+	                }
+	            ]
+	        },
+	        {
+	            "title": "Risk",
+	            "data": [
+	                {
+	                    "id": "LeverageCommentary",
+	                    "component": "paragraph"
+	                },
+	                {
+	                    "id": "HedgingMacroOverlays",
+	                    "component": "paragraph"
+	                },
+	                {
+	                    "id": "LiquidityCommentary",
+	                    "component": "paragraph"
+	                },
+	                {
+	                    "id": "TradeUniverse",
+	                    "component": "paragraph"
+	                },
+	                {
+	                    "id": "RiskManagementProcess",
+	                    "component": "paragraph"
+	                },
+	                {
+	                    "id": "RiskManagementPhilosophy",
+	                    "component": "paragraph"
+	                }
+	            ]
+	        },
+	        {
+	            "title": "Team Experience",
+	            "data": [
+	                {
+	                    "id": "TeamExperienceComments",
+	                    "component": "paragraph"
+	                }
+	            ]
+	        },
+	        {
+	            "title": "Ratings",
+	            "data": [
+	                {
+	                    "id": "Ratings",
+	                    "component": "ratingsTable"
+	                }
+	            ]
+	        }
+	    ],
+
+    "IDDExecSummary": 			[
+				 {
+				  	"timeFrame": "08/31/2017",
+			        "title": "",
+			        "description": "Citadel was formed in November 1990 by Ken Griffin to pursue convertible bond arbitrage. Over time, Citadel has expanded into new investment strategies with quantitative and fundamental underpinnings and has extended its footprint globally. Citadel currently manages $27 billion in five principal global businesses. Citadel is likely the largest hedge fund from a personnel perspective, with 1,650 employees. AIPs relationship with Citadel began in the early 1990s, when WCMRT made its first investment."
+				 }
+			
+,
+				 {
+				  	"timeFrame": "08/28/2017",
+			        "title": "",
+			        "description": "Citadel is a global investment firm built around world-class talent, sound risk management, and innovative leading-edge technology. For a quarter of a century, Citadels hedge funds have delivered meaningful and measurable results to top-tier investors around the world, including sovereign wealth funds, public institutions, corporate pensions, endowments and foundations. With an unparalleled ability to identify and execute on great ideas, Citadels team of more than 825 investment professionals, operating from offices including Chicago, New York, San Francisco, London and Hong Kong, deploy capital across all major asset classes, in all major financial markets. The firm currently has over $27 billion in investment capital."
+				 }
+			
+
+		    ]
+,
+    "FoundedDate": 			[
+				 {
+				  	"timeFrame": "08/31/2017",
+			        "title": "FOUNDED DATE",
+			        "description": "11/01/1990"
+				 }
+			
+,
+				 {
+				  	"timeFrame": "08/31/2017",
+			        "title": "FOUNDED DATE",
+			        "description": "Citadel is a global multi-strategy fund, with $27 billion in assets under management and offices in Chicago, London, Tokyo, San Francisco, New York and Hong Kong.  Since its formation in 1990, Citadel has continued to expand into new markets and strategies, applying a balance of investment acumen and advanced technology.  \n \nToday, Citadels five core strategies are as follows: \n\nEquities \n- Equities is comprised of three distinct long / short businesses:\n*Global Equities\n*Surveyor Capital\n*Aptigon Capital\n- Industry sector groups include: Communications, Media & Entertainment, Technology, Consumer, Industrials, Energy & Utilities, Financials, and Healthcare\n\nGlobal Fixed Income\n- GFI invests in liquid interest rate-sensitive products in both developed and emerging markets, and employs Global Macro and Relative Value strategies, including:\n*Interest Rate Swaps\n*FX Spot & Futures\n*Front-End & Basis \n*Sovereign Bonds\n*Inflation-Linked Bonds\n*Swap Spreads\n*Interest Rate & FX Options\n*Agency MBS\n*Commodities \n\nCommodities \n- Commodities trades across the followng asset classes:\n*U.S. Natural Gas\n*Crude and Refined Products\n*European Power\n*European Natural Gas\n*Volatility\n*Agriculture \n\nCredit\n- Credit has four core strategies, including:\n*Convertible Arbitrage \n*Fundamental Credit\n*Liquid Stressed Credit\n*Systematic Strategies\n- Asset classes include the following:\n*Primary: Convertible bonds, Corporate bonds, CDS + Indices, Bank Loans\n*Secondary: Equity, Volatility  \n \nGlobal Quantitative Strategies \n- Multi-strategy: Fundamentally motivated quant (FMQ) and statistical arbitrage strategies\n- Multi-asset class: Equities, FX, Commodities, Fixed income\n- Multi-regional: Trading in more than 30 countries"
+				 }
+			
+,
+				 {
+				  	"timeFrame": "08/28/2017",
+			        "title": "FOUNDED DATE",
+			        "description": "11/01/1990"
+				 }
+			
+,
+				 {
+				  	"timeFrame": "08/28/2017",
+			        "title": "FOUNDED DATE",
+			        "description": "Citadel is a global multi-strategy fund, with $27 billion in assets under management and offices in Chicago, London, Tokyo, San Francisco, New York and Hong Kong.  Since its formation in 1990, Citadel has continued to expand into new markets and strategies, applying a balance of investment acumen and advanced technology (see below).  \n \nToday, Citadels five core strategies are as follows: \n\nEquities \n- Equities is comprised of three distinct long / short businesses:\n*Global Equities\n*Surveyor Capital\n*Aptigon Capital\n- Industry sector groups include: Communications, Media & Entertainment, Technology, Consumer, Industrials, Energy & Utilities, Financials, and Healthcare\n\nGlobal Fixed Income\n- GFI invests in liquid interest rate-sensitive products in both developed and emerging markets, and employs Global Macro and Relative Value strategies, including:\n*Interest Rate Swaps\n*FX Spot & Futures\n*Front-End & Basis \n*Sovereign Bonds\n*Inflation-Linked Bonds\n*Swap Spreads\n*Interest Rate & FX Options\n*Agency MBS\n*Commodities \n\nCommodities \n- Commodities trades across the followng asset classes:\n*U.S. Natural Gas\n*Crude and Refined Products\n*European Power\n*European Natural Gas\n*Volatility\n*Agriculture \n\nCredit\n- Credit has four core strategies, including:\n*Convertible Arbitrage \n*Fundamental Credit\n*Liquid Stressed Credit\n*Systematic Strategies\n- Asset classes include the following:\n*Primary: Convertible bonds, Corporate bonds, CDS + Indices, Bank Loans\n*Secondary: Equity, Volatility  \n \nGlobal Quantitative Strategies \n- Multi-strategy: Fundamentally motivated quant (FMQ) and statistical arbitrage strategies\n- Multi-asset class: Equities, FX, Commodities, Fixed income\n- Multi-regional: Trading in more than 30 countries"
+				 }
+			
+
+		    ]
+,
+    "FirmHistoryComments": 			[
+				 {
+				  	"timeFrame": "08/31/2017",
+			        "title": "COMMENTS",
+			        "description": "11/01/1990"
+				 }
+			
+,
+				 {
+				  	"timeFrame": "08/31/2017",
+			        "title": "COMMENTS",
+			        "description": "Citadel is a global multi-strategy fund, with $27 billion in assets under management and offices in Chicago, London, Tokyo, San Francisco, New York and Hong Kong.  Since its formation in 1990, Citadel has continued to expand into new markets and strategies, applying a balance of investment acumen and advanced technology.  \n \nToday, Citadels five core strategies are as follows: \n\nEquities \n- Equities is comprised of three distinct long / short businesses:\n*Global Equities\n*Surveyor Capital\n*Aptigon Capital\n- Industry sector groups include: Communications, Media & Entertainment, Technology, Consumer, Industrials, Energy & Utilities, Financials, and Healthcare\n\nGlobal Fixed Income\n- GFI invests in liquid interest rate-sensitive products in both developed and emerging markets, and employs Global Macro and Relative Value strategies, including:\n*Interest Rate Swaps\n*FX Spot & Futures\n*Front-End & Basis \n*Sovereign Bonds\n*Inflation-Linked Bonds\n*Swap Spreads\n*Interest Rate & FX Options\n*Agency MBS\n*Commodities \n\nCommodities \n- Commodities trades across the followng asset classes:\n*U.S. Natural Gas\n*Crude and Refined Products\n*European Power\n*European Natural Gas\n*Volatility\n*Agriculture \n\nCredit\n- Credit has four core strategies, including:\n*Convertible Arbitrage \n*Fundamental Credit\n*Liquid Stressed Credit\n*Systematic Strategies\n- Asset classes include the following:\n*Primary: Convertible bonds, Corporate bonds, CDS + Indices, Bank Loans\n*Secondary: Equity, Volatility  \n \nGlobal Quantitative Strategies \n- Multi-strategy: Fundamentally motivated quant (FMQ) and statistical arbitrage strategies\n- Multi-asset class: Equities, FX, Commodities, Fixed income\n- Multi-regional: Trading in more than 30 countries"
+				 }
+			
+,
+				 {
+				  	"timeFrame": "08/28/2017",
+			        "title": "COMMENTS",
+			        "description": "11/01/1990"
+				 }
+			
+,
+				 {
+				  	"timeFrame": "08/28/2017",
+			        "title": "COMMENTS",
+			        "description": "Citadel is a global multi-strategy fund, with $27 billion in assets under management and offices in Chicago, London, Tokyo, San Francisco, New York and Hong Kong.  Since its formation in 1990, Citadel has continued to expand into new markets and strategies, applying a balance of investment acumen and advanced technology (see below).  \n \nToday, Citadels five core strategies are as follows: \n\nEquities \n- Equities is comprised of three distinct long / short businesses:\n*Global Equities\n*Surveyor Capital\n*Aptigon Capital\n- Industry sector groups include: Communications, Media & Entertainment, Technology, Consumer, Industrials, Energy & Utilities, Financials, and Healthcare\n\nGlobal Fixed Income\n- GFI invests in liquid interest rate-sensitive products in both developed and emerging markets, and employs Global Macro and Relative Value strategies, including:\n*Interest Rate Swaps\n*FX Spot & Futures\n*Front-End & Basis \n*Sovereign Bonds\n*Inflation-Linked Bonds\n*Swap Spreads\n*Interest Rate & FX Options\n*Agency MBS\n*Commodities \n\nCommodities \n- Commodities trades across the followng asset classes:\n*U.S. Natural Gas\n*Crude and Refined Products\n*European Power\n*European Natural Gas\n*Volatility\n*Agriculture \n\nCredit\n- Credit has four core strategies, including:\n*Convertible Arbitrage \n*Fundamental Credit\n*Liquid Stressed Credit\n*Systematic Strategies\n- Asset classes include the following:\n*Primary: Convertible bonds, Corporate bonds, CDS + Indices, Bank Loans\n*Secondary: Equity, Volatility  \n \nGlobal Quantitative Strategies \n- Multi-strategy: Fundamentally motivated quant (FMQ) and statistical arbitrage strategies\n- Multi-asset class: Equities, FX, Commodities, Fixed income\n- Multi-regional: Trading in more than 30 countries"
+				 }
+			
+
+		    ]
+,
+    "TeamExperienceComments": 			[
+				 {
+				  	"timeFrame": "08/28/2017",
+			        "title": "",
+			        "description": "Kenneth Griffin, Founder and Chief Executive Officer, founded Citadel in November 1990. Mr. Griffin manages all investment and risk management functions, as well as overseeing the overall organization. Mr. Griffin graduated with Honors from Harvard College with a BA in Economics.\n\nGerald Beeson, Chief Operating Officer, joined Citadel in 1993. As COO, he is responsible for the firms key corporate functions globally and is a member of Citadels Portfolio Committee. Prior to becoming COO in 2008, Gerald served as Citadels Chief Financial Officer, a role he has held since 2003. He joined Citadel in 1993 as an intern and was among the companys first employees. Mr. Beeson received a BS in Commerce with concentrations in Accountancy (Honors) and Finance from DePaul University and an MBA from the University of Chicago. He is a certified public accountant. In addition, Mr. Beeson currently sits on the Market Risk Advisory Committee for the U.S. Commodity Futures Trading Commission, and previously served on the Board of Directors for the Managed Funds Association and The Depository Trust & Clearing Corporation.\n\nShawn Fagan is Chief Legal Officer of Citadel, responsible for Citadels global legal, compliance, transaction management, and regulatory affairs functions. Shawn is a member of Citadels Portfolio Committee. Prior to joining Citadel in 2005, Shawn was a Partner at Bartlit, Beck, Herman, Palenchar & Scott. Previously, he served as a clerk for Chief Justice William Rehnquist of the U.S. Supreme Court and Judge Douglas H. Ginsburg of the U.S. Court of Appeals for the District of Columbia. Shawn received a bachelors degree from the University of Michigan and a J.D. from Harvard Law School.\n\nJoanna Welsh is Chief Risk Officer at Citadel. Joanna chairs Citadels Portfolio Committee and advises in determining risk tolerance levels for the strategies, businesses, and the funds as a whole. Prior to joining Citadel, Joanna was at Tudor Investment Corporation for 15 years, most recently serving as Chief Risk Officer. With more than 20 years of experience in financial services and risk management, she also held senior risk positions at Commerzbank and Nomura. Joanna received a masters and bachelors degree from Oxford University."
+				 }
+			
+
+		    ]
+,
+    "ReturnRiskComments": 			[
+				 {
+				  	"timeFrame": "08/31/2017",
+			        "title": "Comments",
+			        "description": ""
+				 }
+			
+,
+				 {
+				  	"timeFrame": "08/31/2017",
+			        "title": "Comments",
+			        "description": ""
+				 }
+			
+,
+				 {
+				  	"timeFrame": "08/28/2017",
+			        "title": "Comments",
+			        "description": ""
+				 }
+			
+,
+				 {
+				  	"timeFrame": "08/28/2017",
+			        "title": "Comments",
+			        "description": ""
+				 }
+			
+,
+				 {
+				  	"timeFrame": "08/28/2017",
+			        "title": "Comments",
+			        "description": ""
+				 }
+			
+,
+				 {
+				  	"timeFrame": "08/28/2017",
+			        "title": "Comments",
+			        "description": ""
+				 }
+			
+,
+				 {
+				  	"timeFrame": "08/31/2017",
+			        "title": "Comments",
+			        "description": "Low double digit returns with high single digit volatility"
+				 }
+			
+,
+				 {
+				  	"timeFrame": "08/28/2017",
+			        "title": "Comments",
+			        "description": "Mid teens return with an associated low teens volatility"
+				 }
+			
+,
+				 {
+				  	"timeFrame": "08/28/2017",
+			        "title": "Comments",
+			        "description": "Mid teens return with an associated low teens volatility"
+				 }
+			
+
+		    ]
+,
+    "BestPerformingEnv": 			[
+				 {
+				  	"timeFrame": "08/28/2017",
+			        "title": "Best Performing Envirnoment",
+			        "description": "Citadels multi-strategy framework and diverse skill set helps the fund generate alpha in multiple market environments. The manager attempts to construct attractive risk / return investments in various market conditions, while avoiding directional exposure. Therefore, performance will more likely be a factor of idiosyncratic, relative value relationships opposed to the directional behavior of broader markets. An environment characterized by low correlation and high dispersion in equities, along with different interest rate perspectives in fixed income should lead to increased alpha opportunities."
+				 }
+			
+
+		    ]
+,
+    "Ratings":     		{}
+
+,
+    "WorstPerformingEnv": 			[
+				 {
+				  	"timeFrame": "08/31/2017",
+			        "title": "Worst Performing Envirnoment",
+			        "description": "An environment characterized by equities moving on technical vs. fundamental factors (i.e. a shift to passive), along with systemic shocks in financial markets causing deleveraging would lead to reduced alpha opportunities."
+				 }
+			
+,
+				 {
+				  	"timeFrame": "08/28/2017",
+			        "title": "Worst Performing Envirnoment",
+			        "description": "Clearly 2008 was an extremely challenging environment for Citadel. Arbitrage strategies are generally relied upon to provide alpha irrespective of market direction, but suffered in 2008 particularly beginning in September, as a combination of deleveraging, fundamental shocks and short-selling restrictions impacted performance. A key reason that these presumably market neutral strategies suffered was that this market downturn centered on financial institutions. The health of financials institutions is particularly important to relative value arbitrage and market neutral strategies because: 1) they are leverage providers, and 2) they conduct overlapping proprietary trading activities. The de-leveraging across financial institutions, combined with crowdedness of arbitrage strategies, made it difficult to protect capital in 2008."
+				 }
+			
+,
+				 {
+				  	"timeFrame": "08/28/2017",
+			        "title": "Worst Performing Envirnoment",
+			        "description": "An environment characterized by equities moving on technical vs. fundamental factors (i.e. a shift to passive), along with systemic shocks in financial services firms causing deleveraging would lead to reduced alpha opportunities."
+				 }
+			
+
+		    ]
+,
+    "Strength": 			[{
+				"title": "Strengths",
+					"headers": [
+						"Strength",
+					    "Description"
+					],
+				
+			
+				"rows":[
+						{
+					      "data": [
+						        "Performance",
+						        "Since inception (11/1990), Citadel has generated annualized returns of 19.21%. Since 2009, Citadel has generated annualized returns of 15.22%. Over the bulk of Citadels performance history, returns have been generated absent consistent directional exposure to market factors."
+					        ]
+					    }
+					   ,
+						{
+					      "data": [
+						        "Investment in Technology",
+						        "Several of Citadels strategies, including replication books that enhance returns, would be difficult for other firms to replicate given the necessary large-scale investment in technology and quantitative modeling. In this regard, Citadel is similar to D.E. Shaw and Renaissance."
+					        ]
+					    }
+					   ,
+						{
+					      "data": [
+						        "Economies of Scale",
+						        "Given Citadels large balance sheet and high transaction volume, the firm benefits from its allocation of fee revenue to the Street. This includes favorable financing rates, and terms, better than average access to information, low transaction costs, and favorable allocations in competitive offerings."
+					        ]
+					    }
+					   ,
+						{
+					      "data": [
+						        "Quality of Resources",
+						        "Despite high levels of turnover (discussed below), Citadel continues to attract high quality resources to all areas of the firm. Citadel has been successful in attracting both senior level personnel with proven abilities to manage businesses, along with a continual crop of more junior resources from high caliber academic institutions and investment banking analyst programs."
+					        ]
+					    }
+					   ,
+						{
+					      "data": [
+						        "Restructuring Following 2008",
+						        "Post-crisis, Citadel has taken various steps that have improved the ability to more effectively manage risk. More specifically, Citadel decreased leverage, increased liquidity by exiting esoteric or less liquid asset classes, and significantly increased the diversification of risk takers."
+					        ]
+					    }
+					   ,
+						{
+					      "data": [
+						        "Limited Directional Exposure with Stringent Risk Management",
+						        "Citadel implements a strict philosophy with regard to systematic exposures and has developed a framework with the necessary components to effectively manage an operation of this scale and complexity. Ken Griffin is highly involved in this process, acting as a strong enforcer of volatility targets (as well as minimum and maximum volatility levels). Risk management extends beyond evaluating market exposures, to include ensuring the stability of the business in every facet, including such things as disaster recovery and the stability of financing."
+					        ]
+					    }
+					   ,
+						{
+					      "data": [
+						        "Alignment of Interests",
+						        "Insiders represent the single largest investor class, with $2 billion invested. Griffin himself has $1 billion invested in the funds."
+					        ]
+					    }
+					   ,
+						{
+					      "data": [
+						        "Vision and Drive of Ken Griffin",
+						        "Griffin has directed Citadel toward profitable new investment opportunities over the last twenty-plus years. Griffin has demonstrated a keen sense for how to place Citadel in an advantaged position relative to competitors and has strong desire to be the premier investor in each of its strategy areas. Driven by Griffins intense desire to avoid complacency, Citadel is continually evolving. His vision is well regarded in the industry."
+					        ]
+					    }
+					   
+				]
+			}]
+,
+    "HedgeFundBenchmark": 			[
+		    ]
+,
+    "Concerns": 			[{
+				"title": "Concerns",
+					"headers": [
+						"Concerns",
+						"Description"
+					],
+						
+			
+				"rows":[
+						{
+					      "data": [
+						        "Expenses",
+						        "Citadel does not charge a fixed management fee to investors, but passes through expenses, including trader compensation. This expense is in addition to the 20% incentive fee. Over the past three years, the pass-through fee has averaged approximately 7.5%; however, this percentage can fluctuate significantly higher during years with significant performance.  Based on review of the audited financial statements and discussions with Citadel, we calculated the estimated fixed and performance fees in an effort to convert the funds pass-through expenses into a typical fee structure of approximately 3% management fee and 35% performance fee (based on an average of the past three years). The expense associated with Citadels infrastructure substantially increases the required gross return of the fund."
+					        ]
+					    }
+					   ,
+						{
+					      "data": [
+						        "Leverage",
+						        "Although leverage has decreased substantially relative to pre-crisis levels, current leverage remains slightly elevated vs. peers. However, Citadel employs more stringent risk management that limits factor exposure. Furthermore, there has been a transition to more liquid from illiquid investments post-crisis, partially alleviating this concern."
+					        ]
+					    }
+					   ,
+						{
+					      "data": [
+						        "Personnel Turnover",
+						        "Citadel continues to experience higher than average levels of turnover at all levels of the firm. While turnover does not appear to be impeding current performance, continual departures signal challenges within the culture of the firm."
+					        ]
+					    }
+					   ,
+						{
+					      "data": [
+						        "Uncertainty of Business Direction",
+						        "Ken Griffin may choose to monetize a portion of the equity of Citadel Investment Group through a public offering. Until a plan is unveiled, it is unclear how a change in Citadels current private status would impact AIPs investment. However, preparing for a potential change in the ownership structure could potentially complicate business goals and lead to increased expenses."
+					        ]
+					    }
+					   
+				]
+			}]
+,
+    "StrategyDescription": 			[
+				 {
+				  	"timeFrame": "08/31/2017",
+			        "title": "Strategy Description",
+			        "description": "Citadel is a global multi-strategy fund, with $27 billion in assets under management and offices in Chicago, London, Tokyo, San Francisco, New York and Hong Kong. Since its formation in 1990, Citadel has continued to expand into new markets and strategies, applying a balance of investment acumen and advanced technology. \n\nCurrent Positioning:\nInvestment Asset Leverage = 469% vs. 352% at 12/31\n\nSurveyor (26% up from 23% at 12/31) \n-39 PMs, 175 investment professional\n-Strong performance during earnings\n-Underperformance attributable to sub-industry tilts (especially within industrials)\n-Also attribute underperformance of shorts to shift from active to passive ($1 trillion in last two years), causing more of a lag in prices to reflect fundamentals in addition being more cognizant of short exposure held in ETFs\n-YTD as of 2Q17, the following sectors generated $M of profit/(loss)\n*Tech: 115\n*Consumer: 58\n*Event Driven: 22\n*Industrials: 10\n*Financials: -3\n*CME: -28\n*Healthcare: -39\n*Energy: -60\n\nGlobal Equities (22% down from 23% at 12/31)\n-29 PMs, 182 investment professionals \n-Witnessed similar observations as Surveyor, which negatively affected performance (i.e., active to passive shift)\n-YTD as of 2Q17, the following sectors generated $M of profit/(loss)\n*Financials: 80\n*Healthcare: 39\n*Technology: 39\n*Industrials: 21\n*CME: 16\n*Consumer: 0\n*Energy: -4\n\nAptigon (5% up from 1% at 12/31)\n-23 PMs (18 actively taking risk), 62 investment professionals\n-Starting to ramp up risk, expect to grow considerably throughout 2017\n\nGlobal Fixed Income (22% up from 18% at 12/31)\n-38 PMs / 17 pods / 5 units\n-Risk remains diversified across numerous risk takers\n\nCommodities (10% down from 17% at 12/31)\n-70 investment professionals\n-Hired new head from Macquarie (Sebastian Barrack) - previously co-headed metals, mining, and ags at Macquarie- was based in Australia, which provides Asian expertise - will move to Chicago. \n-Risk Allocation by Sub-Strategy\n*U.S. Natural Gas, Henry Hub: 48%\n*European Natural Gas: 17%\n*Crude and Refined Products: 14%\n*European Power: 8%\n*Natural Gas Basis: 8%\n\nCredit (8% up from 7% at 12/31)\n-25 investment professionals\n-Fundamental ($35M), converts ($22M), and liquid stressed ($11M) drove gains\n-Remain focused on liquid opportunities\n-Convertible Bond Net Exposure: $8.5B\n-Corporate Bond Net Exposure: $1.6B\n\nQuant (6% down from 8% at 12/31)\n-85 investment professionals\n- Jonathan Graham (head of quantitative strategies) is stepping down - his departure was voluntary / not performance related, and he apparently needed a break and is leaving the industry. James Yeh (started at Citadel in 1993, focused on stat arb, high frequency trading, options market making) rejoined Citadel last year and will become the new head of quantitative strategies. Ken expects this to be a seamless transition."
+				 }
+			
+,
+				 {
+				  	"timeFrame": "08/31/2017",
+			        "title": "Strategy Description",
+			        "description": "Citadel is a global multi-strategy fund, with $27 billion in assets under management and offices in Chicago, London, Tokyo, San Francisco, New York and Hong Kong. Since its formation in 1990, Citadel has continued to expand into new markets and strategies, applying a balance of investment acumen and advanced technology. \n\nCurrent Positioning:\nInvestment Asset Leverage = 4.5x vs. 4.5x at 12/31\n\nSurveyor (26% up from 23% at 12/31) \n-39 PMs, 175 investment professional\n-Strong performance during earnings\n-Underperformance attributable to sub-industry tilts (especially within industrials)\n-Also attribute underperformance of shorts to shift from active to passive ($1 trillion in last two years), causing more of a lag in prices to reflect fundamentals in addition being more cognizant of short exposure held in ETFs\n-YTD as of 2Q17, the following sectors generated $M of profit/(loss)\n*Tech: 115\n*Consumer: 58\n*Event Driven: 22\n*Industrials: 10\n*Financials: -3\n*CME: -28\n*Healthcare: -39\n*Energy: -60\n\nGlobal Equities (22% down from 23% at 12/31)\n-29 PMs, 182 investment professionals \n-Witnessed similar observations as Surveyor, which negatively affected performance (i.e., active to passive shift)\n-YTD as of 2Q17, the following sectors generated $M of profit/(loss)\n*Financials: 80\n*Healthcare: 39\n*Technology: 39\n*Industrials: 21\n*CME: 16\n*Consumer: 0\n*Energy: -4\n\nAptigon (5% up from 1% at 12/31)\n-23 PMs (18 actively taking risk), 62 investment professionals\n-Starting to ramp up risk, expect to grow considerably throughout 2017\n\nGlobal Fixed Income (22% up from 18% at 12/31)\n-38 PMs / 17 pods / 5 units\n-Risk remains diversified across numerous risk takers\n\nCommodities (10% down from 17% at 12/31)\n-70 investment professionals\n-Hired new head from Macquarie (Sebastian Barrack) - previously co-headed metals, mining, and ags at Macquarie- was based in Australia, which provides Asian expertise - will move to Chicago. \n-Risk Allocation by Sub-Strategy\n*U.S. Natural Gas, Henry Hub: 48%\n*European Natural Gas: 17%\n*Crude and Refined Products: 14%\n*European Power: 8%\n*Natural Gas Basis: 8%\n\nCredit (8% up from 7% at 12/31)\n-25 investment professionals\n-Fundamental ($35M), converts ($22M), and liquid stressed ($11M) drove gains\n-Remain focused on liquid opportunities\n-Convertible Bond Net Exposure: $8.5B\n-Corporate Bond Net Exposure: $1.6B\n\nQuant (6% down from 8% at 12/31)\n-85 investment professionals\n- Jonathan Graham (head of quantitative strategies) is stepping down - his departure was voluntary / not performance related, and he apparently needed a break and is leaving the industry. James Yeh (started at Citadel in 1993, focused on stat arb, high frequency trading, options market making) rejoined Citadel last year and will become the new head of quantitative strategies. Ken expects this to be a seamless transition."
+				 }
+			
+,
+				 {
+				  	"timeFrame": "08/29/2017",
+			        "title": "Strategy Description",
+			        "description": "Citadel is a global multi-strategy fund, with $27 billion in assets under management and offices in Chicago, London, Tokyo, San Francisco, New York and Hong Kong. Since its formation in 1990, Citadel has continued to expand into new markets and strategies, applying a balance of investment acumen and advanced technology. \n\nCurrent Positioning:\nInvestment Asset Leverage = 469% vs. 352% at 12/31\n\nSurveyor (26% up from 23% at 12/31) \n-39 PMs, 175 investment professional\n-Strong performance during earnings\n-Underperformance attributable to sub-industry tilts (especially within industrials)\n-Also attribute underperformance of shorts to shift from active to passive ($1 trillion in last two years), causing more of a lag in prices to reflect fundamentals in addition being more cognizant of short exposure held in ETFs\n-YTD as of 2Q17, the following sectors generated $M of profit/(loss)\n*Tech: 115\n*Consumer: 58\n*Event Driven: 22\n*Industrials: 10\n*Financials: (3)\n*CME: (28)\n*Healthcare: (39)\n*Energy: (60)\n\nGlobal Equities (22% down from 23% at 12/31)\n-29 PMs, 182 investment professionals \n-Witnessed similar observations as Surveyor, which negatively affected performance (i.e., active to passive shift)\n-YTD as of 2Q17, the following sectors generated $M of profit/(loss)\n*Financials: 80\n*Healthcare: 39\n*Technology: 39\n*Industrials: 21\n*CME: 16\n*Consumer: 0\n*Energy: -4\n\nAptigon (5% up from 1% at 12/31)\n-23 PMs (18 actively taking risk), 62 investment professionals\n-Starting to ramp up risk, expect to grow considerably throughout 2017\n\nGlobal Fixed Income (22% up from 18% at 12/31)\n-38 PMs / 17 pods / 5 units\n-Risk remains diversified across numerous risk takers\n\nCommodities (10% down from 17% at 12/31)\n-70 investment professionals\n-Hired new head from Macquarie (Sebastian Barrack) - previously co-headed metals, mining, and ags at Macquarie- was based in Australia, which provides Asian expertise - will move to Chicago. \n-Risk Allocation by Sub-Strategy\n*U.S. Natural Gas, Henry Hub: 48%\n*European Natural Gas: 17%\n*Crude and Refined Products: 14%\n*European Power: 8%\n*Natural Gas Basis: 8%\n\nCredit (8% up from 7% at 12/31)\n-25 investment professionals\n-Fundamental ($35M), converts ($22M), and liquid stressed ($11M) drove gains\n-Remain focused on liquid opportunities\n-Convertible Bond Net Exposure: $8.5B\n-Corporate Bond Net Exposure: $1.6B\n\nQuant (6% down from 8% at 12/31)\n-85 investment professionals\n- Jonathan Graham (head of quantitative strategies) is stepping down - his departure was voluntary / not performance related, and he apparently needed a break and is leaving the industry. James Yeh (started at Citadel in 1993, focused on stat arb, high frequency trading, options market making) rejoined Citadel last year and will become the new head of quantitative strategies. Ken expects this to be a seamless transition."
+				 }
+			
+,
+				 {
+				  	"timeFrame": "08/28/2017",
+			        "title": "Strategy Description",
+			        "description": "Citadel is a global multi-strategy fund, with $27 billion in assets under management and offices in Chicago, London, Tokyo, San Francisco, New York and Hong Kong. Since its formation in 1990, Citadel has continued to expand into new markets and strategies, applying a balance of investment acumen and advanced technology (see below). \n\nToday, Citadels five core strategies are as follows: \n\nEquities \n- Equities is comprised of three distinct long / short businesses:\n*Global Equities\n*Surveyor Capital\n*Aptigon Capital\n- Industry sector groups include: Communications, Media & Entertainment, Technology, Consumer, Industrials, Energy & Utilities, Financials, and Healthcare\n\nGlobal Fixed Income\n- GFI invests in liquid interest rate-sensitive products in both developed and emerging markets, and employs Global Macro and Relative Value strategies, including:\n*Interest Rate Swaps\n*FX Spot & Futures\n*Front-End & Basis \n*Sovereign Bonds\n*Inflation-Linked Bonds\n*Swap Spreads\n*Interest Rate & FX Options\n*Agency MBS\n*Commodities \n\nCommodities \n- Commodities trades across the followng asset classes:\n*U.S. Natural Gas\n*Crude and Refined Products\n*European Power\n*European Natural Gas\n*Volatility\n*Agriculture \n\nCredit\n- Credit has four core strategies, including:\n*Convertible Arbitrage \n*Fundamental Credit\n*Liquid Stressed Credit\n*Systematic Strategies\n- Asset classes include the following:\n*Primary: Convertible bonds, Corporate bonds, CDS + Indices, Bank Loans\n*Secondary: Equity, Volatility \n\nGlobal Quantitative Strategies \n- Multi-strategy: Fundamentally motivated quant (FMQ) and statistical arbitrage strategies\n- Multi-asset class: Equities, FX, Commodities, Fixed income\n- Multi-regional: Trading in more than 30 countries"
+				 }
+			
+
+		    ]
+,
+    "MarketBenchmark": 		[{
+			"title": "Market Benchmark",
+			"headers": [
+				"BENCHMARK",
+				"STRATEGY",
+				"AUM",
+				"INCEPTION DATE",
+				"GEO FOCUS",
+				"STRUCTURE"
+				],
+			"rows":[
+						{
+					      "data": [
+					      		"1522296814"
+					       ]
+					    }
+					   
+					
+			]
+		}]
+,
+    "InvestmentProcess": 			[
+				 {
+				  	"timeFrame": "08/31/2017",
+			        "title": "Investment Process",
+			        "description": "Business heads are charged with designing the investment process within each unit.  In general, business heads are encouraged to develop highly systematic processes, regardless of the ultimate level of discretion required to trade.  Originally, Citadels investment process and edge was driven by superior quantitative modeling.  However, following the financial crisis of 2008, Ken Griffin shifted exposure towards markets with deep liquidity and away from less liquid, more complex asset classes. In addition, Citadel substantially increased the number of risk takers, where no single employee is responsible for a meaningful portion of risk.\n\nFundamental equity strategies currently represent more than half of fund NAV. The equity investing process combines both close contact with management teams and independently generated financial models. Citadel has a de-centralized model, where the coverage analysts perform the majority of trading. The investment horizon is always focused on the long term, but there is significant short term trading. The trading horizon for a particular stock is a balance of liquidity and worthy information flow. Citadel utilizes an internally-developed system named AlphaTracker to organize activities and monitor the effectiveness of each analyst. Analysts have well defined coverage universes and are required to have a view on each name in the universe, accompanied by a financial model, thesis sheet and stipulation of catalysts. There are five categories (strong buy, buy, neutral, sell, strong sell). Analysts are required to have a non-neutral view on at least 60% of the universe. The average number of equities covered by an analyst is 25-40. Portfolio managers have a dedicated coverage universe comprised mostly (but not entirely) of the underlying analysts coverage. Citadel is systematic about quantifying exposures, by using both off-the-shelf (BARRA) and in-house analytics. Sector heads are given maximum position, industry, style factor and beta limits. The attempt is to run the portfolio beta neutral, style neutral, and sector neutral. Though, where necessary, the beta of the portfolio is hedged to zero via stock index futures, individual shorts are the primary focus."
+				 }
+			
+,
+				 {
+				  	"timeFrame": "08/29/2017",
+			        "title": "Investment Process",
+			        "description": "Business heads are charged with designing the investment process within each unit.  In general, business heads are encouraged to develop highly systematic processes, regardless of the ultimate level of discretion required to trade.  Originally, Citadels investment process and edge was driven by superior quantitative modeling.  However, following the financial crisis of 2008, Ken Griffin shifted exposure towards markets with deep liquidity and away from less liquid, more complex asset classes. In addition, Citadel substantially increased the number of risk takers, where no single employee is responsible for a meaningful portion of risk."
+				 }
+			
+,
+				 {
+				  	"timeFrame": "08/29/2017",
+			        "title": "Investment Process",
+			        "description": "Business heads are charged with designing the investment process within each unit.  In general, business heads are encouraged to develop highly systematic processes, regardless of the ultimate level of discretion required to trade.  Originally, Citadels investment process and edge was driven by superior quantitative modeling.  However, following the financial crisis of 2008, Ken Griffin shifted exposure towards markets with deep liquidity and away from less liquid, more complex asset classes. In addition, Citadel substantially increased the number of risk takers, where no single employee is responsible for a meaningful portion of risk."
+				 }
+			
+
+		    ]
+,
+    "Peers": 		[{
+			"title": "Peers",
+			"headers": [
+				"BENCHMARK",
+				"STRATEGY",
+				"AUM",
+				"INCEPTION DATE",
+				"GEO FOCUS",
+				"STRUCTURE"
+				],
+			"rows":[
+						{
+					      "data": [
+					      		"1522293007"
+					       ]
+					    }
+					   ,
+						{
+					      "data": [
+					      		"1522305682"
+					       ]
+					    }
+					   ,
+						{
+					      "data": [
+					      		"1522310832"
+					       ]
+					    }
+					   
+					
+			]
+		}]
+,
+    "TradeExample":     		{}
+
+,
+    "SourceOfAlpha": 			[
+				 {
+				  	"timeFrame": "08/31/2017",
+			        "title": "Source of Alpha",
+			        "description": "Fundamental equity strategies: These currently represent more than half of fund NAV. The equity investing process combines both close contact with management teams and independently generated financial models. Citadel has a de-centralized model, where the coverage analysts perform the majority of trading. The investment horizon is always focused on the long term, but there is significant short term trading. The trading horizon for a particular stock is a balance of liquidity and worthy information flow. Citadel utilizes an internally-developed system named AlphaTracker to organize activities and monitor the effectiveness of each analyst. Analysts have well defined coverage universes and are required to have a view on each name in the universe, accompanied by a financial model, thesis sheet and stipulation of catalysts. There are five categories (strong buy, buy, neutral, sell, strong sell). Analysts are required to have a non-neutral view on at least 60% of the universe. The average number of equities covered by an analyst is 25-40. Portfolio managers have a dedicated coverage universe comprised mostly (but not entirely) of the underlying analysts coverage. Citadel is systematic about quantifying exposures, by using both off-the-shelf (BARRA) and in-house analytics. Sector heads are given maximum position, industry, style factor and beta limits. The attempt is to run the portfolio beta neutral, style neutral, and sector neutral. Though, where necessary, the beta of the portfolio is hedged to zero via stock index futures, individual shorts are the primary focus.\n\nInvestment in technology: Several of Citadels strategies, including replication books that enhance returns, would be difficult for other firms to replicate given the necessary large-scale investment in technology and quantitative modeling. In this regard, Citadel is similar to D.E. Shaw and Renaissance.\n\nIntegration of risk management with investment process: Citadel implements a strict philosophy with regard to systematic exposures and has developed a framework with the necessary components to effectively manage an operation of this scale and complexity. Ken Griffin is highly involved in this process, acting as a strong enforcer of volatility targets (as well as minimum and maximum volatility levels). Risk management extends beyond evaluating market exposures, to include ensuring the stability of the business in every facet, including such things as disaster recovery and the stability of financing.\n\nEconomies of scale: Given Citadels large balance sheet and high transaction volume, the firm benefits from its allocation of fee revenue to the Street. This includes favorable financing rates, and terms, better than average access to information, low transaction costs, and favorable allocations in competitive offerings."
+				 }
+			
+,
+				 {
+				  	"timeFrame": "08/31/2017",
+			        "title": "Source of Alpha",
+			        "description": "Investment in technology: Several of Citadels strategies, including replication books that enhance returns, would be difficult for other firms to replicate given the necessary large-scale investment in technology and quantitative modeling. In this regard, Citadel is similar to D.E. Shaw and Renaissance.\n\nIntegration of risk management with investment process: Citadel implements a strict philosophy with regard to systematic exposures and has developed a framework with the necessary components to effectively manage an operation of this scale and complexity. Ken Griffin is highly involved in this process, acting as a strong enforcer of volatility targets (as well as minimum and maximum volatility levels). Risk management extends beyond evaluating market exposures, to include ensuring the stability of the business in every facet, including such things as disaster recovery and the stability of financing.\n\nEconomies of scale: Given Citadels large balance sheet and high transaction volume, the firm benefits from its allocation of fee revenue to the Street. This includes favorable financing rates, and terms, better than average access to information, low transaction costs, and favorable allocations in competitive offerings."
+				 }
+			
+,
+				 {
+				  	"timeFrame": "08/28/2017",
+			        "title": "Source of Alpha",
+			        "description": "Investment in technology: Several of Citadels strategies, including replication books that enhance returns, would be difficult for other firms to replicate given the necessary large-scale investment in technology and quantitative modeling. In this regard, Citadel is similar to D.E. Shaw and Renaissance.\n\nRisk management: Citadel implements a strict philosophy with regard to systematic exposures and has developed a framework with the necessary components to effectively manage an operation of this scale and complexity. Ken Griffin is highly involved in this process, acting as a strong enforcer of volatility targets (as well as minimum and maximum volatility levels). Risk management extends beyond evaluating market exposures, to include ensuring the stability of the business in every facet, including such things as disaster recovery and the stability of financing.\n\nEconomies of scale: Given Citadels large balance sheet and high transaction volume, the firm benefits from its allocation of fee revenue to the Street. This includes favorable financing rates, and terms, better than average access to information, low transaction costs, and favorable allocations in competitive offerings."
+				 }
+			
+
+		    ]
+,
+    "DecMakingTeamStructure": 			[
+				 {
+				  	"timeFrame": "08/29/2017",
+			        "title": "Decision Making & Team Structure",
+			        "description": "The Management Committee, led by Ken Griffin, is responsible for determining the overall risk target of the fund.  The Management Committee is also responsible for enforcing the pre-defined risk limits in terms of overall volatility and beta, as described below.  The business heads are responsible for managing the risk of their portfolio on a day-to-day basis.  \n\nThe Portfolio Construction Group (\"PCG\") is an independent risk management team that reports directly to the Management Committee.  Once the Management Committee determines the overall portfolio target risk level and how it is to be allocated to the business units, the PCG ensures that risk is in-line with the desired profile.  Citadel has a strict governance policy that dictates when issues must be elevated to the Management Committee.  This can occur if a business unit is a certain percentage above or below its assigned risk band at any given point, or a prolonged slight overage over a specified period of time. The PCG also works with the business heads to develop effective means to measure and monitor risk.  \n\nThough Citadel has historically had strong competence at managing risk within the individual business unit, Griffin felt that the more aggressive risk mandate warranted a build-out of a team to develop a framework to: 1) consistently measure risk across business units; and, 2) understand the correlation of Citadels increasing number of business units. One dedicated PCG resource is assigned to each business unit. These risk managers generally have a product expertise in their assigned business unit."
+				 }
+			
+,
+				 {
+				  	"timeFrame": "08/28/2017",
+			        "title": "Decision Making & Team Structure",
+			        "description": "The Management Committee, led by Ken Griffin, is responsible for determining the overall risk target of the fund.  The Management Committee is also responsible for enforcing the pre-defined risk limits in terms of overall volatility and beta, as described below.  The business heads are responsible for managing the risk of their portfolio on a day-to-day basis.  \n\nThe Portfolio Construction Group (\"PCG\") is an independent risk management team that reports directly to the Management Committee.  Once the Management Committee determines the overall portfolio target risk level and how it is to be allocated to the business units, the PCG ensures that risk is in-line with the desired profile.  Citadel has a strict governance policy that dictates when issues must be elevated to the Management Committee.  This can occur if a business unit is a certain percentage above or below its assigned risk band at any given point, or a prolonged slight overage over a specified period of time. The PCG also works with the business heads to develop effective means to measure and monitor risk.  \n\nPCG was created in 2004 in congruence with Ken Griffins desire to increase the level of risk taken by each of the business units.  Though Citadel has historically had strong competence at managing risk within the individual business unit, Griffin felt that the more aggressive risk mandate warranted a build-out of a team to develop a framework to: 1) consistently measure risk across business units; and, 2) understand the correlation of Citadels increasing number of business units. One dedicated PCG resource is assigned to each business unit. This resource sits on their respective businesses trading desk with a dotted line to the business head, but direct accountability to Joanna Walsh, the CRO.  These risk managers generally have a product expertise in their assigned business unit.  The PCG group also utilizes the services of the quantitative research group for modeling purposes and eight dedicated IT professionals to systematize the risk measurement system and reporting."
+				 }
+			
+
+		    ]
+,
+    "AllocationProcess": 			[
+		    ]
+,
+    "PositionSizing": 			[
+				 {
+				  	"timeFrame": "08/28/2017",
+			        "title": "Position Sizing",
+			        "description": ""
+				 }
+			
+,
+				 {
+				  	"timeFrame": "08/28/2017",
+			        "title": "Position Sizing",
+			        "description": ""
+				 }
+			
+,
+				 {
+				  	"timeFrame": "08/28/2017",
+			        "title": "Position Sizing",
+			        "description": "Citadel has in excess of 100,000 positions. The holding period/portfolio turnover varies widely and depends on the strategy. The Treasury team monitors liquidity of all investments as part of the collateral management/margining process. Position sizing is partially based on volatility and liquidity."
+				 }
+			
+,
+				 {
+				  	"timeFrame": "08/28/2017",
+			        "title": "Position Sizing",
+			        "description": "Citadel has in excess of 100,000 positions. The holding period/portfolio turnover varies widely and depends on the strategy. The Treasury team monitors liquidity of all investments as part of the collateral management/margining process. Position sizing is partially based on volatility and liquidity."
+				 }
+			
+
+		    ]
+,
+    "RiskManagementPhilosophy": 			[
+		    ]
+,
+    "LeverageCommentary": 			[
+				 {
+				  	"timeFrame": "08/31/2017",
+			        "title": "",
+			        "description": "Investment asset leverage has increased to 4.76x as of 6/30/17 vs. 3.52x as of 12/31/16. \n\nGross leverage has increased to 6.54x as of 6/30/17 vs. 5.85x as of 12/31/16.\n\nHowever, we note that these current levels remain well below pre-crisis levels, which AIP calculates were ~7x LMV/NAV."
+				 }
+			
+,
+				 {
+				  	"timeFrame": "08/31/2017",
+			        "title": "",
+			        "description": "Investment asset leverage has increased to 4.76x as of 6/30/17 vs. 3.52x as of 12/31/16. \n\nGross leverage has increased to 6.54x as of 6/30/17 vs. 5.85x as of 12/31/16.\n\nHowever, we note that these current levels remain well below pre-crisis levels, which AIP calculates were ~7x LMV/NAV."
+				 }
+			
+,
+				 {
+				  	"timeFrame": "08/31/2017",
+			        "title": "",
+			        "description": "Investment asset leverage excluding rates (LMV/NAV) was 4.5x as of 6/30/17. Leverage has gradually decreased since the end of 2007, where leverage stood at 7.3x."
+				 }
+			
+,
+				 {
+				  	"timeFrame": "08/28/2017",
+			        "title": "",
+			        "description": "Investment asset leverage has increased to 4.76x as of 6/30/17 vs. 3.52x as of 9/30/16. \n\nGross leverage has increased to 6.54x as of 6/30/17 vs. 5.66x as of 9/30/16."
+				 }
+			
+
+		    ]
+,
+    "HedgingMacroOverlays": 			[
+		    ]
+,
+    "LiquidityCommentary": 			[
+				 {
+				  	"timeFrame": "08/29/2017",
+			        "title": "Liquidity Commentary",
+			        "description": "The liquidity goals, which are primarily centered on having buying power in times of dislocation, are discussed above.  In addition to the work the PCG does to ensure Citadel has ample liquidity in the portfolio, the excess cash number is closely monitored on a real-time basis.  Citadel has shifted to more liquidity post crisis, with 70% of assets Level 1 vs. 50% in mid 2014. Furthermore, Kensington / Wellington no longer hold any Level III assets."
+				 }
+			
+
+		    ]
+,
+    "TradeUniverse": 			[
+				 {
+				  	"timeFrame": "08/31/2017",
+			        "title": "Trade Universe",
+			        "description": "Citadel invests globally in practically all liquid asset classes. Other than equities, other strategies invest in the following: \n\nFixed Income:\n*Interest Rate Swaps\n*FX Spot & Futures\n*Front-End & Basis \n*Sovereign Bonds\n*Inflation-Linked Bonds\n*Swap Spreads\n*Interest Rate & FX Options\n*Agency MBS\n*Commoditie\n\nCredit: \n*Convertible bonds\n*Corporate bonds, CDS + Indices\n*Bank Loans\n\nCommodities: \n*U.S. Natural Gas\n*Crude and Refined Products\n*European Power\n*European Natural Gas\n*Volatility\n*Agriculture"
+				 }
+			
+,
+				 {
+				  	"timeFrame": "08/29/2017",
+			        "title": "Trade Universe",
+			        "description": "Citadel invests globally in practically all liquid asset classes. Other than equities, other strategies invest in the following: \n\nFixed Income:\n*Interest Rate Swaps\n*FX Spot & Futures\n*Front-End & Basis \n*Sovereign Bonds\n*Inflation-Linked Bonds\n*Swap Spreads\n*Interest Rate & FX Options\n*Agency MBS\n*Commoditie\n\nCredit: \n*Convertible bonds*\n*Corporate bonds, CDS + Indices\n*Bank Loans\n\nCommodities: \n*U.S. Natural Gas\n*Crude and Refined Products\n*European Power\n*European Natural Gas\n*Volatility\n*Agriculture"
+				 }
+			
+,
+				 {
+				  	"timeFrame": "08/28/2017",
+			        "title": "Trade Universe",
+			        "description": "Citadel invests globally in practically all liquid asset classes. The bulk of Citadels exposure is in developed markets."
+				 }
+			
+,
+				 {
+				  	"timeFrame": "08/28/2017",
+			        "title": "Trade Universe",
+			        "description": "Today, Citadels five core strategies are as follows: Equities, Global Fixed Income, Commodities, Credit, and Quantitative Strategies."
+				 }
+			
+
+		    ]
+,
+    "RiskManagementProcess": 			[
+				 {
+				  	"timeFrame": "08/29/2017",
+			        "title": "Risk Management Process",
+			        "description": "The primary method to evaluate and allocate risk is ex-ante volatility, using historical VaR.  Business heads are assigned an upper and lower volatility band in dollar terms.  Due to a desire to reflect the current market conditions, Citadel uses a one-year historical unweighted look-back for its ex ante volatility calculations.  In addition, they conduct sensitivity analysis on the ex-ante volatility by varying the time period and using other VaR measures, such as Monte Carlo analysis.  At the portfolio level, the objective of the Management Committee is for the overall fund to have an annualized volatility of 6-10%.  Capital is allocated assuming a .15 average correlation among the business units.  A great deal of sensitivity analysis is applied to the .15 assumption, as it greatly impacts the total amount of dollar volatility allocated to the business units.  \n\nCitadel is cognizant that for most of Citadels businesses, employing historical VaR analysis is generally not sufficient when analyzing and allocating risk.  As a consequence of the inherent limitations of the VaR framework, Citadel overlays a detailed stress historical and testing framework.  Citadel replicates traditional stress scenarios (i.e., 1987 equity, 1998 fixed income, Hurricane Katrina, etc.) at the portfolio level and often applies further modifications to these scenarios to reflect current market dynamics. In addition to historical stress scenarios, Citadel continuously develops new scenarios.  Citadel does not manage to a scenario where each business unit realizes its worst stress simultaneously, but will apply a stress test to one business and generalize that scenario for other businesses.  For example, Citadel has numerous housing shock scenarios that would apply to rates, equities, credit, mortgages, etc.  Citadel will not allow the worst stress scenario to cause greater than a 15% decline in NAV over a 10-day period (assuming no ability to rebalance).  Citadel typically operates at 50% of the max stress allowance (7.5% decline over a 10-day period).  Stress tests are developed based on Management Committee suggestions, as well as directly from PCG given perspective of historical movements in each asset class.  The compensation of the PCG is determined both by not losing more than the volatility and stress forecast, as well as the ability to create new stress scenarios to identify new risks for the trading desk. \n\nThe third component of risk management is liquidity risk.  On a daily basis, the CFO and treasury group are responsible for managing the liquidity of the fund, but the PCG aids the treasury group by modeling the liquidity over time and applying shocks to the asset side of the balance sheet.  These shocks include a) specific mark to market events on assets based on VaR and stress scenarios discussed above; b) changes in prime brokerage and other financing according to the parameters of Citadels funding agreements; c) investor withdrawals.  In determining changes in funding, Citadel looks at historical events (e.g., 1998, 2008) to determine how the Street might change haircuts.  There are also several people within the treasury group at Citadel who have held roles on the sell-side that have information that helps Citadel predict likely outcomes.  With regard to investor withdrawals, Citadel assumes that 70% of quarterly capital investors redeem without regard to penalties and 100% of committed capital investors redeem on their anniversary date.  Citadels liquidity goal is that for the first six months of a crisis, Citadel is in a buying position to take advantage of the dislocation.  At the end of six months, the constraint on liquidating assets is relaxed."
+				 }
+			
+,
+				 {
+				  	"timeFrame": "08/28/2017",
+			        "title": "Risk Management Process",
+			        "description": "The primary method to evaluate and allocate risk is ex-ante volatility, using historical VaR.  Business heads are assigned an upper and lower volatility band in dollar terms.  Due to a desire to reflect the current market conditions, Citadel uses a one-year historical unweighted look-back for its ex ante volatility calculations.  In addition, they conduct sensitivity analysis on the ex-ante volatility by varying the time period and using other VaR measures, such as Monte Carlo analysis.  At the portfolio level, the objective of the Management Committee is for the overall fund to have an annualized volatility of 6-10%.  Capital is allocated assuming a .15 average correlation among the business units.  A great deal of sensitivity analysis is applied to the .15 assumption, as it greatly impacts the total amount of dollar volatility allocated to the business units.  \n\nCitadel is cognizant that for most of Citadels businesses, employing historical VaR analysis is generally not sufficient when analyzing and allocating risk.  As a consequence of the inherent limitations of the VaR framework, Citadel overlays a detailed stress historical and testing framework.  Citadel replicates traditional stress scenarios (i.e., 1987 equity, 1998 fixed income, Hurricane Katrina, etc.) at the portfolio level and often applies further modifications to these scenarios to reflect current market dynamics.  For example, Citadels 1987 scenario assumes that convertible bonds behave much differently given the increased domination of the asset class by hedge funds, which will likely cause more severe liquidity issues for bonds than what actually occurred in 1987.  In addition to historical stress scenarios, Citadel continuously develops new scenarios.  Citadel does not manage to a scenario where each business unit realizes its worst stress simultaneously, but will apply a stress test to one business and generalize that scenario for other businesses.  For example, Citadel has numerous housing shock scenarios that would apply to rates, equities, credit, mortgages, etc.  Citadel will not allow the worst stress scenario to cause greater than a 15% decline in NAV over a 10-day period (assuming no ability to rebalance).  Citadel typically operates at 50% of the max stress allowance (7.5% decline over a 10-day period).  Stress tests are developed based on Management Committee suggestions, as well as directly from PCG given perspective of historical movements in each asset class.  The compensation of the PCG is determined both by not losing more than the volatility and stress forecast, as well as the ability to create new stress scenarios to identify new risks for the trading desk. \n\nThe third component of risk management is liquidity risk.  On a daily basis, the CFO and treasury group are responsible for managing the liquidity of the fund, but the PCG aids the treasury group by modeling the liquidity over time and applying shocks to the asset side of the balance sheet.  These shocks include a) specific mark to market events on assets based on VaR and stress scenarios discussed above; b) changes in prime brokerage and other financing according to the parameters of Citadels funding agreements; c) investor withdrawals.  In determining changes in funding, Citadel looks at historical events (e.g., 1998) to determine how the Street might change haircuts.  There are also several people within the treasury group at Citadel who have held roles on the sell-side that have information that helps Citadel predict likely outcomes.  With regard to investor withdrawals, Citadel assumes that 70% of quarterly capital investors redeem without regard to penalties and 100% of committed capital investors redeem on their anniversary date.  Citadels liquidity goal is that for the first six months of a crisis, Citadel is in a buying position to take advantage of the dislocation.  At the end of six months, the constraint on liquidating assets is relaxed.  Currently, Citadel believes the fund could generate $2 to $3 billion of liquidity within one month without significant market impact.  \n\nCitadel has likely negotiated as aggressively as any other hedge fund in both term financing and NAV triggers.  For example, Citadels current NAV triggers are at a 50% decline, whereas most hedge funds are in the 20% range.  Additionally, Citadels recent introduction of a MTN program will provide more permanent financing to support the firms liquidity goals.  The firm perceives this as a significant advantage in the event of a market crisis."
+				 }
+			
+,
+				 {
+				  	"timeFrame": "08/28/2017",
+			        "title": "Risk Management Process",
+			        "description": "The primary method to evaluate and allocate risk is ex-ante volatility, using historical VaR.  Business heads are assigned an upper and lower volatility band in dollar terms.  Due to a desire to reflect the current market conditions, Citadel uses a one-year historical unweighted look-back for its ex ante volatility calculations.  In addition, they conduct sensitivity analysis on the ex-ante volatility by varying the time period and using other VaR measures, such as Monte Carlo analysis.  At the portfolio level, the objective of the Management Committee is for the overall fund to have an annualized volatility of 6-10%.  Capital is allocated assuming a .15 average correlation among the business units.  A great deal of sensitivity analysis is applied to the .15 assumption, as it greatly impacts the total amount of dollar volatility allocated to the business units.  \n\nCitadel is cognizant that for most of Citadels businesses, employing historical VaR analysis is generally not sufficient when analyzing and allocating risk.  As a consequence of the inherent limitations of the VaR framework, Citadel overlays a detailed stress historical and testing framework.  Citadel replicates traditional stress scenarios (i.e., 1987 equity, 1998 fixed income, Hurricane Katrina, etc.) at the portfolio level and often applies further modifications to these scenarios to reflect current market dynamics.  For example, Citadels 1987 scenario assumes that convertible bonds behave much differently given the increased domination of the asset class by hedge funds, which will likely cause more severe liquidity issues for bonds than what actually occurred in 1987.  In addition to historical stress scenarios, Citadel continuously develops new scenarios.  Citadel does not manage to a scenario where each business unit realizes its worst stress simultaneously, but will apply a stress test to one business and generalize that scenario for other businesses.  For example, Citadel has numerous housing shock scenarios that would apply to rates, equities, credit, mortgages, etc.  Citadel will not allow the worst stress scenario to cause greater than a 15% decline in NAV over a 10-day period (assuming no ability to rebalance).  Citadel typically operates at 50% of the max stress allowance (7.5% decline over a 10-day period).  Stress tests are developed based on Management Committee suggestions, as well as directly from PCG given perspective of historical movements in each asset class.  The compensation of the PCG is determined both by not losing more than the volatility and stress forecast, as well as the ability to create new stress scenarios to identify new risks for the trading desk. \n\nThe third component of risk management is liquidity risk.  On a daily basis, the CFO and treasury group are responsible for managing the liquidity of the fund, but the PCG aids the treasury group by modeling the liquidity over time and applying shocks to the asset side of the balance sheet.  These shocks include a) specific mark to market events on assets based on VaR and stress scenarios discussed above; b) changes in prime brokerage and other financing according to the parameters of Citadels funding agreements; c) investor withdrawals.  In determining changes in funding, Citadel looks at historical events (e.g., 1998) to determine how the Street might change haircuts.  There are also several people within the treasury group at Citadel who have held roles on the sell-side that have information that helps Citadel predict likely outcomes.  With regard to investor withdrawals, Citadel assumes that 70% of quarterly capital investors redeem without regard to penalties and 100% of committed capital investors redeem on their anniversary date.  Citadels liquidity goal is that for the first six months of a crisis, Citadel is in a buying position to take advantage of the dislocation.  At the end of six months, the constraint on liquidating assets is relaxed.  Currently, Citadel believes the fund could generate $2 to $3 billion of liquidity within one month without significant market impact."
+				 }
+			
+
+		    ]
+,
+    "TransparencyCommentary": 			[
+				 {
+				  	"timeFrame": "08/28/2017",
+			        "title": "Transparency Commentary",
+			        "description": "Citadel provides a brief monthly letter outlining the general profitability of each strategy, along with a slide deck in the following weeks summarizing more detail regarding the allocation and direction of sub-strategy performance."
+				 }
+			
+
+		    ]
+,
+    "ThirdPartyTransparency": 			[
+		    ]
+,
+    "ThirdPartyTransComments": 			[
+		    ]
+,
+    "Opera": 			[
+		    ]
+,
+    "OperaComments": 			[
+		    ]
+
+}

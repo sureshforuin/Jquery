@@ -1,0 +1,84 @@
+{
+	"timeFrames": [
+					"Last Mth",
+		
+			"Last Qtr",
+		
+			"Last Yr",
+		
+	] ,
+	
+		"blocks": [
+		{
+			"title": "Performance & Positioning",	
+			"data": [
+				{
+					"id": monthlyPerformance,
+					"component": "paragraph",
+					"hasTimeFrame": "true"
+				}
+			] 
+		}
+	]
+	
+	{
+		{
+			"monthlyPerformance": {
+					{
+						"Last Mth" : {
+							"timeFrame": "Last Mth" ,
+							"title": "Monthly Performance",
+							"description": "September attribution by strategy included:
+
+-Global Equities (+6 bps)
+-Global Fixed Income (+5 bps)
+-Quant (+1 bps)
+-Commodities (+1 bps)
+-Aptigon (0 bps)
+-Credit (0 bps)
+-Surveyor (-5 bps)
+
+
+GE gains resulted from tech, industrials, healthcare, and CME. Fixed Income gains were diversified across front end, rates, and inflation. Surveyor losses were led by CME, tech, and industrials."
+						}
+					}
+{
+						"Last Qtr" : {
+							"timeFrame": "Last Qtr" ,
+							"title": "Monthly Performance",
+							"description": "September attribution by strategy included:
+
+-Global Equities (+6 bps)
+-Global Fixed Income (+5 bps)
+-Quant (+1 bps)
+-Commodities (+1 bps)
+-Aptigon (0 bps)
+-Credit (0 bps)
+-Surveyor (-5 bps)
+
+
+GE gains resulted from tech, industrials, healthcare, and CME. Fixed Income gains were diversified across front end, rates, and inflation. Surveyor losses were led by CME, tech, and industrials."
+						}
+					}
+{
+						"Last Yr" : {
+							"timeFrame": "Last Yr" ,
+							"title": "Monthly Performance",
+							"description": "September attribution by strategy included:
+
+-Global Equities (+6 bps)
+-Global Fixed Income (+5 bps)
+-Quant (+1 bps)
+-Commodities (+1 bps)
+-Aptigon (0 bps)
+-Credit (0 bps)
+-Surveyor (-5 bps)
+
+
+GE gains resulted from tech, industrials, healthcare, and CME. Fixed Income gains were diversified across front end, rates, and inflation. Surveyor losses were led by CME, tech, and industrials."
+						}
+					}
+				}
+			}
+		}
+}

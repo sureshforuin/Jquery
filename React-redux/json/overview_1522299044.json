@@ -1,0 +1,33 @@
+
+
+
+
+
+
+
+
+
+
+
+{
+		"title": "MSCI AC World ex US Gross (LCL)",
+		"index": "2",
+			"series": [
+		        [
+		            "1 Year",
+		             "18.771462" 		        ],
+		        [
+		            "2 Year",
+		             "13.020102" 		        ],
+		        [
+		            "3 Year",
+		             "9.326315" 		        ],
+		        [
+		            "5 Year",
+		             "10.910048" 		        ],
+		        [
+		            "Annualized Return",
+		             "5.825972" 		        ]
+			]
+	
+}

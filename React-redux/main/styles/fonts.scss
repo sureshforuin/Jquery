@@ -1,0 +1,115 @@
+/******************************************************************************
+	Fonts
+ *****************************************************************************/
+@font-face {
+	font-family: 'ms_gloriola_ii_displaythin';
+	src: url('../assets/fonts/ms_gloriola_ii_display_thin-webfont.eot');
+	src: url('../assets/fonts/ms_gloriola_ii_display_thin-webfont.eot?#iefix')
+		format('embedded-opentype'),
+		url('../assets/fonts/ms_gloriola_ii_display_thin-webfont.woff') format('woff'),
+		url('../assets/fonts/ms_gloriola_ii_display_thin-webfont.ttf') format('truetype'),
+		url('../assets/fonts/ms_gloriola_ii_display_thin-webfont.svg#ms_gloriola_ii_displaythin')
+		format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ms_gloriola_ii_stdregular';
+	src: url('../assets/fonts/ms_gloriola_ii_std_reg-webfont.eot');
+	src: url('../assets/fonts/ms_gloriola_ii_std_reg-webfont.eot?#iefix')
+		format('embedded-opentype'),
+		url('../assets/fonts/ms_gloriola_ii_std_reg-webfont.woff') format('woff'),
+		url('../assets/fonts/ms_gloriola_ii_std_reg-webfont.ttf') format('truetype'),
+		url('../assets/fonts/ms_gloriola_ii_std_reg-webfont.svg#ms_gloriola_ii_stdregular')
+		format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ms_gloriola_ii_stdlight';
+	src: url('../assets/fonts/ms_gloriola_ii_std_light-webfont.eot');
+	src: url('../assets/fonts/ms_gloriola_ii_std_light-webfont.eot?#iefix')
+		format('embedded-opentype'),
+		url('../assets/fonts/ms_gloriola_ii_std_light-webfont.woff') format('woff'),
+		url('../assets/fonts/ms_gloriola_ii_std_light-webfont.ttf') format('truetype'),
+		url('../assets/fonts/ms_gloriola_ii_std_light-webfont.svg#ms_gloriola_ii_stdlight')
+		format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'karlaregular';
+	src: url('../assets/fonts/karla-regular-webfont.eot');
+	src: url('../assets/fonts/karla-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/karla-regular-webfont.woff') format('woff'),
+		url('../assets/fonts/karla-regular-webfont.ttf') format('truetype'),
+		url('../assets/fonts/karla-regular-webfont.svg#karlaregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'karlaitalic';
+	src: url('../assets/fonts/karla-italic-webfont.eot');
+	src: url('../assets/fonts/karla-italic-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/karla-italic-webfont.woff') format('woff'),
+		url('../assets/fonts/karla-italic-webfont.ttf') format('truetype'),
+		url('../assets/fonts/karla-italic-webfont.svg#karlaitalic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'karlabolditalic';
+	src: url('../assets/fonts/karla-bolditalic-webfont.eot');
+	src: url('../assets/fonts/karla-bolditalic-webfont.eot?#iefix')
+		format('embedded-opentype'), url('../assets/fonts/karla-bolditalic-webfont.woff')
+		format('woff'), url('../assets/fonts/karla-bolditalic-webfont.ttf') format('truetype'),
+		url('../assets/fonts/karla-bolditalic-webfont.svg#karlabolditalic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'karlabold';
+	src: url('../assets/fonts/karla-bold-webfont.eot');
+	src: url('../assets/fonts/karla-bold-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/karla-bold-webfont.woff') format('woff'),
+		url('../assets/fonts/karla-bold-webfont.ttf') format('truetype'),
+		url('../assets/fonts/karla-bold-webfont.svg#karlabold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'pfdintextcondpro-xblack';
+	src: url('../assets/fonts/pfdintextcondpro-xblack-webfont.eot');
+	src: url('../assets/fonts/pfdintextcondpro-xblack-webfont.eot?#iefix')
+		format('embedded-opentype'),
+		url('../assets/fonts/pfdintextcondpro-xblack-webfont.woff') format('woff'),
+		url('../assets/fonts/pfdintextcondpro-xblack-webfont.ttf') format('truetype'),
+		url('../assets/fonts/pfdintextcondpro-xblack-webfont.svg#pdfintextcondpro-xblack')
+		format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'icomoon';
+	src: url('../assets/fonts/icomoon.eot');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'icomoon';
+	src: url('../assets/fonts/icomoon.eot');
+	src: url('../assets/fonts/icomoon.eot?#iefix')
+		format('embedded-opentype'), url('../assets/fonts/icomoon.woff') format('woff'),
+		url('../assets/fonts/icomoon.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}

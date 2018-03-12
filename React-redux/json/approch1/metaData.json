@@ -1,0 +1,44 @@
+{
+    "TimeFrame": [
+        "10/31/2017",
+        "09/30/2017",
+        "08/31/2017",
+        "07/31/2017",
+        "06/30/2017",
+        "05/31/2017",
+        "04/30/2017",
+        "03/31/2017"
+    ],
+    "blocks": [
+        {
+            "title": "Performance & Positioning",
+            "data": [
+                {
+                    "id": "MonthlyPerformance",
+                    "request": "monthly_update_MonthlyPerformance.json",
+                    "component": "paragraph"
+                },
+                {
+                    "id": "YTDPerformance",
+                    "request": "monthly_update_YTDPerformance.json",
+                    "component": "paragraph"
+                },
+                {
+                    "id": "CurrentPositioning",
+                    "request": "monthly_update_CurrentPositioning.json",
+                    "component": "paragraph"
+                }
+            ]
+        },
+        {
+            "title": "Other Items To Note",
+            "data": [
+                {
+                    "id": "OrganizationChanges",
+                    "request": "monthly_update_OrganizationChanges.json",
+                    "component": "paragraph"
+                }
+            ]
+        }
+    ]
+}

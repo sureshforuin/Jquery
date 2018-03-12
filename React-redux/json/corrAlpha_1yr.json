@@ -1,0 +1,15 @@
+
+
+
+
+
+
+
+
+
+
+
+{
+		"correlation fund": [{"fundId":1,"title":"Citadel Kensington Global Strategies Fund Ltd.","correlations":[{"type":"bar","series":[{"Name":"Hedge Funds","Data":0.698819},{"Name":"US High YIeld","Data":0.200452},{"Name":"US Dollar","Data":-0.252687},{"Name":"World Equities","Data":0.130455},{"Name":"US Bonds","Data":0.46329},{"Name":"US Equity Vol","Data":-0.262204}],"title":"Broad Market","subtitle":"2017-01 to 2017-12"},{"type":"bar","series":[{"Name":"Distressed","Data":0.157329},{"Name":"LS Equity","Data":0.087158},{"Name":"Event","Data":0.062421},{"Name":"CTA","Data":0.536933},{"Name":"RV","Data":0.233064},{"Name":"Macro","Data":-0.10519}],"title":"Fund Strategies","subtitle":"2017-01 to 2017-12"},{"type":"bar","series":[{"Name":"Europe","Data":0.204336},{"Name":"US","Data":-0.15302},{"Name":"EM","Data":0.729932},{"Name":"Japan","Data":-0.170712},{"Name":"Asia ex Japan","Data":0.626962},{"Name":"International","Data":0.135229}],"title":"Equities by Region","subtitle":"2017-01 to 2017-12"},{"type":"bar","series":[{"Name":"Small Cap Value","Data":-0.703415},{"Name":"Small Cap Growth","Data":-0.733223},{"Name":"Large Cap","Data":-0.172107},{"Name":"Small Cap","Data":-0.719487},{"Name":"Mid Cap","Data":-0.346872},{"Name":"Growth","Data":0.309023},{"Name":"Value","Data":-0.598175}],"title":"Equities by Style","subtitle":"2017-01 to 2017-12"},{"type":"bar","series":[{"Name":"Europe","Data":0.150974},{"Name":"EM External","Data":0.345866},{"Name":"US","Data":0.46329},{"Name":"EM Domestic","Data":0.029879},{"Name":"Global","Data":0.276794},{"Name":"US Vol","Data":0.026051}],"title":"Fixed Income","subtitle":"2017-01 to 2017-12"},{"type":"bar","series":[{"Name":"Carry","Data":-0.195442},{"Name":"Commodities","Data":0.249054},{"Name":"Momentum","Data":0.690549},{"Name":"SP500 Correlation","Data":0.023228},{"Name":"Whipsaw","Data":-0.256547}],"title":"Other","subtitle":"2017-01 to 2017-12"}]}]
+	
+}

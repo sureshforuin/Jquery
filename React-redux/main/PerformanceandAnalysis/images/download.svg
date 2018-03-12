@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48 (47235) - http://www.bohemiancoding.com/sketch -->
+    <title>download</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="MASTHEAD/FUND" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1293.000000, -167.000000)">
+        <g id="FUND-MASTHEAD/FUND">
+            <g id="HEADER">
+                <g id="Actions" transform="translate(1074.000000, 79.000000)">
+                    <g id="ACTION/DOWNLOAD" transform="translate(219.000000, 91.000000)">
+                        <g id="Download">
+                            <rect id="Rectangle" fill="#FFFFFF" x="0" y="17" width="24" height="1"></rect>
+                            <rect id="Rectangle-8" fill="#FFFFFF" x="11" y="0" width="1" height="15"></rect>
+                            <polyline id="Path-2" stroke="#FFFFFF" points="6.62719727 10.0725098 11.631584 15.0768965 16.684907 10.0235734"></polyline>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

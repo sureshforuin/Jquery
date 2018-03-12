@@ -1,0 +1,46 @@
+ @import "variables";
+ @import "mixins";
+
+.fund-banner {
+    background-color: $strong-blue;
+    color: #fff;
+    font-family: ms_gloriola_ii_displaythin;
+    margin: 0px;
+    font-family: 'ms_gloriola_ii_stdlight';
+    display: flex;
+    align-items: center;
+    // justify-content: center;
+    height: 269px;
+
+    @include border-radius;
+
+    h1 {
+        font-size: 46px;
+    }
+}
+
+.fund-subtitle {
+    letter-spacing: 0.5px;
+
+    strong {
+        margin-right: 14px;
+    }
+}
+
+.fund-banner-options {
+    .list-group-item {
+        background-color: inherit;
+        border: none;
+
+        a {
+            color: inherit;
+        }
+
+        .glyphicon {
+            padding-left: 10px;
+            font-size: 20px;
+            top:5px !important;
+        }
+        
+    }
+}

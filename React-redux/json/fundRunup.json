@@ -1,0 +1,46 @@
+
+
+
+
+
+
+
+
+
+
+
+{
+		"title": "Citadel Kensington Global Strategies Fund Ltd.",
+			"type":"area",
+			"initialHideOnGraph":true,
+			"opacity":"0.5",
+			"lineWidth":"0",
+			"threshold": 0,
+			"negativeColor": null,
+			"color": '#d1f3d1',
+		
+		
+			"series": [
+		        [
+		        	"Sep 1998",
+		        	"Apr 2001",
+		             "154.68" 		        ],
+		        [
+		        	"Jul 2006",
+		        	"Jul 2007",
+		             "42.76" 		        ],
+		        [
+		        	"Jan 2009",
+		        	"Dec 2009",
+		             "62.46" 		        ],
+		        [
+		        	"Jul 2010",
+		        	"Oct 2011",
+		             "34.93" 		        ],
+		        [
+		        	"Jun 2012",
+		        	"Oct 2013",
+		             "34.86" 		        ]
+			]
+	
+}

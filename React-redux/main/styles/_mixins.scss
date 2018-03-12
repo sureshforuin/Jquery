@@ -1,0 +1,31 @@
+@mixin border-radius($radius: 5px, $moz: true, $webkit: true, $ms: true, $o: true, $khtml: true) {
+    @if $moz {
+        -moz-border-radius: $radius;
+    }
+    
+    @if $webkit {
+        -webkit-border-radius: $radius;
+    }
+    
+    @if $ms {
+        -ms-border-radius: $radius;
+    }
+
+    @if $o {
+        -o-border-radius: $radius;
+    }
+
+    @if $khtml {
+        -khtml-border-radius: $radius;
+    }    
+    
+    border-radius: $radius;
+}
+@mixin blank-space($height:50px){
+    height:$height;
+    clear: both;
+}
+
+@mixin border(){
+    
+}

@@ -1,0 +1,15 @@
+
+
+
+
+
+
+
+
+
+
+
+{
+		"regression model": {"title":"Citadel Kensington Global Strategies Fund Ltd.","rsquared":0.559358,"adjRsquared":0.394117,"coeffs":[{"name":"HFRI FOF:  Diversified","sortIndex":3,"coefficient":1.766125,"coeffInterval":0.970453},{"name":"Citadel Kensington Global Strategies Fund Ltd.","sortIndex":0,"coefficient":0.592069,"coeffInterval":0.710271},{"name":"MSCI AC World Index Free EX USA - Gross","sortIndex":2,"coefficient":-0.066089,"coeffInterval":0.178931},{"name":"S&P 500 Total Return","sortIndex":1,"coefficient":-0.277143,"coeffInterval":0.76105297}],"scatterplot":{"title":"Actual vs Predicted","type":"bar","lineWidth":0,"series":[[0.729582,1.82],[0.310629,-0.04],[0.27388,0.73],[0.314851,0.83],[-0.102001,1.74],[-0.619388,-0.94],[0.908698,2.29],[1.57421,2.06],[0.181805,0.04],[1.33324,1.95],[-1.09989,0.09],[0.949576,1.29]]},"line":{"type":"line","lineWidth":1,"series":[[-1.09989,-0.50782156],[1.57421,2.1662765]]},"correlation":0.0}
+	
+}

@@ -1,0 +1,127 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+dist
+tmp
+out-tsc
+*.log
+
+# dependencies
+node_modules
+
+# IDEs and editors
+.idea
+.project
+.classpath
+.c9/
+#*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+.sass-cache
+connect.lock
+coverage
+libpeerconnection.log
+npm-debug*.log
+seleniumserver.log.lck
+testem.log
+typings
+yarn-error.log
+
+# e2e
+e2e/*.js
+e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Gradle .gitignore
+# https://github.com/github/gitignore/blob/master/Gradle.gitignore
+.gradle
+build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
+
+# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
+# gradle/wrapper/gradle-wrapper.properties
+bin/
+
+# Eclipse .gitignore
+# https://github.com/github/gitignore/blob/master/Global/Eclipse.gitignore
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+#*.launch
+
+# PyDev specific (Python IDE for Eclipse)
+*.pydevproject
+
+# CDT-specific (C/C++ Development Tooling)
+.cproject
+
+# Java annotation processor (APT)
+.factorypath
+
+# PDT-specific (PHP Development Tools)
+.buildpath
+
+# sbteclipse plugin
+.target
+
+# Tern plugin
+.tern-project
+
+# TeXlipse plugin
+.texlipse
+
+# STS (Spring Tool Suite)
+.springBeans
+
+# Code Recommenders
+.recommenders/
+
+# Scala IDE specific (Scala & Java development for Eclipse)
+.cache-main
+.scala_dependencies
+.worksheet
+
+# Train
+.msbaseline
+.msproject
+main/tsx/containers/share_containers/HighChart.tsx.orig
+main/tsx/actions/fundDetails.action.ts.orig
+src/main/java/com/ms/msamg/aipadvisory/ui/util/Element.java
+src/main/java/com/ms/msamg/aipadvisory/ui/util/JsonMapFileExample.java
+src/main/java/com/ms/msamg/aipadvisory/ui/util/JSONSorter.java
+main/tsx/constants/constant.ts.orig
+src/main/java/com/ms/msamg/aipadvisory/ui/service/MonthlyUpdatesService.java.orig
+src/main/java/com/ms/msamg/aipadvisory/ui/util/Constants.java.orig

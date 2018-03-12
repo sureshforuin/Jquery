@@ -1,0 +1,715 @@
+{
+    "regressioModeling": [
+        {
+            "metaData": {
+                "graphPositionIndicator": true,
+                "navigator": false,
+                "addBenchmarkFund": true,
+                "timeFrame": false,
+                "crosshair": true,
+                "fundrunnerId" : "1522293025",
+                "isTimeframeBased": false
+            },
+            "links": [
+                "regressioModeling.json",
+                "regressionLine.json"
+            ],
+            "title": "Regression Modelling"
+        }
+    ],
+    "rollingscatter": [
+        {
+            "metaData": {
+                "graphPositionIndicator": false,
+                "navigator": false,
+                "addBenchmarkFund": false,
+                "timeFrame": false,
+                "crosshair": true,
+                "isTimeframeBased": false
+            },
+            "links": [
+                "regressioModeling.json",
+                "regressionLine.json"
+            ]
+        }
+    ],
+    "RollingFit": [
+        {
+            "metaData": {
+                 "graphPositionIndicator": true,
+                "chartType": "columnChart",
+                "navigator": false,
+                "toggle": false,
+                "timeFrame": {},
+                "addBenchmarkFund": false,
+                "displayTable": false
+            },
+            "links": [
+                "rollingfit.json"
+            ],
+            "title": "Rolling Fit"
+        }
+    ],
+    "RollingAlpha": [
+        {
+            "metaData": {
+                "graphPositionIndicator": true,
+                "navigator": false,
+                "addBenchmarkFund": false,
+                "crosshair": true
+            },
+            "links": [
+                "rollingfit.json",
+                "rollingalphawave.json"
+            ],
+            "title": "Rolling Alpha"
+        }
+    ],
+    "RollingAlphaWave": [
+        {
+            "metaData": {
+                "graphPositionIndicator": false,
+                "navigator": false,
+                "addBenchmarkFund": false,
+                "timeFrame": false,
+                "crosshair": true
+            },
+            "links": [
+                "rollingfit.json",
+                "rollingalphawave.json"
+            ]
+                }
+    ],
+     "regModelFund": [
+        {
+            "headers": [
+                "BENCHMARK/FUND",
+                "COEFFICIENT",
+                "COEFFICIENT INTERVAL"
+            ],
+            "rows": [
+                {
+                    "data": [
+                        "Alpha",
+                        "0.967",
+                        "99.99%"
+                    ]
+                },
+                {
+                   "data": [
+                        "S&P 500 TR USD",
+                        "-0.459",
+                        "199.856%"
+                    ]
+                },
+                {
+                    "data": [
+                        "MSCI World Gross (LCL)",
+                        "0.854",
+                        "89.914%"
+                    ]
+                }
+            ]
+        }
+    ],
+
+
+    "upDownCapture1": [
+        {
+            "metaData": {
+                "graphPositionIndicator": false,
+                "navigator": false,
+                "addBenchmarkFund": false,
+                "timeFrame": false,
+                "crosshair": true,
+                "isTimeframeBased": false,
+                "perfType": "upDownCapture"
+            },
+            "links": [
+                "upDownCapture.json"
+            ],
+            "title": "MONTHLY RETURNS"
+        }
+    ],
+    "upDownCapture2": [
+        {
+            "metaData": {
+                "graphPositionIndicator": false,
+                "navigator": false,
+                "addBenchmarkFund": false,
+                "timeFrame": false,
+                "crosshair": true,
+                "isTimeframeBased": false,
+                "perfType": "upDownCapture"
+            },
+            "links": [
+                "upDownCapture.json"
+            ],
+            "title": "MONTHLY RETURNS"
+        }
+    ],
+    "upDownCapture3": [
+        {
+            "metaData": {
+                "graphPositionIndicator": false,
+                "navigator": false,
+                "addBenchmarkFund": false,
+                "timeFrame": false,
+                "crosshair": true,
+                "isTimeframeBased": false,
+                "perfType": "upDownCapture"
+            },
+            "links": [
+                "upDownCapture.json"
+            ],
+            "title": "MONTHLY RETURNS"
+        }
+    ],
+    "upDownBeta1": [
+        {
+            "metaData": {
+                "graphPositionIndicator": false,
+                "navigator": false,
+                "addBenchmarkFund": false,
+                "timeFrame": false,
+                "crosshair": true,
+                "isTimeframeBased": false
+            },
+            "links": [
+                "regressioModeling.json",
+                "regressionLine.json"
+            ],
+            "title": "QUARTERLY RETURNS"
+        }
+    ],
+    "upDownBeta2": [
+        {
+            "metaData": {
+                "graphPositionIndicator": false,
+                "navigator": false,
+                "addBenchmarkFund": false,
+                "timeFrame": false,
+                "crosshair": true,
+                "isTimeframeBased": false
+            },
+            "links": [
+                "regressioModeling.json",
+                "regressionLine.json"
+            ],
+            "title": "QUARTERLY RETURNS"
+        }
+    ],
+    "upDownBeta3": [
+        {
+            "metaData": {
+                "graphPositionIndicator": false,
+                "navigator": false,
+                "addBenchmarkFund": false,
+                "timeFrame": false,
+                "crosshair": true,
+                "isTimeframeBased": false
+            },
+            "links": [
+                "regressioModeling.json",
+                "regressionLine.json"
+            ],
+            "title": "SEMI-ANNUAL RETURNS"
+        }
+    ],
+    "broadMarket": [
+        {
+            "metaData": {
+                "graphPositionIndicator": false,
+                "navigator": false,
+                "addBenchmarkFund": false,
+                "crosshair": true,
+                "isTimeframeBased": false,
+                "perfType":"barInvert",
+                "yaxis": {
+                    "max": 1,
+                    "min": -1,
+                    "tickInterval": 1,
+                    "gridLineWidth": 1,
+                    "labels": {
+                        "enabled": true
+                    },
+                    "title": {
+                        "text": null
+                    }
+                },
+                "xaxis": {
+                    "categories": [
+                        "Hedge Funds",
+                        "US Equity Volume",
+                        "US High Yield",
+                        "World Equities",
+                        "US Bonds",
+                        "US Dollar"
+                    ],
+                    "gridLineWidth": 1,
+                    "labels": {
+                        "style": {
+                            "width": "250px",
+                            "min-width": "250px",
+                            "font-size": "12px"
+                        },
+                        "useHTML": true
+                    }
+                }
+            },
+            "links": [
+                "CorrelationsMock.json"
+            ],
+            "title": "Broad Market"
+        }
+    ],
+    "FundStrategies": [
+        {
+            "metaData": {
+                "graphPositionIndicator": false,
+                "navigator": false,
+                "addBenchmarkFund": false,
+                "crosshair": true,
+                "isTimeframeBased": false,
+                "perfType":"barInvert",
+                "yaxis": {
+                    "max": 1,
+                    "min": -1,
+                    "tickInterval": 1,
+                    "gridLineWidth": 1,
+                    "labels": {
+                        "enabled": true
+                    },
+                    "title": {
+                        "text": null
+                    }
+                },
+                "xaxis": {
+                    "categories": [
+                        "US Equity",
+                        "Discretionary",
+                        "DISS/Restricted",
+                        "Event",
+                        "CTA",
+                        "RV"
+                    ],
+                    "gridLineWidth": 1,
+                    "labels": {
+                        "style": {
+                            "width": "250px",
+                            "min-width": "250px",
+                            "font-size": "12px"
+                        },
+                        "useHTML": true
+                    }
+                }
+            },
+            "links": [
+                "CorrelationsMock.json"
+            ],
+            "title": "Fund Strategies"
+        }
+    ],
+
+    "EquitiesbyRegions": [
+        {
+            "metaData": {
+                "graphPositionIndicator": false,
+                "navigator": false,
+                "addBenchmarkFund": false,
+                "crosshair": true,
+                "isTimeframeBased": false,
+                "perfType":"barInvert",
+                "yaxis": {
+                    "max": 1,
+                    "min": -1,
+                    "tickInterval": 1,
+                    "gridLineWidth": 1,
+                    "labels": {
+                        "enabled": true
+                    },
+                    "title": {
+                        "text": null
+                    }
+                },
+                "xaxis": {
+                    "categories": [
+                        "US",
+                        "Europe",
+                        "Asia ex Japan",
+                        "Japan",
+                        "INternational",
+                        "Emerging Market"
+                    ],
+                    "gridLineWidth": 1,
+                    "labels": {
+                        "style": {
+                            "width": "250px",
+                            "min-width": "250px",
+                            "font-size": "12px"
+                        },
+                        "useHTML": true
+                    }
+                }
+            },
+            "links": [
+                "CorrelationsMock.json"
+            ],
+            "title": "Equities by Regions"
+        }
+    ],
+    "EquitiesbyStyle": [
+        {
+            "metaData": {
+                "graphPositionIndicator": false,
+                "navigator": false,
+                "addBenchmarkFund": false,
+                "crosshair": true,
+                "isTimeframeBased": false,
+                "perfType":"barInvert",
+                "yaxis": {
+                    "max": 1,
+                    "min": -1,
+                    "tickInterval": 1,
+                    "gridLineWidth": 1,
+                    "labels": {
+                        "enabled": true
+                    },
+                    "title": {
+                        "text": null
+                    }
+                },
+                "xaxis": {
+                    "categories": [
+                        "Large Cap Value",
+                        "Large Cap",
+                        "Large Cap Growth",
+                        "Mid Cap Value",
+                        "Mid Cap",
+                        "Mid Cap Growth"
+                    ],
+                    "gridLineWidth": 1,
+                    "labels": {
+                        "style": {
+                            "width": "250px",
+                            "min-width": "250px",
+                            "font-size": "12px"
+                        },
+                        "useHTML": true
+                    }
+                }
+            },
+            "links": [
+                "CorrelationsMock.json"
+            ],
+            "title": "Equities by Style"
+        }
+    ],
+    "FixedIncome": [
+        {
+            "metaData": {
+                "graphPositionIndicator": false,
+                "navigator": false,
+                "addBenchmarkFund": false,
+                "crosshair": true,
+                "isTimeframeBased": false,
+                "perfType":"barInvert",
+                "yaxis": {
+                    "max": 1,
+                    "min": -1,
+                    "tickInterval": 1,
+                    "gridLineWidth": 1,
+                    "labels": {
+                        "enabled": true
+                    },
+                    "title": {
+                        "text": null
+                    }
+                },
+                "xaxis": {
+                    "categories": [
+                        "Global",
+                        "US",
+                        "US Volume",
+                        "Europe",
+                        "Emerging Markets Domestic",
+                        "Emerging Market External"
+                    ],
+                    "gridLineWidth": 1,
+                    "labels": {
+                        "style": {
+                            "width": "250px",
+                            "min-width": "250px",
+                            "font-size": "12px"
+                        },
+                        "useHTML": true
+                    }
+                }
+            },
+            "links": [
+                "CorrelationsMock.json"
+            ],
+            "title": "Fixed Income"
+        }
+    ],
+    "Others": [
+        {
+            "metaData": {
+                "graphPositionIndicator": false,
+                "navigator": false,
+                "addBenchmarkFund": false,
+                "crosshair": true,
+                "isTimeframeBased": false,
+                "perfType":"barInvert",
+                "yaxis": {
+                    "max": 1,
+                    "min": -1,
+                    "tickInterval": 1,
+                    "gridLineWidth": 1,
+                    "labels": {
+                        "enabled": true
+                    },
+                    "title": {
+                        "text": null
+                    }
+                },
+                "xaxis": {
+                    "categories": [
+                        "Commodities",
+                        "S&P 500 Dispersions",
+                        "Carry",
+                        "Whipsaw",
+                        "Momentum",
+                        "TBD"
+                    ],
+                    "gridLineWidth": 1,
+                    "labels": {
+                        "style": {
+                            "width": "250px",
+                            "min-width": "250px",
+                            "font-size": "12px"
+                        },
+                        "useHTML": true
+                    }
+                }
+            },
+            "links": [
+                "CorrelationsMock.json"
+            ],
+            "title": "Others"
+        }
+    ],
+    "filterID": [
+        {
+            "metaData": {
+            },
+            "title": "Filter Title"
+        }
+    ],
+    "calendarControl": false,
+    "blocks": [
+
+        {
+            "data": [
+                {
+                    "component": "columnChart",
+                    "id": "broadMarket",
+                    "source": "Odessa",
+                    "align": "left"
+                }
+            ],
+            "width": "50%"
+        },
+         {
+            "data": [
+                {
+                    "component": "columnChart",
+                    "id": "FundStrategies",
+                    "source": "Odessa",
+                    "align": "left"
+                }
+            ],
+            "width": "50%"
+        },
+        {
+            "data": [
+                {
+                    "component": "columnChart",
+                    "id": "EquitiesbyRegions",
+                    "source": "Odessa",
+                    "align": "left"
+                }
+            ],
+            "width": "50%"
+        },
+        {
+            "data": [
+                {
+                    "component": "columnChart",
+                    "id": "EquitiesbyStyle",
+                    "source": "Odessa",
+                    "align": "left"
+                }
+            ],
+            "width": "50%"
+        },
+        {
+            "data": [
+                {
+                    "component": "columnChart",
+                    "id": "FixedIncome",
+                    "source": "Odessa",
+                    "align": "left"
+                }
+            ],
+            "width": "50%"
+        },
+        {
+            "data": [
+                {
+                    "component": "columnChart",
+                    "id": "Others",
+                    "source": "Odessa",
+                    "align": "left"
+                }
+            ],
+            "width": "50%"
+        },
+
+        {
+            "data": [
+                {
+                    "component": "scatterChart",
+                    "id": "regressioModeling",
+                    "source": "Odessa"
+                }
+            ]
+        },
+           {
+            "data": [
+                {
+                    "component": "columnTables",
+                    "id": "regModelFund",
+                    "source": "Odessa"
+                }
+            ]
+        },
+         {
+            "data": [
+                {
+                    "component": "columnChart",
+                    "id": "RollingFit",
+                    "source": "Odessa",
+                    "align": "left"
+                }
+            ],
+            "width": "50%"
+        },
+
+        {
+            "data": [
+                {
+                    "component": "columnChart",
+                    "id": "RollingAlpha",
+                    "source": "Odessa",
+                    "align": "left"
+                }
+            ],
+            "width": "50%"
+        },
+        {
+            "data": [
+                {
+                    "component": "scatterChart",
+                    "id": "rollingscatter",
+                    "source": "Odessa",
+                    "align": "left"
+                }
+            ],
+            "width": "50%"
+        },
+        {
+            "data": [
+                {
+                    "component": "columnChart",
+                    "id": "RollingAlphaWave",
+                    "source": "Odessa",
+                    "align": "left"
+                }
+            ],
+            "width": "50%"
+        },
+        {
+            "data": [
+                {
+                    "component": "scatterChart",
+                    "id": "upDownBeta1",
+                    "source": "Odessa",
+                    "align": "left"
+                }
+            ],
+            "width": "33.33%",
+            "title": "Up/Down Beta - Regression-Based Analysis"
+        },
+        {
+            "data": [
+                {
+                    "component": "scatterChart",
+                    "id": "upDownBeta2",
+                    "source": "Odessa",
+                    "align": "left"
+                }
+            ],
+            "width": "33.33%",
+            "title": "Up/Down Beta - Regression-Based Analysis"
+        },
+        {
+            "data": [
+                {
+                    "component": "scatterChart",
+                    "id": "upDownBeta3",
+                    "source": "Odessa",
+                    "align": "left"
+                }
+            ],
+            "width": "33.33%",
+            "title": "Up/Down Beta - Regression-Based Analysis"
+        },
+        {
+            "data": [
+                {
+                    "component": "scatterChart",
+                    "id": "upDownCapture1",
+                    "source": "Odessa",
+                    "align": "left"
+                }
+            ],
+            "width": "33.33%",
+            "title": "Up/Down Beta - Regression-Based Analysis"
+        },
+        {
+            "data": [
+                {
+                    "component": "scatterChart",
+                    "id": "upDownCapture2",
+                    "source": "Odessa",
+                    "align": "left"
+                }
+            ],
+            "width": "33.33%",
+            "title": "Up/Down Beta - Regression-Based Analysis"
+        },
+        {
+            "data": [
+                {
+                    "component": "scatterChart",
+                    "id": "upDownCapture3",
+                    "source": "Odessa",
+                    "align": "left"
+                }
+            ],
+            "width": "33.33%",
+            "title": "Up/Down Beta - Regression-Based Analysis"
+        }
+    ]
+}

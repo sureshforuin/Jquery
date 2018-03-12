@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<included>
+    <property name="LOG_PATH" value="/v/region/na/appl/msamg/aip-advisory-portal-ui/data/dev/logs" />
+    <include resource="logback-common.xml" />
+
+	<root>
+		<level value="info" />
+		<appender-ref ref="AsyncBufferedAppender" />
+	</root>
+</included>

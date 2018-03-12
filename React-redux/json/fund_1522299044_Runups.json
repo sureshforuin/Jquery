@@ -1,0 +1,46 @@
+
+
+
+
+
+
+
+
+
+
+
+{
+		"title": "MSCI AC World ex US Gross (LCL)",
+		
+			"type":"area",
+			"initialHideOnGraph":true,
+			"opacity":"0.5",
+			"lineWidth":"0",
+			"threshold": 0,
+			"negativeColor": null,
+			"color": '#d1f3d1',		
+		
+			"series": [
+		        [
+		        	"Sep 1998",
+		        	"Apr 2001",
+		             "35.15" 		        ],
+		        [
+		        	"Jul 2006",
+		        	"Jul 2007",
+		             "23.64" 		        ],
+		        [
+		        	"Jan 2009",
+		        	"Dec 2009",
+		             "32.39" 		        ],
+		        [
+		        	"Jul 2010",
+		        	"Oct 2011",
+		             "4.06" 		        ],
+		        [
+		        	"Jun 2012",
+		        	"Oct 2013",
+		             "37.89" 		        ]
+			]
+	
+}

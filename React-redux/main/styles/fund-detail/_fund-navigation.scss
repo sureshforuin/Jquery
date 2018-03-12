@@ -1,0 +1,70 @@
+$theme-color:#0f8ec7;
+$border-bottom-color:#ddd;
+
+.fund-navigation {
+    @extend .theme-gray-bg-color;
+
+    ul {
+        li {
+            min-width: 12%;
+            a {
+                color: #bebebe;
+                line-height: 42px;
+                &.active {
+                    border-bottom: 3px solid #005C8F;
+                    font-size: 15px;
+                    font-family: karlaregular;
+                    color: #333;
+                };
+            }
+        }
+
+        li.active {
+            a, a:focus, a:hover {
+                background-color: inherit;
+                border: none;
+                border-bottom: 3px solid $theme-color;
+                color: inherit;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.menu-flyout-panel {
+    background: white;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 1px 1px 10px #eee;
+    display: none;
+    left: 0;
+    margin-top: 0;
+    padding: 50px; 
+    position: absolute;
+    right: 0;
+    z-index: 1;
+
+    .caret-right {
+        border-bottom: 4px solid transparent;
+        border-top: 4px solid transparent;
+        border-left: 4px solid;
+        display: inline-block;
+        height: 0;
+        margin-top: 5px;
+        vertical-align: top;
+        width: 0;
+    }
+
+    .level-two-menu, .level-three-menu {
+        padding-left: 30px;
+    }
+
+    .level-two-menu-title, .level-three-menu-title {
+        color: inherit;
+        text-decoration: none;
+    }
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+    background-color: white;
+    border-bottom: 3px solid white;
+}

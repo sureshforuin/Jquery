@@ -1,0 +1,10 @@
+{
+    "aumChart": {
+        "title": "AUM Chart",
+        "links": [
+            "fund.json",
+            "mgr.json",
+            "strategy.json"
+        ]
+    }
+}

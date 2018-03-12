@@ -1,0 +1,163 @@
+{
+    "filter01": [
+        {
+            "metaData": {},
+            "title": "Filter Age",
+            "selectTitle": "Strategy Type",
+            "type": "filter"
+        }
+    ],
+    "filter02": [
+        {
+            "metaData": {},
+            "title": "Performance Since Inception",
+            "selectTitle": "Geographic Focus",
+            "type": "filter"
+        }
+    ],
+    "filter03": [
+        {
+            "metaData": {},
+            "title": "Performance Since Inception",
+            "selectTitle": "Fund AUM",
+            "type": "filter"
+        }
+    ],
+    "filterGrid": [
+        {
+            "headers": [
+                "FUNDS",
+                "STRATEGY",
+                "FUND AUM",
+                "INCEPTION DATE",
+                "GEOGRAPHIC FOCUS",
+                "PERFORMANCE",
+                "VOLATILITY"
+            ],
+            "rows": [
+                {
+                    "data": [
+                        "Citadel Kensington Global Strategies Fund LTD",
+                        "Multi Strategy",
+                        "$540M",
+                        "01/04/1998",
+                        "US",
+                        "9.88%",
+                        "10.74%"
+                    ]
+                },
+                {
+                    "data": [
+                        "S&P 500 TR USD",
+                        "Multi Strategy",
+                        "$290M",
+                        "01/04/1998",
+                        "US",
+                        "5.17%",
+                        "7.34%"
+                    ]
+                },
+                {
+                    "data": [
+                        "Sachem Head Offshore Ltd.",
+                        "Event Driven Equity",
+                        "$425M",
+                        "01/04/1998",
+                        "US, Europe",
+                        "10.74%",
+                        "12.64%"
+                    ]
+                },
+                {
+                    "data": [
+                        "GSA QMS Fund Limited",
+                        "Statistical Arbritage",
+                        "$810M",
+                        "01/04/1998",
+                        "US",
+                        "12.17%",
+                        "12.36%"
+                    ]
+                },
+                {
+                    "data": [
+                        "Shelter Growth Opportunities Fund Ltd.",
+                        "Mortage Arbritage",
+                        "$515M",
+                        "01/04/1998",
+                        "US, Europe, UK, Emerging markets",
+                        "7.83%",
+                        "9.25%"
+                    ]
+                },
+                {
+                    "data": [
+                        "Tilden Park Offshore Investment Fund Ltd.",
+                        "Mortage Arbritage",
+                        "$385M",
+                        "01/04/1998",
+                        "UK",
+                        "6.54%",
+                        "5.41%"
+                    ]
+                },
+                {
+                    "data": [
+                        "Atlas Fundamental Trading Fund Ltd.",
+                        "Equity L/S High Edge",
+                        "$164M",
+                        "01/04/1998",
+                        "US, Europe",
+                        "9.21%",
+                        "10.15%"
+                    ]
+                }
+            ]
+        }
+    ],
+    "calendarControl": false,
+    "blocks": [
+        {
+            "data": [
+                {
+                    "component": "filterChart",
+                    "id": "filter01",
+                    "source": "Odessa",
+                    "align": "left"
+                }
+            ],
+            "width": "33.33%"
+        },
+        {
+            "data": [
+                {
+                    "component": "filterChart",
+                    "id": "filter02",
+                    "source": "Odessa",
+                    "align": "left"
+                }
+            ],
+            "width": "33.33%"
+        },
+        {
+            "data": [
+                {
+                    "component": "filterChart",
+                    "id": "filter03",
+                    "source": "Odessa",
+                    "align": "left"
+                }
+            ],
+            "width": "33.33%"
+        },
+        {
+            "data": [
+                {
+                    "component": "columnTables",
+                    "id": "filterGrid",
+                    "source": "Odessa"
+                }
+            ]
+        }
+    ]
+}

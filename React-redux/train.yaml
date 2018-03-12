@@ -1,0 +1,35 @@
+# train.yaml
+language: java
+
+train_version: 1.0
+
+tools:
+    - ossjs/node/8.9.4
+    - msjava/oraclejdk/1.8.0_144
+
+env:
+    GRADLE_PROJECT_CACHE: ../.gradle
+    GRADLE_USER_HOME: ../.gradle
+    GRADLE_VERSION: 3.5.0-ms-201705171
+    # NODE_ENV: production
+
+toolchains:
+    - rhel6
+    - win7
+
+runtimes:
+    - name: rhel6
+      from_toolchain: rhel6
+    - name: win7
+      from_toolchain: win7
+
+build_types:
+    - build_type:
+        name: release
+        build:
+            - script:
+                command: npm install && npm run build && npm run generate-train-metadata && /ms/dist/ossjava/PROJ/gradle/$GRADLE_VERSION/bin/gradle --project-cache-dir=$GRADLE_PROJECT_CACHE train-build-release $*
+                toolchain: rhel6
+            - script:
+                command: npm install && npm run build && npm run generate-train-metadata && M:\dist\ossjava\PROJ\gradle\%GRADLE_VERSION%\bin\gradle --project-cache-dir=%GRADLE_PROJECT_CACHE% train-build-release %*
+                toolchain: win7

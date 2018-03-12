@@ -1,0 +1,46 @@
+
+
+
+
+
+
+
+
+
+
+
+{
+		"title": "Russell 1000 (TR)",
+		
+			"type":"area",
+			"initialHideOnGraph":true,
+			"opacity":"0.5",
+			"lineWidth":"0",
+			"threshold": 0,
+			"negativeColor": null,
+			"color": '#d1f3d1',		
+		
+			"series": [
+		        [
+		        	"Sep 1998",
+		        	"Apr 2001",
+		             "37" 		        ],
+		        [
+		        	"Jul 2006",
+		        	"Jul 2007",
+		             "16.71" 		        ],
+		        [
+		        	"Jan 2009",
+		        	"Dec 2009",
+		             "28.43" 		        ],
+		        [
+		        	"Jul 2010",
+		        	"Oct 2011",
+		             "25.18" 		        ],
+		        [
+		        	"Jun 2012",
+		        	"Oct 2013",
+		             "39.33" 		        ]
+			]
+	
+}
